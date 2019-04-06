@@ -20,7 +20,7 @@ def drop_unnecessary_columns(df):
     if "Revenue" in df.columns:
         df = df.drop(columns=["Revenue"])  
     return df
-    
+
 def assign_instructor_rate(df, no_of_instructors):
     return df.assign(Rate=0.5/no_of_instructors)
 
@@ -40,7 +40,6 @@ def assign_amount_due(df):
     df.Rev_per_Session = df.Rev_per_Session.str.replace("$","")
     return df.assign(Amount_Due_To_Instructor=df.Rev_per_Session.astype('float64')*df.Rate)
 
-#configure file appending
 def write_to_new_csv(df, instructorsList, outputFolder):
     for instructor in instructorsList:
         df['Instructors'] = instructor
