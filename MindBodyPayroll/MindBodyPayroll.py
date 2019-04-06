@@ -1,69 +1,36 @@
-# TODO
-#  (done)create folder 'All_Instructor_CSVs'
-#  (done)check folder for filename
-#  (done)open a file stream and write records to it
-#  (done)append to existing file
-#  drop columns: instructors, revenue, earnings per client, earnings
-#  function - compute split rate based on number of instructors
-#       (done)identify number of instructors
-#       (done)keep track of names of instructors for writing to csv
-#       add column pay rate
-#       apply multiplier to Rev per session column based on # of instructors
-#   get instructor names using the 'instructor' column
-#   read in for each instructor file in dat folder    
-#
-#
-#
-#
-#
-#
-
 import numpy as np
 import pandas as pd
 import glob as glob
 import os
-
+from functions import *
 print("\n------------------------------\n\nBeginning MindBody Payroll\n\n------------------------------\n\n\n")
 
+#display floats as currency
+pd.options.display.float_format = '{:,.2f}'.format
+
 #get list of files from processedData folder
+print('Getting processed CSVs from dataProcessing/dat...')
 list_of_processed_files = [name for name in os.listdir("dataProcessing/dat") if "02-" in name]
 
 # create folder for instructor exports
 outputFolder = "All_Instructors_CSVs/"
-if not os.path.exists(outputFolder):
-    os.mkdir(outputFolder)
+create_output_folder(outputFolder)
 
-# read in each file in dataProcessing/dat/ folder
-for file in list_of_processed_files:
+
+# for each file in dataProcessing/dat/ folder
+for file in list_of_processed_files: 
     df = pd.read_csv("%s%s" % ("dataProcessing/dat/",file))
+    instructorsList = get_instructors_list(df)
+    df = format_column_headers(df)
+    df = drop_unnecessary_columns(df)
+    df = assign_instructor_rate(df, len(instructorsList))
+    df = assign_amount_due(df)
+    write_to_new_csv(df, instructorsList, outputFolder)
 
-df =  pd.read_csv("MindBodyPayroll/VMAC-01Payroll-RawData-4.csv")
-for i in range(800):
-    intructorsCell = df.loc[i,"Instructors"]
-    print(intructorsCell.replace("&", "").strip().split(', '))
-    
-
-#if "&" in intructorsCell:
-
-#name = "Deblin"
-
-# get list of instructor names
-# instructors = []
-# instructors.append(df.iat[0,0])
-# if pd.notna(df.iat[0,1]):
-#     instructors.append(df.iat[0,1])
-# if pd.notna(df.iat[0,2]):
-#     instructors.append(df.iat[0,2])
-
-#print(len(instructors))
+print('Done')
 
 
 
-# configure file appending
-# if os.path.isfile("%s%s.csv" % (outputFolder,name)):
-#     mode = "a"
-#     print("file exists!")
-# else:
-#     mode = "w"
-#     print("---file does not exist---")
-# df.to_csv("%s%s.csv" % (outputFolder,name), mode=mode)
+
+
+
