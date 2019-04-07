@@ -86,10 +86,17 @@ EOS
 
 ex ./tmp/01-Revenue-All.txt <<EOS
 "
+"Eliminate the duplicate rows that contain the extra column names 
+g/^?data?Class Date,Class Time,/s/^/?m?/
+g/^?#S?/+1s/^?m?//
+g/^?m?/d
+"
 so ./tmp/all.so
+"
 g/^?#S?/s///
 g/^".*",Class Date,/s//Instructors,Class Date,/
 g/?and?/s//\&/g
+"
 so ./tmp/each.so
 "
 q!
