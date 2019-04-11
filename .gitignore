@@ -54,4 +54,8 @@ docs/_build/
 .vscode
 settings.json
 
+#python stuff
 __pycache__
+
+#generated output
+allInstructorsCSVs/
