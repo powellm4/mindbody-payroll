@@ -12,6 +12,13 @@ g/^?del?/d
 g/^?data?Class Date,Class Time,/-1s/^?#E?/?del?&/
 g/^?del?/d
 "
+"Eliminate the duplicate rows that contain the extra column names 
+g/^?data?Class Date,Class Time,/-1s/^/?m?/
+g/^?m??#S?/s/^?m?//
+g/^?m?/+1s/^?data?Class Date,Class Time,/?del?&/
+g/^?m?/s///
+g/^?del?/d
+"
 w! ./tmp/01-Revenue-All.txt
 q!
 EOS
@@ -87,9 +94,12 @@ EOS
 ex ./tmp/01-Revenue-All.txt <<EOS
 "
 so ./tmp/all.so
+"
 g/^?#S?/s///
 g/^".*",Class Date,/s//Instructors,Class Date,/
 g/?and?/s//\&/g
+g?''/s///
+"
 so ./tmp/each.so
 "
 q!

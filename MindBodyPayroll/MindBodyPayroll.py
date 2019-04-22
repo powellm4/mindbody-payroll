@@ -1,7 +1,34 @@
+#   To do:
+#   change instructor class output to J.Ferreira
+#   read in raw file?
+#       look for VMAC INSTRUCTOR CLASS
+#       for each row, write to file
+#           issue: students listed as J.Ferreira, Staff listed as Ferreira, Joe.
+#               solution: include an 'instructors list'?
+#                   pros: most robust?  ability to include list of subs
+#                   look up in instructors list, search for last name, first initial match
+#                   then write to the allinstructorscsv folder.
+#                   ensures that we will always find the write output folder.
+#                   cons: instructor list requires maintenance
+#               solution: write all file names as J.Ferreira
+#                   pros: no lookup table required.. i.e. no maintenance by user.
+#                   cons: possible null reference type errors? if 02- instructors are missing a last name
+#               solution:
+#
+#
+#
+#
+#
+#
+#
+
+
 import pandas as pd
 from functions import *
 
-print("\n------------------------------\n\nBeginning MindBody Payroll\n\n------------------------------\n\n\n")
+print("\n------------------------------\n\n"
+      "Beginning MindBody Payroll\n"
+      "\n------------------------------\n\n")
 
 # display floats as currency
 pd.options.display.float_format = '{:,.2f}'.format
