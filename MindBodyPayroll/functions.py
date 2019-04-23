@@ -10,6 +10,15 @@ def get_instructors_list(df):
         instructors = instructors_cell.replace("&", "").strip().split(', ')
     else:
         instructors = [instructors_cell]
+        for i in range(len(instructors)):
+            # print(instructors[i])
+            temp = instructors[i].split()
+            first = temp[1]
+            first = first[0]
+            last = temp[0].replace(",", "").strip()
+            full = first+"."+last
+            instructors[i] = full
+    # print(instructors)
     return instructors
 
 
@@ -50,16 +59,18 @@ def assign_amount_due(df):
     return df.assign(Amount_Due_To_Instructor=df.Instructor_Pay.astype('float64') * df.Rate)
 
 
-def write_to_new_csv(df, instructors_list, output_folder):
+def write_to_csv(df, instructors_list, output_folder):
     for instructor in instructors_list:
         df['Instructors'] = instructor
         if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
             mode = "a"
+            include_header = False
             print("Found %s CSV, appending new data" % instructor)
         else:
             mode = "w"
+            include_header = True
             print("Writing %s to new CSV..." % instructor)
-        df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode)
+        df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header)
 
 
 def include_pricing_options(df,po_df):

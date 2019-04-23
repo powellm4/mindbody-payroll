@@ -66,6 +66,6 @@ for file in list_of_processed_files:
     df = assign_instructor_rate(df, len(instructors_list))
     df = include_pricing_options(df, po_df)
     df = assign_amount_due(df)
-    write_to_new_csv(df, instructors_list, output_folder)
+    write_to_csv(df, instructors_list, output_folder)
 
 print('Done')
