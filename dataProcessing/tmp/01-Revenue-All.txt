@@ -1,0 +1,866 @@
+?#S?& Joe, Deblin
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Wednesday, March 06, 2019",6:30 PM,K. Cordz,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,K. Doody,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,D. Oliver,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,T. Kohlenberg,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,B. Rosen,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,D. Enriquez,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,L. Longpre,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,H. Gill,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,C. Anzo,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,I. Torres,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,C. Matthews,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,L. Venaska,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,C. Runckel,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,M. Christensen,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,K. Cordz,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,D. Oliver,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,T. Kohlenberg,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,J. Hicke,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,R. Kiyama,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,C. Matthews,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,C. Runckel,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,K. Allen,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,R. Winesburgh,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,C. Kat,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,J. Graham,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,H. Tan,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,A. Barton,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,C. Giannone,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,A. Schafer,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,I. Torres,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,K. Doody,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",7:30 PM,W. Lillard,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,F. Paterna,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,B. Rosen,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,S. Gray,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,D. Enriquez,Drop In $15 Dance Class,,$30.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,H. Gill,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,C. Anzo,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,C. Matthews,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,L. Venaska,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,L. Longpre,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,J. Rodman,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,A. Fink,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,J. Hicke,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,S. Caamal Pina,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,D. Oliver,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,J. Meltzer,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,C. Matthews,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,R. Winesburgh,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,R. Kiyama,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,A. Barton,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,W. Lillard,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,D. Cates,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,M. Dahlstrom,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,M. Teixeira Mendes,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,E. Chan,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,M. Gregory,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,H. Tan,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,C. Giannone,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Barker, Tyler
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Thursday, March 07, 2019",7:30 PM,S. Ahuja,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,T. Elizarde,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,A. Brophy,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,D. Middleton,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,M. Fujimoto,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,S. Ahuja,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,R. Sickles,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,D. Gelehrter,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,B. Golec,Comp,,$0.00,$0.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Branden, Deblin &
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Monday, March 04, 2019",7:30 PM,A. Barboza,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,Y. Lewis,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,S. DCruz,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,J. Poirier,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,A. Brown,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,K. Frame,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,R. Giskaas,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,J. McGill,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,J. Hartnett,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,J. Vu,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,L. Rolon-Sandoval,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,T. Boutte,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,S. Saleem,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,A. Barboza,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,Y. Lewis,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,S. DCruz,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,K. Frame,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,R. Giskaas,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,L. Rolon-Sandoval,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,T. Boutte,4 classes - One Cycle (One Month Expiration),,$50.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,R. Chang,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,R. Fernando,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,J. Hartnett,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,J. Mens,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,J. Vu,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Carbajal, Nathalia
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Saturday, March 02, 2019",2:00 PM,M. Sander,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,L. Chao,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,J. Dang,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,K. Allen,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,T. Shaghafi,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,O. Kostiouk,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,V. Bui,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,C. Kerrissey,Pre-Registered 1.5 hr Workshop,,$20.00,$20.00,$10.00,$10.00
+?data?"Saturday, March 02, 2019",2:00 PM,I. Carter,At Door 1.5 hr Workshop,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 02, 2019",2:00 PM,G. Baschta,At Door 1.5 hr Workshop,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 02, 2019",2:00 PM,M. Maldonado Thielges,At Door 1.5 hr Workshop,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 02, 2019",2:00 PM,A. Mullen,At Door 1.5 hr Workshop,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 02, 2019",2:00 PM,M. Gregory,At Door 1.5 hr Workshop,,$25.00,$25.00,$12.50,$12.50
+?#E?$142.50,,,,,,,,
+?#S?Crowley, Elle
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",10:30 AM,M. Hart,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",10:30 AM,A. Aburto,Drop In $15 Dance Class,,$7.50,$7.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",10:30 AM,D. Marseille,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",10:30 AM,J. Soileau,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",10:30 AM,T. Tam,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",10:30 AM,T. Tam,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",10:30 AM,K. Simons,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Elstad, Leaux
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Monday, March 04, 2019",6:30 PM,J. Hicke,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,J. Price,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,J. Hicke,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,E. Malone,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,L. Blubaugh,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,J. Price,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Esquerra, Diana
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",6:30 PM,C. Guzman,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 05, 2019",6:30 PM,L. Gambino,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 05, 2019",6:30 PM,C. Buckles,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Tuesday, March 05, 2019",6:30 PM,M. garcia,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 05, 2019",6:30 PM,V. Bui,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 05, 2019",6:30 PM,M. Barcelo,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",6:30 PM,R. Story,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 05, 2019",6:30 PM,Y. Carrillo,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 05, 2019",6:30 PM,I. Mesa Vasquez,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Tuesday, March 05, 2019",6:30 PM,B. Reynolds,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 05, 2019",6:30 PM,C. Barrett,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 05, 2019",6:30 PM,C. Dulanto,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Saturday, March 09, 2019",11:30 AM,C. Buckles,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,A. Bagan,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,J. Kurtin,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,R. Blake,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,E. Stephanus,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,A. Ballesteros,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,A. Austin,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,R. Story,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,D. Mejia,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,A. Cerda,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,P. Bruno,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,C. Dulanto,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,M. Onishchenko,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,M. Lowery,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,Q. Amir,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,C. Busacker,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,A. Curtiss,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Tuesday, March 12, 2019",6:30 PM,J. Hicke,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,K. Kucera,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,C. Guzman,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,L. Gambino,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,C. Buckles,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Tuesday, March 12, 2019",6:30 PM,J. Hippe,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,V. Bui,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,I. Mesa Vasquez,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Tuesday, March 12, 2019",6:30 PM,C. Dulanto,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Tuesday, March 12, 2019",6:30 PM,M. Barcelo,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,A. Ballesteros,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",6:30 PM,C. Barrett,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",6:30 PM,B. Reynolds,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",6:30 PM,A. Cavanaugh,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",6:30 PM,S. Vallejo,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",6:30 PM,S. Fierro,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?#E?$397.25,,,,,,,,
+?#S?Ferreira, Joe
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",5:30 PM,S. Man,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Tuesday, March 05, 2019",5:30 PM,A. White,New Student $30 for 30 Days Fitness Classes,,$30.00,$6.00,$3.00,$3.00
+?data?"Tuesday, March 05, 2019",5:30 PM,C. Gleason,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Tuesday, March 12, 2019",5:30 PM,S. Man,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Tuesday, March 12, 2019",5:30 PM,M. Sander,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Tuesday, March 12, 2019",5:30 PM,C. Gleason,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 09, 2019",2:00 PM,C. Thompson,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",2:00 PM,T. Kaminski,Pre-Registered Workshop $25,,$25.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,C. Runckel,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",2:00 PM,D. Lee,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 09, 2019",2:00 PM,P. Lewis,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 09, 2019",2:00 PM,H. Shaw,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 09, 2019",2:00 PM,F. Rodriguez,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 09, 2019",2:00 PM,A. Mullen,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?#E?$100.00,,,,,,,,
+?#S?Furrer, Ivy
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Wednesday, March 06, 2019",5:30 PM,H. Humphrey,10 Class Card Fitness,,$80.00,$8.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",5:30 PM,K. Eggers,5 Class Card Fitness,,$45.00,$9.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",5:30 PM,D. Lovenstein,Fitness Monthly Unlimited,,$75.00,$12.50,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",5:30 PM,A. White,New Student $30 for 30 Days Fitness Classes,,$30.00,$6.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",5:30 PM,G. Knodel,Fitness Monthly Unlimited,,$90.00,$30.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",5:30 PM,S. Saleem,Fitness Monthly Unlimited,,$90.00,$12.86,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,A. Wood,10 Class Card Fitness,,$80.00,$8.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,J. Penning,10 Class Card Fitness,,$80.00,$8.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,H. Humphrey,10 Class Card Fitness,,$80.00,$8.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,K. Eggers,5 Class Card Fitness,,$45.00,$9.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,S. Saleem,Fitness Monthly Unlimited,,$90.00,$12.86,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,L. Field,Drop In $10 Fitness Class,,$10.00,$10.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,J. Zhu,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,K. Grauer,10 Class Card Fitness,,$80.00,$8.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,J. Billings-McBee,Drop In $10 Fitness Class,,$10.00,$10.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,A. Becker,Drop In $10 Fitness Class,,$10.00,$10.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,M. Applegate,Drop In $10 Fitness Class,,$10.00,$10.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",5:30 PM,R. Millkey,Drop In $10 Fitness Class,,$10.00,$10.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Giron, Daniel
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Monday, March 04, 2019",6:30 PM,S. Johnson,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 04, 2019",6:30 PM,L. Lefevre,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,L. Thomas,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 04, 2019",6:30 PM,T. Ishiyama,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 04, 2019",6:30 PM,A. Symonds,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,K. Allen,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,E. Atwood,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,J. Boyle,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,B. Arnett,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",6:30 PM,N. Hyett,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",6:30 PM,V. Hamilton,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",6:30 PM,A. Burnap,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",6:30 PM,M. Lozano,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",7:30 PM,C. Holzman,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,L. Chao,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,F. Felicia,Drop In $15 Dance Class,,$30.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",7:30 PM,I. Safonova,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",7:30 PM,L. Thomas,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 04, 2019",7:30 PM,T. Wong,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",11:30 AM,T. Ishiyama,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,M. Lozano,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,M. Manival,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,S. Householder,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,S. Chim,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,J. Lagmay,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 09, 2019",11:30 AM,B. Arnett,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 09, 2019",11:30 AM,L. Lewis,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 09, 2019",11:30 AM,A. Girone,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Monday, March 11, 2019",6:30 PM,D. Velozo,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 11, 2019",6:30 PM,S. Johnson,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 11, 2019",6:30 PM,L. Lefevre,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,A. Mayer,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Monday, March 11, 2019",6:30 PM,T. Ishiyama,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 11, 2019",6:30 PM,A. Symonds,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,C. Holzman,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,T. Pratt,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,O. Ezendokwere,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,j. hernandez,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,B. Arnett,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Monday, March 11, 2019",6:30 PM,M. Cain,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,N. Hyett,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,A. Larreta,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,Z. SanFilippo,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,J. Ren,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,A. Elwell,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",6:30 PM,K. Allen,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",7:30 PM,B. Harrison,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,P. Douglas,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",7:30 PM,P. Metzler,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,C. Holzman,Comp,,$0.00,$0.00,$0.00,$0.00
+?#E?$314.50,,,,,,,,
+?#S?Hilario, Rob
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",6:30 PM,E. Roth,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 05, 2019",6:30 PM,P. Bucharest,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 05, 2019",6:30 PM,S. Hosseinion,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 06, 2019",7:30 PM,A. Byrum,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 06, 2019",7:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 06, 2019",7:30 PM,A. Dunton,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 06, 2019",7:30 PM,Y. Bredera,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 06, 2019",7:30 PM,A. Mullen,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 06, 2019",7:30 PM,C. Elliott,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",8:30 PM,A. Selivanova,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 06, 2019",8:30 PM,A. Gavrishova,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 06, 2019",8:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 06, 2019",8:30 PM,C. Elliott,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",8:30 PM,C. Hayden,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",6:30 PM,J. LaFontaine,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,M. LaFontaine,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",6:30 PM,P. Bucharest,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 12, 2019",6:30 PM,J. Lore,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",6:30 PM,J. McFarlane,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 13, 2019",7:30 PM,A. Byrum,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 13, 2019",7:30 PM,M. Estrada,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 13, 2019",7:30 PM,C. Elliott,Bachata Team Deblin / Iñaki,,$100.00,$25.00,$12.50,$12.50
+?data?"Wednesday, March 13, 2019",7:30 PM,C. Viter,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Wednesday, March 13, 2019",7:30 PM,E. Elliott,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,A. Dunton,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 13, 2019",7:30 PM,K. Privitera,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Wednesday, March 13, 2019",8:30 PM,A. Selivanova,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 13, 2019",8:30 PM,C. Elliott,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",8:30 PM,C. Hayden,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 13, 2019",8:30 PM,A. McBryde,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 13, 2019",8:30 PM,A. Fernandez,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Wednesday, March 13, 2019",8:30 PM,E. Elliott,Comp,,$0.00,$0.00,$0.00,$0.00
+?#E?$192.00,,,,,,,,
+?#S?Iñaki, Deblin &
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",6:30 PM,L. Crawford,5 classes - One Cycle (5 week month),,$60.00,$12.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",6:30 PM,L. Pak,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",6:30 PM,M. Powell,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",6:30 PM,C. Vanderburg,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",6:30 PM,G. Best,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,A. Campbell,10 Class Card Dance,,$110.50,$11.05,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,S. Hily,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,L. Allen,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,S. Francian,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,R. Rodriguez,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,D. Dodge,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,L. Tzec,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,C. Davis,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,A. Carr,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,A. Carr,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,J. Dalton,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,V. Albright,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,Z. Matthewstearn,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,C. Arreola,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,L. Trejo,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,B. Ledesma,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,M. Tan,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,M. Kelly,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,E. Aguirre,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,M. Ortiz,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,E. Hosseinion,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,S. Hosseinion,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,A. Campbell,10 Class Card Dance,,$110.50,$11.05,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,S. Francian,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,S. Choi,Bachata Team Deblin / Iñaki,,$100.00,$20.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,K. Kara,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,N. Sadaka,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,E. Banos Pino,Dance Gold Unlimited Monthly Pass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,T. Torralba,Bachata Team Deblin / Iñaki,,$100.00,$50.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,J. Hicke,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,E. Verdin,Bachata Team Deblin / Iñaki,,$100.00,$50.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,B. Broussard,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,C. Elliott,Bachata Team Deblin / Iñaki,,$100.00,$25.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",8:30 PM,J. Kahn,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,F. Streed,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,J. Dang,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,L. Allen,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,J. Curry,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,A. Tull,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,R. Lemus,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,I. Ingerson,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,L. Hanson,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,C. Elliott,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,J. Hicke,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,S. Qualls,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,N. Tseggai,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,M. Ortiz,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,R. Perez,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,J. Vu,Pre-Registered Workshop $25,,$25.00,$25.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,L. Ton,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,M. Kelly,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,C. Vanderburg,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,L. Lewis,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,E. Aguirre,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,J. Carrillo,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,A. Anderson,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,S. Velasco,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",2:00 PM,R. Hernandez,Drop In $30 Workshop,,$30.00,$30.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,L. Crawford,4 classes - One Cycle (One Month Expiration),,$50.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,L. Pak,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,K. Gottschild,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,G. Best,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,A. Arano,Drop In $15 Dance Class,,$30.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,C. Vanderburg,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,A. Litera,Drop In $15 Dance Class,,$30.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,E. Bean,Drop In $15 Dance Class,,$30.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,J. Vu,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,P. Radchenko,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,J. Dang,10 Class Card Dance,,$130.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,M. Estrada,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,D. Dodge,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,L. Tzec,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,C. Davis,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,K. Gottschild,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,V. Albright,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,Z. Matthewstearn,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,C. Arreola,4 classes - One Cycle (One Month Expiration),,$50.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,B. Ledesma,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,M. Tan,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,M. Kelly,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,E. Hosseinion,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,S. Hosseinion,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,R. Rodriguez,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,A. Arano,Drop In $15 Dance Class,,$30.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,A. Litera,Drop In $15 Dance Class,,$30.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,E. Bean,Drop In $15 Dance Class,,$30.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,B. Ng,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,M. Ortiz,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,L. Ils,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,A. Tull,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,R. Lemus,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,L. Trejo,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,E. Aguirre,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,J. Hicke,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,N. Ramirez,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,I. Ingerson,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,S. Choi,Bachata Team Deblin / Iñaki,,$100.00,$20.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,T. Torralba,Bachata Team Deblin / Iñaki,,$100.00,$50.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,A. Rangel,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,S. Qualls,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,A. Herrejon Chavez,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,J. Graham,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,E. Verdin,Bachata Team Deblin / Iñaki,,$100.00,$50.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,C. Elliott,Bachata Team Deblin / Iñaki,,$100.00,$25.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,J. Kahn,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",8:30 PM,G. Sanchez Sanchez,Bachata Team Deblin / Iñaki,,$100.00,$100.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Kakad, Prashant
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Monday, March 04, 2019",6:30 PM,D. Heutte,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,A. Decoster,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,S. Changizi,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,J. Chrisman,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,L. Chim,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,V. Patel,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,L. Shafiee,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,A. Safdari,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,E. Safdari,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,P. Safdari,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,F. Ghahyasi,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,A. Amini,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",6:30 PM,V. Zedlar,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,E. Elliott,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,A. Moyers,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,M. Sander,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,M. Sander,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,Z. Iman Smullin,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,S. Kiwalkar,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,L. Chim,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,V. Patel,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,A. Silvestri,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,S. Borsten,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,J. Jaramillo,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,D. Nelson,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,N. Cascella,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,K. Nordskog,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,M. Garcia Ruiz,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,O. Minton-Smith,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,S. Ramirez,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",7:30 PM,K. Ching,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,D. Heutte,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,A. Decoster,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,S. Changizi,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,L. Chim,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,J. Merran,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",6:30 PM,T. Krasne,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,F. Cadambi,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,Z. Iman Smullin,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,I. Jacinto,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,S. Kiwalkar,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,L. Chim,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,A. Silvestri,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,S. Borsten,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,J. Jaramillo,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,D. Nelson,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,N. Cascella,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,K. Nordskog,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,S. Ramirez,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,K. Ching,Bollywood Team,,$50.00,$25.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,P. Maurya,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,L. Chao,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,S. Kuznitsky,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",7:30 PM,T. Marshall,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Klawender, Heather
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Thursday, March 07, 2019",6:30 PM,C. Buckles,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,N. Meier,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,B. Austen,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,M. Sueuga,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,K. Shepherd,Peerfit,,$10.00,$10.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,A. Taylor,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,E. Garcia,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,A. Colvin,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,C. Armstrong,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,N. Meier,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,C. Cousins,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,B. Golec,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,M. Peterson,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,F. Copley,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,H. Barron,Comp,,$0.00,$0.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Lambert, Durante
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Thursday, March 07, 2019",7:30 PM,L. Pak,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",7:30 PM,J. Zipagang,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,K. Warren,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,A. Contreras Conklin,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,A. Darrow,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,T. Berning,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,A. Waddington,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,J. Zipagang,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,A. Tong,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,K. Kennedy,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,A. Waddington,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,K. Warren,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,T. Berning,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,K. Miller,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?#E?$74.00,,,,,,,,
+?#S?Large, Shea
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Wednesday, March 06, 2019",6:30 PM,A. Silvestri,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,L. Wressell,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,P. Edison-Lahm,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,E. Capece,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,R. Alexander,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,S. Gray,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,b. babcock,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,H. Knapp,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,K. Gilbert,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,A. Silvestri,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,L. Wressell,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,D. Marseille,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,R. Alexander,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,K. Gilbert,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Lux, Alia
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Wednesday, March 06, 2019",6:30 PM,J. Kirchler,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,M. Hatfield,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,J. Uber,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,V. Bui,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,M. Duffy,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,B. Gordon,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,E. Buford,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,K. Clay,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 06, 2019",6:30 PM,S. Wan,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,M. Hatfield,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,J. Uber,PCC Student,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,K. Cooper,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,K. Lange,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,J. Hippe,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,V. Bui,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,B. Gordon,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,C. Busacker,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,M. Burress,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,O. Ezendokwere,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,M. Duffy,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,N. Hanna,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,b. babcock,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,K. Clay,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,C. Barrett,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,E. Hart,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",6:30 PM,J. Shay,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Metzler, Paula
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Monday, March 04, 2019",8:30 PM,K. Kline,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 04, 2019",8:30 PM,E. Bajrovic,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",8:30 PM,L. Chao,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 04, 2019",8:30 PM,A. Agranoff,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",8:30 PM,N. Barrett,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",8:30 PM,F. Felicia,Drop In $15 Dance Class,,$30.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",8:30 PM,B. Golec,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",8:30 PM,J. Luna,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",8:30 PM,D. Cates,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 04, 2019",8:30 PM,C. Crockett,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 05, 2019",8:30 PM,K. Kline,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 05, 2019",8:30 PM,L. Pak,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 05, 2019",8:30 PM,V. Le,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",8:30 PM,E. Park,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 11, 2019",8:30 PM,L. Jeffery,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 11, 2019",8:30 PM,K. Kline,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 11, 2019",8:30 PM,L. Chao,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",8:30 PM,A. Janae,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",8:30 PM,C. Holzman,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",8:30 PM,P. Ashleigh,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",8:30 PM,B. Golec,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Monday, March 11, 2019",8:30 PM,E. Bajrovic,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Monday, March 11, 2019",8:30 PM,S. Christoffersen,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",8:30 PM,E. Reid-Dixon,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",8:30 PM,K. Kline,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",8:30 PM,L. Pak,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",8:30 PM,P. Ashleigh,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",8:30 PM,V. Le,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?#E?$170.00,,,,,,,,
+?#S?Morris, Britan
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",7:30 PM,G. Hindenach,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Oefinger, Donna
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",7:30 PM,L. Beth,5 Class Card Dance,,$70.00,$14.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,K. Chlosta,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,M. Hart,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,L. Morgan,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,L. Pak,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,K. Dunn,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,J. Beach,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",7:30 PM,G. Succes,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,K. Chlosta,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,L. Morgan,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,L. Pak,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,J. Anderson,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,K. Dunn,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,O. Ezendokwere,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,C. Ventres-Pake,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,L. Beth,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",7:30 PM,D. Robinson,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Parco, Allen
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",5:30 PM,B. Barrios,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Tuesday, March 05, 2019",5:30 PM,I. Jacinto,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Tuesday, March 05, 2019",5:30 PM,L. Wendel,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Tuesday, March 05, 2019",5:30 PM,E. Zeidman,10 Class Card Fitness,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",5:30 PM,D. Lovenstein,Fitness Monthly Unlimited,,$75.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 05, 2019",5:30 PM,S. Saleem,Fitness Monthly Unlimited,,$90.00,$12.86,$6.43,$6.43
+?data?"Tuesday, March 05, 2019",5:30 PM,M. Frye,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Thursday, March 07, 2019",5:30 PM,B. Barrios,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Thursday, March 07, 2019",5:30 PM,L. Wendel,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Thursday, March 07, 2019",5:30 PM,A. White,New Student $30 for 30 Days Fitness Classes,,$30.00,$6.00,$3.00,$3.00
+?data?"Thursday, March 07, 2019",5:30 PM,S. Saleem,Fitness Monthly Unlimited,,$90.00,$12.86,$6.43,$6.43
+?data?"Tuesday, March 12, 2019",5:30 PM,D. Lovenstein,Fitness Monthly Unlimited,,$75.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 12, 2019",5:30 PM,I. Jacinto,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Tuesday, March 12, 2019",5:30 PM,M. Frye,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Thursday, March 14, 2019",5:30 PM,D. Lovenstein,Fitness Monthly Unlimited,,$75.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",5:30 PM,S. Saleem,Fitness Monthly Unlimited,,$90.00,$12.86,$6.43,$6.43
+?data?"Thursday, March 14, 2019",5:30 PM,I. Jacinto,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?#E?$79.04,,,,,,,,
+?#S?Quiseng, Brad
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",6:30 PM,M. Hart,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",6:30 PM,T. Ishiyama,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 05, 2019",6:30 PM,G. Succes,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,T. Ishiyama,10 Class Card Dance,,$130.00,$13.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,O. Ezendokwere,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,Y. Nakata,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Tuesday, March 12, 2019",6:30 PM,P. Metzler,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Rahima, Carolina & Jamal
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Tuesday, March 05, 2019",7:30 PM,J. Box,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 05, 2019",7:30 PM,J. Temores,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 05, 2019",7:30 PM,T. Kaminski,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 05, 2019",7:30 PM,C. Anzo,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,S. Saleem,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",6:30 PM,A. Faulhaber,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,N. Faulhaber,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,R. Weie,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,S. Liebenthal,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,A. Janae,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,J. Krieg,Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,D. Starling,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,S. Molinari,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,B. Schmalz,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,L. Baiz,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,L. Roche,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,P. Giscombe,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,V. Lopez,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,K. Barmann,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,M. Kamm,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,N. Yang,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",6:30 PM,G. Trujo,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,K. White,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,A. White,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,K. Gorman,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,C. Brue,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,M. Perez Consoli,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,J. Savovici,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",6:30 PM,G. Best,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",6:30 PM,M. Equihua,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,S. Saleem,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",7:30 PM,M. Williams,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",7:30 PM,S. Ahsan,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",7:30 PM,J. Hutchins,5 classes - One Cycle (5 week month),,$60.00,$12.00,$6.00,$6.00
+?data?"Thursday, March 07, 2019",7:30 PM,R. Brandon,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",7:30 PM,N. El-Massih,5 classes - One Cycle (5 week month),,$60.00,$12.00,$6.00,$6.00
+?data?"Thursday, March 07, 2019",7:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",7:30 PM,E. Elliott,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,D. Dodge,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",7:30 PM,B. Choe,Peerfit,,$10.00,$10.00,$5.00,$5.00
+?data?"Thursday, March 07, 2019",7:30 PM,E. Toops,Peerfit,,$10.00,$10.00,$5.00,$5.00
+?data?"Thursday, March 07, 2019",7:30 PM,B. Sorg,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,M. Powell,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$4.38,$4.38
+?data?"Thursday, March 07, 2019",7:30 PM,K. Nae,Salsa On2 Team 2018,,$150.00,$37.50,$18.75,$18.75
+?data?"Thursday, March 07, 2019",7:30 PM,B. Araya,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,K. Barmann,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,S. Liu,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",7:30 PM,P. Maurya,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,Z. Morel,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,K. Shepherd,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",7:30 PM,S. Francian,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",7:30 PM,A. Baltazar,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",7:30 PM,R. Rodriguez,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",7:30 PM,A. Castro,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 07, 2019",7:30 PM,C. Hayden,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,B. Connolly,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",7:30 PM,Y. Shindo,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",8:30 PM,K. Shepherd,10 Class Card Dance,,$110.50,$11.05,$5.53,$5.53
+?data?"Thursday, March 07, 2019",8:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 07, 2019",8:30 PM,M. Powell,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$4.38,$4.38
+?data?"Thursday, March 07, 2019",8:30 PM,K. Nae,Salsa On2 Team 2018,,$150.00,$37.50,$18.75,$18.75
+?data?"Thursday, March 07, 2019",8:30 PM,A. Qin,Salsa On2 Team 2018,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 07, 2019",8:30 PM,C. Farrar,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",8:30 PM,J. Ebner,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 07, 2019",8:30 PM,D. Ballard,Drop In $15 Dance Class,,$7.50,$7.50,$3.75,$3.75
+?data?"Thursday, March 07, 2019",8:30 PM,S. Hosseinion,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Tuesday, March 12, 2019",7:30 PM,A. Tuson-Turner,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Tuesday, March 12, 2019",7:30 PM,T. Kaminski,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 12, 2019",7:30 PM,C. Anzo,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Tuesday, March 12, 2019",7:30 PM,F. Thelisdort,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 13, 2019",7:30 PM,T. Blackman,Salsa On2 Team 2018,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,A. Whiteman,Salsa On2 Team 2018,,$75.00,$75.00,$37.50,$37.50
+?data?"Wednesday, March 13, 2019",7:30 PM,B. Sinclair,Salsa On2 Team 2018,,$75.00,$75.00,$37.50,$37.50
+?data?"Wednesday, March 13, 2019",7:30 PM,X. Tejeda,Salsa On2 Team 2018,,$150.00,$150.00,$75.00,$75.00
+?data?"Wednesday, March 13, 2019",7:30 PM,K. Nae,Salsa On2 Team 2018,,$150.00,$37.50,$18.75,$18.75
+?data?"Wednesday, March 13, 2019",7:30 PM,T. Kim,Salsa On2 Team 2018,,$150.00,$150.00,$75.00,$75.00
+?data?"Wednesday, March 13, 2019",7:30 PM,A. Qin,Salsa On2 Team 2018,,$0.00,$0.00,$0.00,$0.00
+?data?"Wednesday, March 13, 2019",7:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Wednesday, March 13, 2019",7:30 PM,S. Mullins,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,S. Saleem,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",6:30 PM,A. Faulhaber,4 classes - One Cycle (One Month Expiration),,$50.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,N. Faulhaber,4 classes - One Cycle (One Month Expiration),,$50.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,L. Roche,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",6:30 PM,P. Giscombe,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",6:30 PM,V. Lopez,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",6:30 PM,M. Perez Consoli,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",6:30 PM,G. Best,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",6:30 PM,N. Yang,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,B. Mills,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,S. Molinari,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,D. Starling,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,B. Schmalz,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,K. Barmann,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,M. Mezzatesta,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,C. Brue,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,K. White,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,M. Ayala,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",6:30 PM,A. White,Bday Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,K. Gorman,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,L. Vasconcellos,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",6:30 PM,C. Hayden,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,U. Haveron,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",6:30 PM,D. Ostrov,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,J. Hicke,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",7:30 PM,R. Brandon,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",7:30 PM,J. Dang,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",7:30 PM,D. Dodge,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",7:30 PM,M. Powell,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$4.38,$4.38
+?data?"Thursday, March 14, 2019",7:30 PM,K. Nae,Salsa On2 Team 2018,,$150.00,$37.50,$18.75,$18.75
+?data?"Thursday, March 14, 2019",7:30 PM,E. Toops,Peerfit,,$10.00,$10.00,$5.00,$5.00
+?data?"Thursday, March 14, 2019",7:30 PM,B. Choe,Peerfit,,$10.00,$10.00,$5.00,$5.00
+?data?"Thursday, March 14, 2019",7:30 PM,C. Elliott,Bachata Team Deblin / Iñaki,,$100.00,$25.00,$12.50,$12.50
+?data?"Thursday, March 14, 2019",7:30 PM,S. Liu,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",7:30 PM,A. Baltazar,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",7:30 PM,R. Rodriguez,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",7:30 PM,A. Castro,4 classes - One Cycle (One Month Expiration),,$50.00,$12.50,$6.25,$6.25
+?data?"Thursday, March 14, 2019",7:30 PM,B. Sorg,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,B. Araya,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",7:30 PM,C. Cousins,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,C. Delgado,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,C. Smith,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,L. Vasconcellos,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",7:30 PM,S. Saleem,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",7:30 PM,A. Fuchs,Drop In $15 Dance Class,,$30.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,E. Elliott,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Thursday, March 14, 2019",7:30 PM,A. Mullen,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,C. Hayden,5 Class Card Dance,,$70.00,$14.00,$7.00,$7.00
+?data?"Thursday, March 14, 2019",7:30 PM,B. Connolly,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",7:30 PM,Y. Shindo,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",8:30 PM,C. Dogan-Coles,10 Class Card Dance,,$117.00,$11.70,$5.85,$5.85
+?data?"Thursday, March 14, 2019",8:30 PM,J. Dang,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",8:30 PM,M. Powell,Dance Silver Monthly Pass (Up to 20 visits),,$175.00,$8.75,$4.38,$4.38
+?data?"Thursday, March 14, 2019",8:30 PM,A. Qin,Salsa On2 Team 2018,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",8:30 PM,N. Tseggai,10 Class Card Dance,,$130.00,$13.00,$6.50,$6.50
+?data?"Thursday, March 14, 2019",8:30 PM,A. Fuchs,Drop In $15 Dance Class,,$30.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",8:30 PM,L. Vasconcellos,VMAC INSTRUCTOR DANCE,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",8:30 PM,J. Ebner,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",8:30 PM,C. Farrar,Drop In $15 Dance Class,,$15.00,$15.00,$7.50,$7.50
+?data?"Thursday, March 14, 2019",8:30 PM,E. Hosseinion,Drop In $15 Dance Class,,$7.50,$7.50,$3.75,$3.75
+?data?"Thursday, March 14, 2019",8:30 PM,S. Hosseinion,Bday Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Thursday, March 14, 2019",8:30 PM,D. Ballard,Drop In $15 Dance Class,,$7.50,$7.50,$3.75,$3.75
+?data?"Saturday, March 02, 2019",11:30 AM,D. Ballard,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 02, 2019",11:30 AM,T. Kim,Pre-Registered Workshop $25,,$25.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 02, 2019",11:30 AM,K. Nae,Pre-Registered Workshop $25,,$12.50,$0.00,$0.00,$0.00
+?data?"Saturday, March 02, 2019",11:30 AM,P. Maurya,Unpaid Workshops,,$0.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 02, 2019",11:30 AM,N. Tseggai,Pre-Registered Workshop $25,,$25.00,$25.00,$12.50,$12.50
+?data?"Saturday, March 02, 2019",11:30 AM,T. Kobluskie,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 02, 2019",11:30 AM,M. Powell,Drop In $30 Workshop,,$30.00,$30.00,$15.00,$15.00
+?#E?$55.00,,,,,,,,
+?#S?Rodales, Jesus
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Thursday, March 14, 2019",8:30 PM,M. Gadbois,Drop In $15 Dance Class,,$15.00,$15.00,$0.00,$0.00
+?#E?$0.00,,,,,,,,
+?#S?Smith, Bruce
+?data?Class Date,Class Time,Client Name,Series Used,,Revenue,Rev. per Session,Earnings per Client,Earnings
+?data?"Saturday, March 02, 2019",9:00 AM,B. Hyams,10 Class Card Fitness,,$68.00,$6.80,$3.40,$3.40
+?data?"Saturday, March 02, 2019",9:00 AM,A. Florence,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 02, 2019",9:00 AM,S. Wolfer,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 02, 2019",9:00 AM,D. Wood,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 02, 2019",9:00 AM,H. Lyons,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 02, 2019",9:00 AM,C. Skybak,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 02, 2019",9:00 AM,J. Giliberty,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 02, 2019",9:00 AM,D. Lovenstein,Fitness Monthly Unlimited,,$75.00,$12.50,$6.25,$6.25
+?data?"Saturday, March 02, 2019",9:00 AM,B. Choe,peerfit,,$5.00,$5.00,$2.50,$2.50
+?data?"Saturday, March 02, 2019",9:00 AM,E. Toops,peerfit,,$5.00,$5.00,$2.50,$2.50
+?data?"Saturday, March 02, 2019",9:00 AM,K. Shepherd,peerfit,,$5.00,$5.00,$2.50,$2.50
+?data?"Saturday, March 02, 2019",9:00 AM,J. Zhu,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 02, 2019",9:00 AM,G. Knodel,Fitness Monthly Unlimited,,$90.00,$30.00,$15.00,$15.00
+?data?"Saturday, March 02, 2019",9:00 AM,J. Billings-McBee,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 02, 2019",9:00 AM,M. Applegate,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 02, 2019",9:00 AM,A. Becker,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 02, 2019",9:00 AM,R. Millkey,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Monday, March 04, 2019",5:30 PM,H. Layson,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 04, 2019",5:30 PM,E. Miller,5 Class Card Fitness,,$45.00,$9.00,$4.50,$4.50
+?data?"Monday, March 04, 2019",5:30 PM,J. Penning,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 04, 2019",5:30 PM,H. Lyons,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 04, 2019",5:30 PM,C. Skybak,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 04, 2019",5:30 PM,H. Humphrey,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 04, 2019",5:30 PM,K. Shepherd,peerfit,,$5.00,$5.00,$2.50,$2.50
+?data?"Monday, March 04, 2019",5:30 PM,A. White,New Student $30 for 30 Days Fitness Classes,,$30.00,$6.00,$3.00,$3.00
+?data?"Monday, March 04, 2019",5:30 PM,G. Knodel,Fitness Monthly Unlimited,,$90.00,$30.00,$15.00,$15.00
+?data?"Monday, March 04, 2019",5:30 PM,S. Saleem,Fitness Monthly Unlimited,,$90.00,$12.86,$6.43,$6.43
+?data?"Saturday, March 09, 2019",9:00 AM,S. Baudet,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 09, 2019",9:00 AM,A. Florence,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 09, 2019",9:00 AM,S. Wolfer,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 09, 2019",9:00 AM,H. Lyons,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 09, 2019",9:00 AM,C. Armstrong,New Student $30 for 30 Days Fitness Classes,,$30.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 09, 2019",9:00 AM,A. Colvin,New Student $30 for 30 Days Fitness Classes,,$30.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 09, 2019",9:00 AM,A. Dieker,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 09, 2019",9:00 AM,J. Giliberty,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Saturday, March 09, 2019",9:00 AM,J. Orellana,5 Class Card Fitness,,$45.00,$9.00,$4.50,$4.50
+?data?"Saturday, March 09, 2019",9:00 AM,D. Lovenstein,Fitness Monthly Unlimited,,$75.00,$12.50,$6.25,$6.25
+?data?"Saturday, March 09, 2019",9:00 AM,D. Maddux,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 09, 2019",9:00 AM,A. White,New Student $30 for 30 Days Fitness Classes,,$30.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",9:00 AM,E. Toops,peerfit,,$5.00,$5.00,$2.50,$2.50
+?data?"Saturday, March 09, 2019",9:00 AM,C. Overman,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",9:00 AM,J. Zhu,ClassPass,,$0.00,$0.00,$0.00,$0.00
+?data?"Saturday, March 09, 2019",9:00 AM,L. Austin,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 09, 2019",9:00 AM,K. Shepherd,peerfit,,$5.00,$5.00,$2.50,$2.50
+?data?"Saturday, March 09, 2019",9:00 AM,R. Millkey,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 09, 2019",9:00 AM,B. Hyams,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?data?"Saturday, March 09, 2019",9:00 AM,K. Griess,Bday Comp,,$0.00,$0.00,$0.00,$0.00
+?data?"Monday, March 11, 2019",5:30 PM,H. Layson,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 11, 2019",5:30 PM,A. Wood,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 11, 2019",5:30 PM,J. Penning,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 11, 2019",5:30 PM,H. Lyons,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 11, 2019",5:30 PM,C. Skybak,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 11, 2019",5:30 PM,H. Humphrey,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 11, 2019",5:30 PM,K. Britt,10 Class Card Fitness,,$80.00,$8.00,$4.00,$4.00
+?data?"Monday, March 11, 2019",5:30 PM,S. Saleem,Fitness Monthly Unlimited,,$90.00,$12.86,$6.43,$6.43
+?data?"Monday, March 11, 2019",5:30 PM,A. Hoover,Drop In $10 Fitness Class,,$10.00,$10.00,$5.00,$5.00
+?#E?$236.76,,,,,,,,
