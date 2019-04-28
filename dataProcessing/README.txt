@@ -1,5 +1,5 @@
 ## Follow the following instructions...
-## Copy and paste the commands after $>
+## Copy and paste the commands after $> prompt
 ## \ at the end of line indicate contuation of a command
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $> cd /home/tseggaikn_gmail_com/dataProcessing
