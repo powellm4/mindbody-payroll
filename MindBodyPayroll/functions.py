@@ -41,8 +41,10 @@ def assign_instructor_rate(df, no_of_instructors):
 
 
 def format_column_headers(df):
+    df.columns = [c.strip() for c in df.columns]
     df.columns = [c.replace(' ', '_') for c in df.columns]
     df.columns = [c.replace('.', '') for c in df.columns]
+    df.columns = [c.replace('"', '') for c in df.columns]
     return df
 
 
@@ -73,5 +75,12 @@ def write_to_csv(df, instructors_list, output_folder):
         df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header)
 
 
-def include_pricing_options(df,po_df):
+#merges the dataframe with the pricing options dataframe to allow lookup of pricing options
+def include_pricing_options(df, po_df):
     return pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how='left')
+
+
+#removes all quotes surround all data in dataframe
+def remove_quotes(df):
+    df = df.apply(lambda x: x.str.strip())
+    return df.apply(lambda x: x.str.strip('"'))
