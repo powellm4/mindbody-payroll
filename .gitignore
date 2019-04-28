@@ -59,3 +59,8 @@ __pycache__
 
 #generated output
 allInstructorsCSVs/
+.idea/workspace.xml
+dataProcessing/tmp/all.so
+dataProcessing/tmp/each.so
+venv/pyvenv.cfg
+venv/lib64
