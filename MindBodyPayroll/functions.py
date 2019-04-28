@@ -3,11 +3,18 @@ import pandas as pd
 
 
 # input: 'Instructors' cell from processed data
-# output: Array of instructor(s)
+# output: Array of instructor(s), formatted as F.Last
 def get_instructors_list(df):
     instructors_cell = df.loc[0, "Instructors"]
     if "&" in instructors_cell:
         instructors = instructors_cell.replace("&", "").strip().split(', ')
+        for i in range(len(instructors)):
+            # print(instructors[i])
+            temp = instructors[i].split()
+            last = temp[1]
+            first = temp[0][0]
+            full = first+"."+last
+            instructors[i] = full
     else:
         instructors = [instructors_cell]
         for i in range(len(instructors)):

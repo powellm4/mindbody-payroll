@@ -48,7 +48,7 @@ po_df = pd.read_csv(special_rates_path)
 po_df = format_column_headers(po_df)
 po_df = po_df.set_index('Pricing_Option')
 
-shortlist = [list_of_processed_files[0]]# list_of_processed_files[1], list_of_processed_files[2]]
+shortlist = [list_of_processed_files[8], list_of_processed_files[9], list_of_processed_files[10]]
 
 # for each file in dataProcessing/dat/ folder
 for file in shortlist:
@@ -60,7 +60,7 @@ for file in shortlist:
     df = assign_instructor_rate(df, len(instructors_list))
     df = include_pricing_options(df, po_df)
     df = assign_amount_due(df)
-    print(df.head())
+    #print(df.head())
     write_to_csv(df, instructors_list, output_folder)
 
 print('Done')
