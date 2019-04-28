@@ -1,0 +1,9081 @@
+?<stafName>?Barker, Tyler
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Kehoe
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Gelehrter
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Ahuja
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?R. Sickles
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Gelehrter
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Kehoe
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Ahuja
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Fujimoto
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Barker, Tyler
+?<stafName>?Caballero, Stephanie
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Mayer
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?7.00
+?<data>?7.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Ishiyama
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Stortstrom
+?<data>?5 Class Card Dance
+?<data>?59.50
+?<data>?11.90
+?<data>?5.95
+?<data>?5.95
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Shinseki
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Kline
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Ceballos
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Ishiyama
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Shinseki
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Boyle
+?<data>?Drop In $15 Dance Class
+?<data>?30.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Vanoni
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Hyett
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Shaghafi
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?I. Gautschi
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?104.23
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Caballero, Stephanie
+?<stafName>?Ezendokwere, Ogochimere
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Fremont
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Nelson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Hippe
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Krause
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Tuson-Turner
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?V. Bui
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Farrar
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Ebner
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Bourgeois
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Box
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Mira
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Manival
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Kozolan
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Karanja
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Lewis
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Jackson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?V. Bui
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Farrar
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Ebner
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Hippe
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Mira
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Bratter
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Minkus
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Cates
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Manival
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Vazquez
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Bourgeois
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Box
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Halley
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Ezendokwere, Ogochimere
+?<stafName>?Ferreira, Joe
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?N. Sober
+?<data>?5 Class Card Fitness
+?<data>?45.00
+?<data>?9.00
+?<data>?4.50
+?<data>?4.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?V. Campagna
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?S. Man
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?G. Knodel
+?<data>?Fitness Monthly Unlimited
+?<data>?90.00
+?<data>?45.00
+?<data>?22.50
+?<data>?22.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?31.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Ferreira, Joe
+?<stafName>?Furrer, Ivy
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Fitness Monthly Unlimited
+?<data>?90.00
+?<data>?5.29
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Wood
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Peake
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?3.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Humphrey
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?D. Lovenstein
+?<data>?Fitness Monthly Unlimited
+?<data>?75.00
+?<data>?9.38
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Billings-McBee
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?M. Applegate
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?5.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Becker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?K. Eggers
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?G. Dallas
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?5:30&nbsp;pm
+?<data>?E. Reid-Dixon
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Schmalz
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Schmalz
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Wood
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Peake
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?3.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?R. Millkey
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Humphrey
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Billings-McBee
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?M. Applegate
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?5.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Becker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?G. Knodel
+?<data>?Fitness Monthly Unlimited
+?<data>?90.00
+?<data>?45.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Kral
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Baird
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?E. Huynh
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?R. Purcell
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Penning
+?<data>?Bday Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Furrer, Ivy
+?<stafName>?Giron, Daniel
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Johnson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Uber
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Ishiyama
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Arnett
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?7.00
+?<data>?7.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?O. Boyd
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Stortstrom
+?<data>?Drop In $15 Dance Class
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?G. Barnes
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Symonds
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Pratt
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?j. hernandez
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Hosea
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Kievsky
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Smith
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Slaughter
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Johnson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Uber
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Ceballos
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Ishiyama
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Hosea
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Smith
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Slaughter
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Nicoll
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Epstein
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Symonds
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Telles
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Wardrop
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Allure
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Shinseki
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Reynolds
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Newton
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Miller
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Caballero
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Boyle
+?<data>?Drop In $15 Dance Class
+?<data>?30.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?117.81
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Giron, Daniel
+?<stafName>?Hilario, Rob
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Monroe
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. du Vivier
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. LaFontaine
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. LaFontaine
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. McFarlane
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Lore
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Schaich
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Kearns
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?P. Bucharest
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Monroe
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Gonzales
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Elliott
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Elliott
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Shoji
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Everson
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Dukart
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. du Vivier
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Selivanova
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Shepherd
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?8:30&nbsp;pm
+?<data>?Y. Bredera
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Roth
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. LaFontaine
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. McFarlane
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?P. Bucharest
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?P. Radchenko
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Monroe
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Elliott
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Everson
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Everson
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Elliott
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Hogg
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Selivanova
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Shepherd
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?8:30&nbsp;pm
+?<data>?Y. Bredera
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?193.59
+?<endRecord>?</tr>
+?<startPrivate>?Private Lessons-- Vitalidad Movement Arts Center
+?<startRecord>?<tr>
+?<data>?Appointment Date
+?<data>?Appt. Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?Tuesday, April 02, 2019
+?<data>?5:00&nbsp;pm
+?<data>?C. Robaina
+?<data>?Private Lesson 5 hour package
+?<data>?320.00
+?<data>?64.00
+?<data>?54.40
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?Saturday, April 06, 2019
+?<data>?11:30&nbsp;am
+?<data>?A. Monroe
+?<data>?Private Lesson 10 hour package
+?<data>?630.00
+?<data>?63.00
+?<data>?53.55
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?107.95
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Hilario, Rob
+?<stafName>?Inaki Villanueva-Torres, Deblin McKnight &
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Shepherd
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?I. Jacinto
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Jackson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Jackson
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Duggan
+?<data>?Dance Gold Unlimited Monthly Pass
+?<data>?199.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Simmons
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Villagomez
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Brooks
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?V. Lopez
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Lewis
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. VandenEkart
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Thao
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Choe
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?Z. Matthewstearn
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?175.00
+?<data>?8.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Riojas
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Thompson
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Leng
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Hawley
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Heinze
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Trinh
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Spratt
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Herron
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Vu
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Villanueva
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Gerber
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Campbell
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Collum
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Allen
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Randolph
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Dang
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Duggan
+?<data>?Dance Gold Unlimited Monthly Pass
+?<data>?199.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Dalton
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Tan
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Hanson
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Byrne
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?Z. Matthewstearn
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?175.00
+?<data>?8.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Arano
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Litera
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Ortiz
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Hammet
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?V. Albright
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Connolly
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?Y. Shindo
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Trejo
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Cortez
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?O. De Lara
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. O'Farrill
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Heinze
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Aguirre
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Gomez
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Parco
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Ballard
+?<data>?Bday Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Bansal
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Powell
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Campbell
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Ramirez
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?16.67
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?I. Ingerson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Dang
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Carr
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Elliott
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?14.29
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Tan
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Vasiescu
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?T. Torralba
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Hicke
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Qualls
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?G. Sanchez Sanchez
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?B. Broussard
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?50.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?Z. Matthewstearn
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?175.00
+?<data>?8.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Rangel
+?<data>?Unpaid Dance Classes
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Kahn
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Powell
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Jackson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Sharp
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?I. Jacinto
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Brooks
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?V. Lopez
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Lewis
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. VandenEkart
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Thao
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?Z. Matthewstearn
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?175.00
+?<data>?8.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Riojas
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Leng
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Heinze
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Gerber
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Thompson
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Villagomez
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Simmons
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Duggan
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?160.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Choe
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Shepherd
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Hawley
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Trinh
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Spratt
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Vu
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Rolon-Sandoval
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Divvela
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Fenix
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Reba
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Cavagnero
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Peachman
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Diaz
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Thompson
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Collum
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Allen
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Ballard
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Randolph
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Estrada
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Bansal
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Dalton
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Hosseinion
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Hanson
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Byrne
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Tseggai
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?Z. Matthewstearn
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?175.00
+?<data>?8.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Arano
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Litera
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Hammet
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?V. Albright
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Heinze
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Powell
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Duggan
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?160.00
+?<data>?8.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Fenix
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Trejo
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Tzec
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Scanlon
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Tsugawa
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Ortiz
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Hily
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?Y. Shindo
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Connolly
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Kelly
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Aguirre
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Hosseinion
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Ramirez
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?16.67
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?I. Ingerson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Kara
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Sadaka
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Tan
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Vasiescu
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Tseggai
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?T. Torralba
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Hicke
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Qualls
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Elliott
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?50.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?G. Sanchez Sanchez
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Choi
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?50.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?Z. Matthewstearn
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?175.00
+?<data>?8.75
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Powell
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Graham
+?<data>?Bachata Team Deblin / Inaki
+?<data>?100.00
+?<data>?33.33
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Carr
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Amini
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Kahn
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Inaki Villanueva-Torres, Deblin McKnight &amp;
+?<stafName>?Jamal Rahima, Carolina Rahima &
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Nguyen
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Temores
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Liu
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Kaminski
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Tillman
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?F. Rodriguez
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Isbandi
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Graham
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Anzo
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. VandenEkart
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Qin
+?<data>?Salsa On2 Team 2018
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Banos Pino
+?<data>?Dance Gold Unlimited Monthly Pass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Blackman
+?<data>?Salsa On2 Team 2018
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?G. Gleason
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?75.00
+?<data>?37.50
+?<data>?37.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Whiteman
+?<data>?Salsa On2 Team 2018
+?<data>?75.00
+?<data>?37.50
+?<data>?18.75
+?<data>?18.75
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Sinclair
+?<data>?Salsa On2 Team 2018
+?<data>?75.00
+?<data>?75.00
+?<data>?37.50
+?<data>?37.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?X. Tejeda
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?75.00
+?<data>?37.50
+?<data>?37.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Kim
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?50.00
+?<data>?25.00
+?<data>?25.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Nae
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?50.00
+?<data>?25.00
+?<data>?25.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Morgan
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Duggan
+?<data>?Dance Gold Unlimited Monthly Pass
+?<data>?199.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Ayala
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Bergmann
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Bergmann
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Baldus
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Lewis
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Bolden
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Thao
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. FACKRELL
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Choe
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Toops
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Kehoe
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Alexander
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Wilson
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Heinze
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Summers
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Reyes Rodriguez
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Montgomery-butler
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Wren
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Ferreira
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?G. Trujo
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Equihua
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Krohn
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Ramos
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Brooks
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Villanueva
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Conkey
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Haehlen
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. James
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. de Lange
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. El-Massih
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Baldus
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?Z. Morel
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Faulhaber
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Toops
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Choe
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?Y. Shindo
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Connolly
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Tseggai
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Cousins
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Hicke
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?R. Rocha
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Dang
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Kawaguchi
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?R. Brandon
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Francian
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Ballard
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Smith
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Little
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Bansal
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Monroe
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Aburto
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?16.67
+?<data>?8.33
+?<data>?8.33
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Qu
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?11.11
+?<data>?5.56
+?<data>?5.56
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Rodriguez
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. O'Farrill
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Blackman
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Herron
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Kelly
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Biccas
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?I. Torres
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Ferreira
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Doody
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Brue
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Carlos
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Diaz
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Suhay
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Ives
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Perez Consoli
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Aldama
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Alkhaldi
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Barzilay
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Parco
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Qin
+?<data>?Salsa On2 Team 2018
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Kelly
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?Y. Shindo
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?B. Connolly
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Tseggai
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Cousins
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Hicke
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?R. Rocha
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?E. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Dang
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Kawaguchi
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?R. Brandon
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Francian
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?D. Ballard
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Smith
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Little
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Bansal
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Monroe
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Aburto
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?16.67
+?<data>?8.33
+?<data>?8.33
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Qu
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?11.11
+?<data>?5.56
+?<data>?5.56
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Rodriguez
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. O'Farrill
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?T. Blackman
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Herron
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Biccas
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?I. Torres
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Ferreira
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Doody
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Barzilay
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?11:30&nbsp;am
+?<data>?Z. Matthewstearn
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?11:30&nbsp;am
+?<data>?A. Herron
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?11:30&nbsp;am
+?<data>?A. Leng
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?11:30&nbsp;am
+?<data>?L. Gerber
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?11:30&nbsp;am
+?<data>?M. Rich
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?15.00
+?<data>?15.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Nguyen
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Temores
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Hicke
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?175.00
+?<data>?8.75
+?<data>?4.38
+?<data>?4.38
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Liu
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Kaminski
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Kim
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Isbandi
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Anzo
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. VandenEkart
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Graham
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?F. Rodriguez
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Qin
+?<data>?Salsa On2 Team 2018
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Blackman
+?<data>?Salsa On2 Team 2018
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?G. Gleason
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?75.00
+?<data>?37.50
+?<data>?37.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Whiteman
+?<data>?Salsa On2 Team 2018
+?<data>?75.00
+?<data>?37.50
+?<data>?18.75
+?<data>?18.75
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?X. Tejeda
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?75.00
+?<data>?37.50
+?<data>?37.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Nae
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?150.00
+?<data>?75.00
+?<data>?75.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Kim
+?<data>?Salsa On2 Team 2018
+?<data>?150.00
+?<data>?50.00
+?<data>?25.00
+?<data>?25.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Morgan
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Ayala
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Mezzatesta
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?7.00
+?<data>?7.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Bergmann
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Bergmann
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Lewis
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Bolden
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Thao
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. FACKRELL
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Dickinson
+?<data>?Dance Gold Unlimited Monthly Pass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Kehoe
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Alexander
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Wilson
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Heinze
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Summers
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Reyes Rodriguez
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Mills
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Krohn
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Ramos
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Haehlen
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Duggan
+?<data>?Dance Silver Monthly Pass (Up to 20 visits)
+?<data>?160.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Choe
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Toops
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Giskaas
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Kamm
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Equihua
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?Y. Garcia
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Rolon-Sandoval
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?G. Trujo
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Garcia
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Little
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. James
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. de Lange
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Elliott
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?7.00
+?<data>?7.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Farrar
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Ebner
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?5.53
+?<data>?5.53
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?Z. Morel
+?<data>?5 classes - One Cycle (5 week month)
+?<data>?60.00
+?<data>?12.00
+?<data>?6.00
+?<data>?6.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Faulhaber
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?Y. Shindo
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Connolly
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Tseggai
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Cousins
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Hicke
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?R. Rocha
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Dang
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Kawaguchi
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?R. Brandon
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Francian
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Ballard
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Smith
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Little
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Bansal
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Monroe
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Aburto
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?16.67
+?<data>?8.33
+?<data>?8.33
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Qu
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?11.11
+?<data>?5.56
+?<data>?5.56
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Rodriguez
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. O'Farrill
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Blackman
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Herron
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Kelly
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?14.29
+?<data>?7.14
+?<data>?7.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Biccas
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?I. Torres
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Ferreira
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Doody
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Ahsan
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Diaz
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Perez Consoli
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Aldama
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Alkhaldi
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Barzilay
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Qin
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?33.33
+?<data>?16.67
+?<data>?16.67
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Toops
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Hutchins
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. El-Massih
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Ives
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Choe
+?<data>?Peerfit
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Mullen
+?<data>?4 classes - One Cycle (One Month Expiration)
+?<data>?50.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Tapia
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Morgan
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Parco
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Qin
+?<data>?Salsa On2 Team 2018
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?Y. Shindo
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?B. Connolly
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Tseggai
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Cousins
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Hicke
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?R. Rocha
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?E. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Hosseinion
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Dang
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Kawaguchi
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?R. Brandon
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Francian
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?D. Ballard
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Smith
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Little
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Bansal
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Monroe
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Aburto
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?16.67
+?<data>?8.33
+?<data>?8.33
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Qu
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?S. Bechdolt
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?11.11
+?<data>?5.56
+?<data>?5.56
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Rodriguez
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. O'Farrill
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?T. Blackman
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Powell
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?A. Herron
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Kelly
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?14.29
+?<data>?7.14
+?<data>?7.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Biccas
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?I. Torres
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Ferreira
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Doody
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Barzilay
+?<data>?Salsa On1 Intermediate Intensive Training Team
+?<data>?100.00
+?<data>?12.50
+?<data>?6.25
+?<data>?6.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?T. Baldus
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?H. Sd
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?A. Imamori
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?A. Summers
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?R. Bolden
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?S. Little
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?K. Little
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?D. Johnson
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?M. Kamm
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?M. Alkhaldi
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?G. Olson
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?M. Alfayez
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?J. Vu
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?12.50
+?<data>?12.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?H. Williams
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?15.00
+?<data>?15.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?N. Ferry
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?15.00
+?<data>?15.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?11:30&nbsp;am
+?<data>?I. Estrada
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?15.00
+?<data>?15.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?2,052.60
+?<endRecord>?</tr>
+?<startPrivate>?Private Lessons-- Vitalidad Movement Arts Center
+?<startRecord>?<tr>
+?<data>?Appointment Date
+?<data>?Appt. Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?Tuesday, April 02, 2019
+?<data>?6:15&nbsp;pm
+?<data>?P. Helling
+?<data>?Private Lesson 10 hour package
+?<data>?630.00
+?<data>?63.00
+?<data>?53.55
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?Friday, April 05, 2019
+?<data>?5:00&nbsp;pm
+?<data>?A. Gallegos
+?<data>?Private Lesson 10 hour package
+?<data>?630.00
+?<data>?63.00
+?<data>?53.55
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?Saturday, April 06, 2019
+?<data>?2:00&nbsp;pm
+?<data>?C. Smith
+?<data>?Private Lesson
+?<data>?70.00
+?<data>?70.00
+?<data>?59.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?Monday, April 08, 2019
+?<data>?6:00&nbsp;pm
+?<data>?A. Minkin
+?<data>?Private Lesson
+?<data>?70.00
+?<data>?70.00
+?<data>?59.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?226.10
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Jamal Rahima, Carolina Rahima &amp;
+?<stafName>?Joe Ferreira, Deblin McKnight &
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?J. Dang
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?A. Carr
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?D. Hauser
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?A. Teach
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?D. Enriquez
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?J. Curry
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?M. Kitner
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?D. Iazikov
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?A. Swenson
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?T. Saedi
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?M. Jensen
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?A. Fink
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?C. Mafrica
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?N. Tseggai
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?A. Qin
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?M. Powell
+?<data>?Pre-Registered Workshop $25
+?<data>?25.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?C. Matthews
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?A. Aburto
+?<data>?Pre-Registered Workshop $25
+?<data>?12.50
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?C. Giannone
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?R. Winesburgh
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?F. Keceli
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?E. Aguirre
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?J. Meltzer
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?2:00&nbsp;pm
+?<data>?I. Ingerson
+?<data>?Drop In $30 Workshop
+?<data>?30.00
+?<data>?30.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Joe Ferreira, Deblin McKnight &amp;
+?<stafName>?Kakad, Prashant
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Changizi
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Jaramillo
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Nelson
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Nordskog
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Ramirez
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Ching
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?10.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Chim
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Singh
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Grayzel
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Guinee
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Echo aria
+?<data>?Bday Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Hu
+?<data>?Unpaid Dance Classes
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Floyd
+?<data>?Unpaid Dance Classes
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Changizi
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Jensen
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. Kuznitsky
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Jaramillo
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?N. Cascella
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?25.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Chim
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Guinee
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?E. Floyd
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Nordskog
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?50.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?T. Saedi
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?H. Nakamura
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?S. McKenzie
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Decker
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Steel
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?W. Kogan
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?B. Gillian
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Singh
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Hu
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Kakad, Prashant
+?<stafName>?Klawender, Heather
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Jackson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Buckles
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Garcia
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Bard
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Munoz Tobon
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Meier
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Jackson
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Coronado
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?I. Jacinto
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Alekseenko
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Do
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Meier
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Bailey
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Manley
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Mallari
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Garcia
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Klawender, Heather
+?<stafName>?Large, Shea
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?P. Radchenko
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Peterson
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?R. Alexander
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?L. Wressell
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Wressell
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?K. Gilbert
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Alexander
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Marseille
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?N. Jefferson
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Peterson
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?H. Knapp
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Zichlinsky
+?<data>?Dance Gold Unlimited Monthly Pass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?7:30&nbsp;pm
+?<data>?C. Jessee
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Large, Shea
+?<stafName>?Lux, Alia
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Hippe
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Watson
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Beeders
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Grisby
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Colicheo
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Desai
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Uber
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Shay
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Halley
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Duffy
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Gordon
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Grisby
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Colicheo
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Uz
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?E. Gurevich
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Rojas
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?Z. Junkeer
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Chambers
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?J. Uber
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Wan
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?O. Ezendokwere
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Chambers
+?<data>?PCC Student
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Lux, Alia
+?<stafName>?Metzler, Paula
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Kaewborworn
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?7.00
+?<data>?7.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?B. Golec
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?P. Ashleigh
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?7.00
+?<data>?7.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?L. Stortstrom
+?<data>?5 Class Card Dance
+?<data>?59.50
+?<data>?11.90
+?<data>?5.95
+?<data>?5.95
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Riojas
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?E. Silva&#8217;s
+?<data>?Unpaid Dance Classes
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?E. Witthaus
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Swafford
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Kline
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?K. Kline
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Crockett
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Kaewborworn
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?7.00
+?<data>?7.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?8:30&nbsp;pm
+?<data>?B. Golec
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?6.50
+?<data>?6.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Barrett
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Busacker
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?8:30&nbsp;pm
+?<data>?D. Kim
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?8:30&nbsp;pm
+?<data>?N. Hyett
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Boyle
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?O. Ezendokwere
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Holzman
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?104.45
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Metzler, Paula
+?<stafName>?Oefinger, Donna
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Fremont
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Chlosta
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Zure
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?7:30&nbsp;pm
+?<data>?K. Dunn
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Auerbach
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?C. Fashana
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Bowes
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?H. Jensen
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?P. Metzler
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/3/2019
+?<data>?6:30&nbsp;pm
+?<data>?L. Pak
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Tuson-Turner
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?J. Anderson
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?P. Metzler
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?A. Hoyman-Browne
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?M. Ceballos
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?7:30&nbsp;pm
+?<data>?D. Cates
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?R. Auerbach
+?<data>?5 Class Card Dance
+?<data>?70.00
+?<data>?14.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Le
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Bowes
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?S. Ahuja
+?<data>?Comp
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/10/2019
+?<data>?6:30&nbsp;pm
+?<data>?P. Metzler
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Oefinger, Donna
+?<stafName>?Parco, Allen
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?B. Barrios
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?E. Zeidman
+?<data>?10 Class Card Fitness
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Fitness Monthly Unlimited
+?<data>?90.00
+?<data>?5.29
+?<data>?2.65
+?<data>?2.65
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?I. Jacinto
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?D. Lovenstein
+?<data>?Fitness Monthly Unlimited
+?<data>?75.00
+?<data>?9.38
+?<data>?4.69
+?<data>?4.69
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?M. Frye
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Madera
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?5:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Fitness Monthly Unlimited
+?<data>?90.00
+?<data>?5.29
+?<data>?2.65
+?<data>?2.65
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?5:30&nbsp;pm
+?<data>?I. Jacinto
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?5:30&nbsp;pm
+?<data>?K. O'Neill
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?5:30&nbsp;pm
+?<data>?S. Murphy
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?B. Barrios
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?L. Wendel
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Hughes
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?I. Jacinto
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?K. Grauer
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?D. Lovenstein
+?<data>?Fitness Monthly Unlimited
+?<data>?75.00
+?<data>?9.38
+?<data>?4.69
+?<data>?4.69
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?5:30&nbsp;pm
+?<data>?B. Baker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?7.50
+?<data>?3.75
+?<data>?3.75
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?L. Wendel
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?I. Jacinto
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?D. Case
+?<data>?5 Class Card Fitness
+?<data>?38.25
+?<data>?7.65
+?<data>?3.83
+?<data>?3.83
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?M. Frye
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?E. Traisman
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?87.26
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Parco, Allen
+?<stafName>?Powers, Heather
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Aburto
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Ferreira
+?<data>?VMAC INSTRUCTOR FITNESS
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Aburto
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?D. Nelson
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/11/2019
+?<data>?5:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Fitness Monthly Unlimited
+?<data>?90.00
+?<data>?22.50
+?<data>?11.25
+?<data>?11.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?23.25
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Powers, Heather
+?<stafName>?Quiseng, Brad
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Ishiyama
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/2/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Cates
+?<data>?Drop In $15 Dance Class
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?T. Ishiyama
+?<data>?10 Class Card Dance
+?<data>?110.50
+?<data>?11.05
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?A. Silvestri
+?<data>?Bollywood Team
+?<data>?50.00
+?<data>?12.50
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?B. Applebaum
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?D. Cates
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?M. Ceballos
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?O. Ezendokwere
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/9/2019
+?<data>?6:30&nbsp;pm
+?<data>?P. Metzler
+?<data>?VMAC INSTRUCTOR DANCE
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Quiseng, Brad
+?<stafName>?Rodales, Jesus
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?C. Kehoe
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?J. Rorvig
+?<data>?Drop In $15 Dance Class
+?<data>?15.00
+?<data>?15.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/4/2019
+?<data>?8:30&nbsp;pm
+?<data>?M. Gadbois
+?<data>?10 Class Card Dance
+?<data>?130.00
+?<data>?13.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Rodales, Jesus
+?<stafName>?Smith, Bruce
+?<startRecord>?<tr>
+?<data>?Class Date
+?<data>?Class Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings per Client
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Penning
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?B. Gibbs
+?<data>?5 Class Card Fitness
+?<data>?45.00
+?<data>?9.00
+?<data>?4.50
+?<data>?4.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Lyons
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Layson
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?K. Grauer
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Peake
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?3.75
+?<data>?1.88
+?<data>?1.88
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Skybak
+?<data>?10 Class Card Fitness
+?<data>?68.00
+?<data>?6.80
+?<data>?3.40
+?<data>?3.40
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Humphrey
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?D. Lovenstein
+?<data>?Fitness Monthly Unlimited
+?<data>?75.00
+?<data>?9.38
+?<data>?4.69
+?<data>?4.69
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Billings-McBee
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?2.14
+?<data>?2.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Becker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?2.14
+?<data>?2.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?K. Shepherd
+?<data>?peerfit
+?<data>?5.00
+?<data>?5.00
+?<data>?2.50
+?<data>?2.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Tanimoto
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?B. Peake
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/1/2019
+?<data>?5:30&nbsp;pm
+?<data>?K. Wilson
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?30.00
+?<data>?15.00
+?<data>?15.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?S. Baudet
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?A. Bennett Layton
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?A. Dieker
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?J. Giliberty
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?H. Lyons
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?R. Millkey
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?D. Lovenstein
+?<data>?Fitness Monthly Unlimited
+?<data>?75.00
+?<data>?9.38
+?<data>?4.69
+?<data>?4.69
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?J. Orellana
+?<data>?5 Class Card Fitness
+?<data>?45.00
+?<data>?9.00
+?<data>?4.50
+?<data>?4.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?D. Maddux
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?R. Parrish
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?C. Davis
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?E. Dubois
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?M. Frye
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/6/2019
+?<data>?9:00&nbsp;am
+?<data>?L. Gerber
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Hughes
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Lyons
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Layson
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Wood
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Peake
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?3.75
+?<data>?1.88
+?<data>?1.88
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Skybak
+?<data>?10 Class Card Fitness
+?<data>?68.00
+?<data>?6.80
+?<data>?3.40
+?<data>?3.40
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. Humphrey
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?D. Lovenstein
+?<data>?Fitness Monthly Unlimited
+?<data>?75.00
+?<data>?9.38
+?<data>?4.69
+?<data>?4.69
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Billings-McBee
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?2.14
+?<data>?2.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?M. Applegate
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?5.00
+?<data>?2.50
+?<data>?2.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?J. Orellana
+?<data>?5 Class Card Fitness
+?<data>?45.00
+?<data>?9.00
+?<data>?4.50
+?<data>?4.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?A. Becker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?2.14
+?<data>?2.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?K. Shepherd
+?<data>?peerfit
+?<data>?5.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?S. Saleem
+?<data>?Fitness Monthly Unlimited
+?<data>?90.00
+?<data>?22.50
+?<data>?11.25
+?<data>?11.25
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?B. Baker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?7.50
+?<data>?3.75
+?<data>?3.75
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?B. Baker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?7.50
+?<data>?3.75
+?<data>?3.75
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?G. Dallas
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?C. Meneau
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?30.00
+?<data>?15.00
+?<data>?15.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/8/2019
+?<data>?5:30&nbsp;pm
+?<data>?H. McNamee
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?S. Baudet
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?D. Wood
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?J. Giliberty
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?H. Lyons
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?K. Griess
+?<data>?5 Class Card Fitness
+?<data>?45.00
+?<data>?9.00
+?<data>?4.50
+?<data>?4.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?C. Skybak
+?<data>?10 Class Card Fitness
+?<data>?68.00
+?<data>?6.80
+?<data>?3.40
+?<data>?3.40
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?A. Florence
+?<data>?10 Class Card Fitness
+?<data>?80.00
+?<data>?8.00
+?<data>?4.00
+?<data>?4.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?J. Billings-McBee
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?2.14
+?<data>?2.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?M. Applegate
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?5.00
+?<data>?2.50
+?<data>?2.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?J. Orellana
+?<data>?5 Class Card Fitness
+?<data>?45.00
+?<data>?9.00
+?<data>?4.50
+?<data>?4.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?A. Becker
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?4.29
+?<data>?2.14
+?<data>?2.14
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?C. Overman
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?J. Zhu
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?D. Maddux
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?E. Watson
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?A. Doyle
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?E. Dagle
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?E. Shankle
+?<data>?ClassPass
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<data>?0.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?L. Austin
+?<data>?Drop In $10 Fitness Class
+?<data>?10.00
+?<data>?10.00
+?<data>?5.00
+?<data>?5.00
+?<endRecord>?</tr>
+?<startRecord>?<tr class="">
+?<data>?4/13/2019
+?<data>?9:00&nbsp;am
+?<data>?B. Stief
+?<data>?New Student $30 for 30 Days Fitness Classes
+?<data>?30.00
+?<data>?15.00
+?<data>?7.50
+?<data>?7.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?266.12
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Smith, Bruce
+?<stafName>?Villanueva Torres, Inaki
+?<startPrivate>?Private Lessons-- Vitalidad Movement Arts Center
+?<startRecord>?<tr>
+?<data>?Appointment Date
+?<data>?Appt. Time
+?<data>?Client Name
+?<data>?Series Used
+?<data>?Revenue
+?<data>?Rev. per Session
+?<data>?Earnings
+?<endRecord>?</tr>
+?<startRecord>?<tr class="odd">
+?<data>?Saturday, April 06, 2019
+?<data>?4:00&nbsp;pm
+?<data>?I. Torweihe
+?<data>?Private Lesson
+?<data>?70.00
+?<data>?70.00
+?<data>?59.50
+?<endRecord>?</tr>
+?<startRecord>?<tr class="subtotal">
+?<data>?59.50
+?<endRecord>?</tr>
+?<startRecord>?<tr>
+?<totalFor>?Total for Villanueva Torres, Inaki
