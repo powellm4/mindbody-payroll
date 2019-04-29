@@ -1,0 +1,6 @@
+input_folder = "../dataProcessing/dat/"
+public_classes_folder = "../output/publicClasses/"
+instructor_dance_folder = "../output/instructorDances/"
+special_rates_path = "../lookupTables/pricing-options.csv"
+all_classes_file = "00-01-Class-All.csv"
+totals_folder = "../output/totals/"
