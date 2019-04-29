@@ -1,0 +1,7 @@
+g/"staffName"/+1s/^/?<stafName>?/
+g/Private Lessons--/s/^/?<startPrivate>?/
+g/Total for /s/^/?<totalFor>?/
+g/^<tr/s/^/?<startRecord>?&/
+g/\/tr>$/s/^/?<endRecord>?&/
+g/^<td/s/^/?<startData>?&/
+g/\/td>$/s/^/?<endData>?&/
