@@ -4,9 +4,9 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $> cd /home/tseggaikn_gmail_com/dataProcessing
 $> rm -f ./dat/* ./tmp/*
-$> ./bin/s01-read_a_csv_file_and_generate_many_csv_files.sh \
-         Payroll_Report_4-1-2019_4-14-2019.xls \
-         &> ./log/Payroll_Report_4-1-2019_4-14-2019.xls.log
+$> ./bin/s01-read_a_xls_file_and_generate_many_csv_files.sh \
+             Payroll_Report_4-1-2019_4-14-2019.xls \
+             &> ./log/Payroll_Report_4-1-2019_4-14-2019.xls.log
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ## then review the csv files under dat dir.
 
