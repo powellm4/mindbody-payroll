@@ -65,3 +65,4 @@ dataProcessing/tmp/each.so
 venv/pyvenv.cfg
 venv/lib64
 instructorDances/
+output/

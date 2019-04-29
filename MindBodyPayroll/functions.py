@@ -36,6 +36,8 @@ def clean_up_dataframe(df, po_df):
     df = remove_quotes(df)
     df = include_pricing_options(df, po_df)
     df = format_client_name(df)
+    print(df.head())
+    df = sort_by_date_time(df)
     return df
 
 def drop_unnecessary_columns(df):
@@ -84,9 +86,13 @@ def format_client_name(df):
     return df
 
 
+def sort_by_date_time(df):
+    df.Class_Date = pd.to_datetime(df.Class_Date)
+    return df.sort_values(by=['Class_Date', 'Class_Time'])
+
 def write_instructor_to_csv(df, instructor):
     df['Instructors'] = instructor
-    if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
+    if os.path.isfile("%s%s.csv" % (public_classes_folder, instructor)):
         mode = "a"
         include_header = False
         print("Found %s CSV, appending new data" % instructor)
@@ -94,7 +100,7 @@ def write_instructor_to_csv(df, instructor):
         mode = "w"
         include_header = True
         print("Writing %s to new CSV..." % instructor)
-    df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header, index=False)
+    df.to_csv("%s%s.csv" % (public_classes_folder, instructor), mode=mode, header=include_header, index=False)
 
 
 # takes a dataFrame, isolates the instructor dances, and writes them to the master csv for instructor dances
@@ -135,3 +141,18 @@ def export_instructor_dances(po_df):
     for instructor in unique_instructors:
         udf = df[df.Client_Name == instructor]
         write_to_instructor_dance_csv(udf, instructor)
+
+
+def append_instructor_dances():
+    instructor_csv_list = [name for name in os.listdir(public_classes_folder)]
+    instructor_dance_list = [name for name in os.listdir(instructor_dance_folder)]
+    for file in instructor_csv_list:
+        if file in instructor_dance_list:
+            df2 = pd.read_csv('%s%s' % (instructor_dance_folder, file))
+            print("appending %s " % file)
+            df2.to_csv("%s%s" % (public_classes_folder, file), mode="a", index=False, header=False)
+
+    print("\nList of Instructor dances with no matching instructor CSV\n----------")
+    for file in instructor_dance_list:
+        if file not in instructor_csv_list:
+            print('Instructor Dance: %s not found as an Instructor for pay period' % file)
