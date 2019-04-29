@@ -40,6 +40,7 @@ def clean_up_dataframe(df, po_df):
     df = sort_by_date_time(df)
     return df
 
+
 def drop_unnecessary_columns(df):
     if "Unnamed:_5" in df.columns:
         df = df.drop(columns=["Unnamed:_5"])
@@ -89,6 +90,7 @@ def format_client_name(df):
 def sort_by_date_time(df):
     df.Class_Date = pd.to_datetime(df.Class_Date)
     return df.sort_values(by=['Class_Date', 'Class_Time'])
+
 
 def write_instructor_to_csv(df, instructor):
     df['Instructors'] = instructor
@@ -143,6 +145,7 @@ def export_instructor_dances(po_df):
         write_to_instructor_dance_csv(udf, instructor)
 
 
+# adds deduction rows to the files found in publicClasses folder
 def append_instructor_dances():
     instructor_csv_list = [name for name in os.listdir(public_classes_folder)]
     instructor_dance_list = [name for name in os.listdir(instructor_dance_folder)]
@@ -156,3 +159,11 @@ def append_instructor_dances():
     for file in instructor_dance_list:
         if file not in instructor_csv_list:
             print('Instructor Dance: %s not found as an Instructor for pay period' % file)
+
+
+# writes csv to totals folder containing total for instructor
+def output_instructor_totals():
+    for file in os.listdir(public_classes_folder):
+        df = pd.read_csv("%s%s" % (public_classes_folder, file))
+        df = df.append(df.sum(numeric_only=True), ignore_index=True)
+        df.to_csv("%s%s" % (totals_folder, file), mode="w", index=False)

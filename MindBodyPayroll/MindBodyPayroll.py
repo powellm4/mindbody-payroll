@@ -1,8 +1,3 @@
-#   To do:
-#
-#   add total and append it to csv bottom
-
-
 import pandas as pd
 from functions import *
 from constants import *
@@ -34,7 +29,7 @@ po_df = pd.read_csv(special_rates_path)
 po_df = format_column_headers(po_df)
 po_df = po_df.set_index('Pricing_Option')
 
-shortlist = [list_of_processed_files[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
+# shortlist = [list_of_processed_files[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
 
 # for each file in dataProcessing/dat/ folder
 print("\nWriting individual instructor CSVs\n----------")
@@ -49,11 +44,9 @@ for file in list_of_processed_files:
 
 print("\nExporting instructor dance deduction CSVs\n----------")
 export_instructor_dances(po_df)
+
 print("\nAppending instructor dance deduction CSVs\n----------")
 append_instructor_dances()
 
-for file in os.listdir(public_classes_folder):
-    df = pd.read_csv("%s%s" % (public_classes_folder, file))
-    df = df.append(df.sum(numeric_only=True), ignore_index=True)
-    df.to_csv("%s%s" % (totals_folder, file), mode="w", index=False)
+output_instructor_totals()
 
