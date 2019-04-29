@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+from constants import *
 
 
 # input: 'Instructors' cell from processed data
@@ -51,8 +52,11 @@ def drop_unnecessary_columns(df):
     return df
 
 
-def assign_instructor_rate(df, no_of_instructors):
-    return df.assign(Rate=1.0 / no_of_instructors)
+def assign_instructor_rate(df, no_of_instructors=None):
+    if no_of_instructors is not None:
+        return df.assign(Rate=1.0 / no_of_instructors)
+    else:
+        return df.assign(Rate=1.0)
 
 
 def format_column_headers(df):
@@ -63,9 +67,11 @@ def format_column_headers(df):
     return df
 
 
-def create_output_folder(output_folder):
-    if not os.path.exists(output_folder):
-        os.mkdir(output_folder)
+def create_folder(folder):
+    if not os.path.exists('../output/'):
+        os.mkdir('../output/')
+    if not os.path.exists(folder):
+        os.mkdir(folder)
 
 
 def assign_amount_due(df):
@@ -78,30 +84,28 @@ def format_client_name(df):
     return df
 
 
-def write_instructor_to_csv(df, instructors_list, output_folder):
-    for instructor in instructors_list:
-        df['Instructors'] = instructor
-        if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
-            mode = "a"
-            include_header = False
-            print("Found %s CSV, appending new data" % instructor)
-        else:
-            mode = "w"
-            include_header = True
-            print("Writing %s to new CSV..." % instructor)
-        df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header)
+def write_instructor_to_csv(df, instructor):
+    df['Instructors'] = instructor
+    if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
+        mode = "a"
+        include_header = False
+        print("Found %s CSV, appending new data" % instructor)
+    else:
+        mode = "w"
+        include_header = True
+        print("Writing %s to new CSV..." % instructor)
+    df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header, index=False)
 
 
 # takes a dataFrame, isolates the instructor dances, and writes them to the master csv for instructor dances
 def write_to_instructor_dance_csv(df, name):
-    instructor_dance_path = "../instructorDances/"
-    if os.path.isfile(instructor_dance_path+"/"+name):
+    if os.path.isfile(instructor_dance_folder+name):
         mode = "a"
         include_header = False
     else:
         mode = "w"
         include_header = True
-    df.to_csv("%s%s.csv" % (instructor_dance_path, name), mode=mode, header=include_header)
+    df.to_csv("%s%s.csv" % (instructor_dance_folder, name), mode=mode, header=include_header, index=False)
 
 
 # merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
@@ -119,13 +123,14 @@ def remove_quotes(df):
 #   all instructor classes to their own file
 # inputs: input_folder - contains full data csv
 #           pd_df - pricing lookup dataFrame
-def export_instructor_dances(input_folder, po_df):
-    file = "00-01-Class-All.csv"
+def export_instructor_dances(po_df):
+    file = all_classes_file
     df = pd.read_csv("%s%s" % (input_folder, file))
     df = clean_up_dataframe(df, po_df)
+    df = assign_instructor_rate(df)
+    df = assign_amount_due(df)
     df = df[df.Series_Used == "VMAC INSTRUCTOR DANCE"]
-    df.Revenue_per_class = df.Revenue_per_class.str.replace("$", "").astype(float)  # * -1
-    df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "").astype(float) * -1
+    df.Amount_Due_To_Instructor = df.Amount_Due_To_Instructor * -1
     unique_instructors = df.Client_Name.unique()
     for instructor in unique_instructors:
         udf = df[df.Client_Name == instructor]

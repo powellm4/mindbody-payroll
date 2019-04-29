@@ -1,15 +1,4 @@
 #   To do:
-#   read in raw file?
-#       look for VMAC INSTRUCTOR CLASS
-#       for each row, write to file
-#           solution: write all file names as reira
-#           pros: no lookup table required.. i.e. no maintenance by user.
-#           cons: possible null reference type errors? if 02- instructors are missing a last name
-#           solution:
-#   read in 00-01-Class-All.csv
-#   filter down to VMAC INSTRUCTOR CLASS entries
-#   group by student name
-#   write to csv in instructorClasses folder
 #
 #   at end of program, combine two csvs for each instructor
 #   add total and append it to csv bottom
@@ -17,6 +6,7 @@
 
 import pandas as pd
 from functions import *
+from constants import *
 
 print("\n------------------------------\n\n"
       "Beginning MindBody Payroll\n"
@@ -30,10 +20,7 @@ pd.set_option('display.max_columns', 10)
 pd.set_option('display.max_rows', 10)
 pd.set_option('display.width', 1500)
 
-input_folder = "../dataProcessing/dat/"
-output_folder = "../allInstructorsCSVs/"
-instructor_dance_folder = "../instructorDances/"
-special_rates_path = "../lookupTables/pricing-options.csv"
+
 
 
 # get list of files from processedData folder
@@ -41,8 +28,9 @@ print('Getting processed CSVs from dataProcessing/dat...')
 list_of_processed_files = [name for name in os.listdir(input_folder) if "01-" in name]
 
 # create folder for instructor exports
-create_output_folder(output_folder)
-create_output_folder(instructor_dance_folder)
+create_folder(output_folder)
+create_folder(instructor_dance_folder)
+create_folder(concatenated_csvs_folder)
 
 
 # dataFrame for pricing options lookup
@@ -53,15 +41,30 @@ po_df = po_df.set_index('Pricing_Option')
 shortlist = [list_of_processed_files[0]]#, list_of_processed_files[9], list_of_processed_files[10]]
 
 # for each file in dataProcessing/dat/ folder
-for file in shortlist:
+for file in list_of_processed_files:
     df = pd.read_csv("%s%s" % (input_folder, file))
     instructors_list = get_instructors_list(df)
     df = clean_up_dataframe(df, po_df)
     df = assign_instructor_rate(df, len(instructors_list))
     df = assign_amount_due(df)
-    #print(df.head())
-    write_instructor_to_csv(df, instructors_list, output_folder)
+    for instructor in instructors_list:
+        write_instructor_to_csv(df, instructor)
 
-export_instructor_dances(input_folder, po_df)
+export_instructor_dances(po_df)
+
+
+instructor_csv_list = [name for name in os.listdir(output_folder)]
+instructor_dance_list = [name for name in os.listdir(instructor_dance_folder)]
+for file in instructor_csv_list:
+    if file in instructor_dance_list:
+        print('found  ' + file)
+        df2 = pd.read_csv('%s%s' % (instructor_dance_folder, file))
+        print("appending %s " % file)
+        df2.to_csv("%s%s" % (output_folder, file), mode="a", index=False, header=False)
+
+print("\n\n")
+for file in instructor_dance_list:
+    if file not in instructor_csv_list:
+        print('Instructor Dance: %s not found as an Instructor for pay period' % file)
 
 print('Done')
