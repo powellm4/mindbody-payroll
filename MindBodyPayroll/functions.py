@@ -29,6 +29,14 @@ def get_instructors_list(df):
     return instructors
 
 
+def clean_up_dataframe(df, po_df):
+    df = format_column_headers(df)
+    df = drop_unnecessary_columns(df)
+    df = remove_quotes(df)
+    df = include_pricing_options(df, po_df)
+    df = format_client_name(df)
+    return df
+
 def drop_unnecessary_columns(df):
     if "Unnamed:_5" in df.columns:
         df = df.drop(columns=["Unnamed:_5"])
@@ -56,11 +64,8 @@ def format_column_headers(df):
 
 
 def create_output_folder(output_folder):
-    print('Creating folder All_Instructors_CSVs for program output...')
     if not os.path.exists(output_folder):
         os.mkdir(output_folder)
-    else:
-        print('Folder already exists. Continuing...\n')
 
 
 def assign_amount_due(df):
@@ -68,7 +73,12 @@ def assign_amount_due(df):
     return df.assign(Amount_Due_To_Instructor=df.Instructor_Pay.astype('float64') * df.Rate)
 
 
-def write_to_csv(df, instructors_list, output_folder):
+def format_client_name(df):
+    df.Client_Name = df.Client_Name.str.replace(" ", "")
+    return df
+
+
+def write_instructor_to_csv(df, instructors_list, output_folder):
     for instructor in instructors_list:
         df['Instructors'] = instructor
         if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
@@ -82,12 +92,41 @@ def write_to_csv(df, instructors_list, output_folder):
         df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header)
 
 
-#merges the dataframe with the pricing options dataframe to allow lookup of pricing options
+# takes a dataFrame, isolates the instructor dances, and writes them to the master csv for instructor dances
+def write_to_instructor_dance_csv(df, name):
+    instructor_dance_path = "../instructorDances/"
+    if os.path.isfile(instructor_dance_path+"/"+name):
+        mode = "a"
+        include_header = False
+    else:
+        mode = "w"
+        include_header = True
+    df.to_csv("%s%s.csv" % (instructor_dance_path, name), mode=mode, header=include_header)
+
+
+# merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
 def include_pricing_options(df, po_df):
     return pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how='left')
 
 
-#removes all quotes surround all data in dataframe
+# removes all quotes surround all data in dataFrame
 def remove_quotes(df):
     df = df.apply(lambda x: x.str.strip())
     return df.apply(lambda x: x.str.strip('"'))
+
+
+# takes the original dataFrame with all classes and writes
+#   all instructor classes to their own file
+# inputs: input_folder - contains full data csv
+#           pd_df - pricing lookup dataFrame
+def export_instructor_dances(input_folder, po_df):
+    file = "00-01-Class-All.csv"
+    df = pd.read_csv("%s%s" % (input_folder, file))
+    df = clean_up_dataframe(df, po_df)
+    df = df[df.Series_Used == "VMAC INSTRUCTOR DANCE"]
+    df.Revenue_per_class = df.Revenue_per_class.str.replace("$", "").astype(float)  # * -1
+    df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "").astype(float) * -1
+    unique_instructors = df.Client_Name.unique()
+    for instructor in unique_instructors:
+        udf = df[df.Client_Name == instructor]
+        write_to_instructor_dance_csv(udf, instructor)
