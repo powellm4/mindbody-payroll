@@ -18,18 +18,18 @@ pd.set_option('display.width', 1500)
 # get list of files from processedData folder
 list_of_processed_files = [name for name in os.listdir(input_folder) if "01-Class" in name]
 
-# create folder for instructor exports
+# create folders for outputs
 create_folder(public_classes_folder)
 create_folder(instructor_dance_folder)
 create_folder(totals_folder)
 
 
 # dataFrame for pricing options lookup
-po_df = pd.read_csv(special_rates_path)
+po_df = pd.read_csv(pricing_options_path)
 po_df = format_column_headers(po_df)
 po_df = po_df.set_index('Pricing_Option')
 
-# shortlist = [list_of_processed_files[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
+# test_list = [list_of_processed_files[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
 
 # for each file in dataProcessing/dat/ folder
 print("\nWriting individual instructor CSVs\n----------")
@@ -42,10 +42,10 @@ for file in list_of_processed_files:
     for instructor in instructors_list:
         write_instructor_to_csv(df, instructor)
 
-print("\nExporting instructor dance deduction CSVs\n----------")
+print("\n\nExporting instructor dance CSVs\n----------")
 export_instructor_dances(po_df)
 
-print("\nAppending instructor dance deduction CSVs\n----------")
+print("\n\nAppending instructor dances to instructor CSVs\n----------")
 append_instructor_dances()
 
 output_instructor_totals()
