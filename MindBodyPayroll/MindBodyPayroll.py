@@ -42,10 +42,10 @@ for file in list_of_processed_files:
     for instructor in instructors_list:
         write_instructor_to_csv(df, instructor)
 
-print("\nExporting instructor dance deduction CSVs\n----------")
+print("\n\nExporting instructor dance CSVs\n----------")
 export_instructor_dances(po_df)
 
-print("\nAppending instructor dance deduction CSVs\n----------")
+print("\n\nAppending instructor dances to instructor CSVs\n----------")
 append_instructor_dances()
 
 output_instructor_totals()

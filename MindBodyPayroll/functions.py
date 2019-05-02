@@ -131,13 +131,13 @@ def remove_quotes(df):
 # inputs: input_folder - contains full data csv
 #           pd_df - pricing lookup dataFrame
 def export_instructor_dances(po_df):
-    file = all_classes_file
+    file = all_classes_path
     df = pd.read_csv("%s%s" % (input_folder, file))
     df = clean_up_dataframe(df, po_df)
     df = assign_instructor_rate(df)
     df = assign_amount_due(df)
     df = df[df.Series_Used == "VMAC INSTRUCTOR DANCE"]
-    # df = filter_out_jamal_carolina_classes(df)
+    df = filter_out_jamal_carolina_classes(df)
     df.Amount_Due_To_Instructor = df.Amount_Due_To_Instructor * -1
     unique_instructors = df.Client_Name.unique()
     for instructor in unique_instructors:
@@ -161,7 +161,7 @@ def append_instructor_dances():
             print("appending %s " % file)
             iddf.to_csv("%s%s" % (public_classes_folder, file), mode="a", index=False, header=False)
 
-    print("\nList of Instructor dances with no matching instructor CSV\n----------")
+    print("\n\nList of Instructor dances with no matching instructor CSV\n----------")
     for file in instructor_dance_list:
         if file not in instructor_csv_list:
             print('Instructor Dance: %s not found as an Instructor for pay period' % file)
