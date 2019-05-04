@@ -3,6 +3,19 @@ import pandas as pd
 from constants import *
 
 
+def handle_classes(list_of_classes, po_df):
+    # for each (public/private) class file in dataProcessing/dat/ folder
+    for file in list_of_classes:
+        df = pd.read_csv("%s%s" % (dat_folder, file))
+        instructors_list = get_instructors_list(df)
+        df = clean_up_dataframe(df, po_df)
+        df = assign_instructor_rate(df, len(instructors_list))
+        df = assign_amount_due(df)
+        for instructor in instructors_list:
+            write_instructor_to_csv(df, instructor, public_classes_folder)
+            if "02-Private" in list_of_classes[0]:
+                write_instructor_to_csv(df, instructor, private_classes_folder)
+
 # input: 'Instructors' cell from processed data
 # output: Array of instructor(s), formatted as F.Last
 def get_instructors_list(df):
@@ -20,10 +33,10 @@ def get_instructors_list(df):
         instructors = [instructors_cell]
         for i in range(len(instructors)):
             # print(instructors[i])
-            temp = instructors[i].split()
+            temp = instructors[i].split(', ')
             first = temp[1]
             first = first[0]
-            last = temp[0].replace(",", "").strip()
+            last = temp[0].replace(",", "").replace(' ', '-').strip()
             full = first+"."+last
             instructors[i] = full
     # print(instructors)
@@ -66,7 +79,11 @@ def format_column_headers(df):
     df.columns = [c.replace(' ', '_') for c in df.columns]
     df.columns = [c.replace('.', '') for c in df.columns]
     df.columns = [c.replace('"', '') for c in df.columns]
+    df.columns = [c.replace('Appointment', 'Class') for c in df.columns]
+    df.columns = [c.replace('Appt', 'Class') for c in df.columns]
     return df
+
+
 
 
 def create_folder(folder):
@@ -91,7 +108,7 @@ def sort_by_date_time(df):
     return df.sort_values(by=['Class_Date', 'Class_Time'])
 
 
-def write_instructor_to_csv(df, instructor):
+def write_instructor_to_csv(df, instructor, output_folder):
     df['Instructors'] = instructor
     if os.path.isfile("%s%s.csv" % (public_classes_folder, instructor)):
         mode = "a"
@@ -101,7 +118,7 @@ def write_instructor_to_csv(df, instructor):
         mode = "w"
         include_header = True
         print("Writing %s to new CSV..." % instructor)
-    df.to_csv("%s%s.csv" % (public_classes_folder, instructor), mode=mode, header=include_header, index=False)
+    df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header, index=False)
 
 
 # takes a dataFrame, isolates the instructor dances, and writes them to the master csv for instructor dances
@@ -109,9 +126,11 @@ def write_to_instructor_dance_csv(df, name):
     if os.path.isfile(instructor_dance_folder+name):
         mode = "a"
         include_header = False
+        print("Found %s Instructor Dance CSV, appending new data" % name)
     else:
         mode = "w"
         include_header = True
+        print("Writing %s to new Instructor Dance CSV..." % name)
     df.to_csv("%s%s.csv" % (instructor_dance_folder, name), mode=mode, header=include_header, index=False)
 
 
@@ -128,11 +147,11 @@ def remove_quotes(df):
 
 # takes the original dataFrame with all classes and writes
 #   all instructor dances to their own file
-# inputs: input_folder - contains full data csv
+# inputs: dat_folder - contains full data csv
 #           pd_df - pricing lookup dataFrame
 def export_instructor_dances(po_df):
     file = all_classes_path
-    df = pd.read_csv("%s%s" % (input_folder, file))
+    df = pd.read_csv("%s%s" % (dat_folder, file))
     df = clean_up_dataframe(df, po_df)
     df = assign_instructor_rate(df)
     df = assign_amount_due(df)
@@ -162,12 +181,15 @@ def append_instructor_dances():
             iddf.to_csv("%s%s" % (public_classes_folder, file), mode="a", index=False, header=False)
 
     print("\n\nList of Instructor dances with no matching instructor CSV\n----------")
+    total_missing = 0
     for file in instructor_dance_list:
         if file not in instructor_csv_list:
+            total_missing = total_missing + 1
             print('Instructor Dance: %s not found as an Instructor for pay period' % file)
             # name = file.replace(".csv", "")
             # check_against_family_lookup(name)
-
+    if total_missing == 0:
+        print('(empty)')
 
 # given a name, check the family lookup table to see if
 # the person is associated with an instructor
@@ -183,4 +205,5 @@ def output_instructor_totals():
     for file in os.listdir(public_classes_folder):
         df = pd.read_csv("%s%s" % (public_classes_folder, file))
         df = df.append(df.sum(numeric_only=True), ignore_index=True)
+        print('Created pay stub for %s' % file.replace('.csv', ''))
         df.to_csv("%s%s" % (totals_folder, file), mode="w", index=False)

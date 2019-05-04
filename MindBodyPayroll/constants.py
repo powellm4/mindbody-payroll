@@ -1,5 +1,6 @@
-input_folder = "../dataProcessing/dat/"
+dat_folder = "../dataProcessing/dat/"
 public_classes_folder = "../output/publicClasses/"
+private_classes_folder = "../output/privateClasses/"
 instructor_dance_folder = "../output/instructorDances/"
 pricing_options_path = "../lookupTables/pricing-options.csv"
 all_classes_path = "00-01-Class-All.csv"
