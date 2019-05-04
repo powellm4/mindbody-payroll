@@ -3,7 +3,7 @@ from functions import *
 from constants import *
 
 print("\n------------------------------\n\n"
-      "MindBody Payroll\n"
+      "\t   MindBody Payroll\n"
       "\n------------------------------\n\n")
 
 # display floats as currency
@@ -16,10 +16,12 @@ pd.set_option('display.width', 1500)
 
 
 # get list of files from processedData folder
-list_of_processed_files = [name for name in os.listdir(input_folder) if "01-Class" in name]
+list_of_public_classes = [name for name in os.listdir(dat_folder) if "01-Class" in name]
+list_of_privates = [name for name in os.listdir(dat_folder) if "02-Private" in name]
 
 # create folders for outputs
 create_folder(public_classes_folder)
+create_folder(private_classes_folder)
 create_folder(instructor_dance_folder)
 create_folder(totals_folder)
 
@@ -31,22 +33,29 @@ po_df = po_df.set_index('Pricing_Option')
 
 # test_list = [list_of_processed_files[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
 
-# for each file in dataProcessing/dat/ folder
-print("\nWriting individual instructor CSVs\n----------")
-for file in list_of_processed_files:
-    df = pd.read_csv("%s%s" % (input_folder, file))
-    instructors_list = get_instructors_list(df)
-    df = clean_up_dataframe(df, po_df)
-    df = assign_instructor_rate(df, len(instructors_list))
-    df = assign_amount_due(df)
-    for instructor in instructors_list:
-        write_instructor_to_csv(df, instructor)
 
-print("\n\nExporting instructor dance CSVs\n----------")
+
+
+#
+#############################################################
+#                                                           #
+#                          MAIN                             #
+#                                                           #
+#############################################################
+#
+
+print("\nWriting public classes to  CSV\n----------")
+handle_classes(list_of_public_classes, po_df)
+
+print("\nWriting private classes to  CSV\n----------")
+handle_classes(list_of_privates, po_df)
+
+print("\n\nWriting instructor dances to CSV\n----------")
 export_instructor_dances(po_df)
 
 print("\n\nAppending instructor dances to instructor CSVs\n----------")
 append_instructor_dances()
 
+print("\n\nWriting pay stubs with totals\n----------")
 output_instructor_totals()
 
