@@ -271,3 +271,37 @@ def output_instructor_totals(cn_df):
 def clean_up_workspace():
     if os.path.isdir(output_folder_path):
         shutil.rmtree(output_folder_path)
+
+
+# reads in pricing lookup table &
+# prepares it for processing and merging
+def get_pricing_option_lookup_df():
+    po_df = pd.read_csv(pricing_options_path)
+    po_df = format_column_headers(po_df)
+    po_df = po_df.set_index('Pricing_Option')
+    return po_df
+
+
+# reads in class name lookup table &
+# prepares it for processing and merging
+def get_class_name_lookup_df():
+    cn_df = pd.read_csv(class_name_lookup_path)
+    cn_df = clean_up_class_name_dataframe(cn_df)
+    return cn_df
+
+
+# creates folders for outputs
+def create_all_folders():
+    create_folder(public_classes_folder_path)
+    create_folder(private_classes_folder_path)
+    create_folder(instructor_dance_folder_path)
+    create_folder(totals_folder_path)
+
+
+# gets list of file names from the dat folder
+def get_list_of_classes(public=False, private=False):
+    if public:
+        prefix = "01-Class"
+    if private:
+        prefix = "02-Private"
+    return [name for name in os.listdir(dat_folder_path) if prefix in name]
