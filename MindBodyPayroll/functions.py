@@ -1,4 +1,5 @@
 import os
+import shutil
 import pandas as pd
 from constants import *
 
@@ -6,15 +7,16 @@ from constants import *
 def handle_classes(list_of_classes, po_df):
     # for each (public/private) class file in dataProcessing/dat/ folder
     for file in list_of_classes:
-        df = pd.read_csv("%s%s" % (dat_folder, file))
+        df = pd.read_csv("%s%s" % (dat_folder_path, file))
         instructors_list = get_instructors_list(df)
         df = clean_up_dataframe(df, po_df)
         df = assign_instructor_rate(df, len(instructors_list))
         df = assign_amount_due(df)
         for instructor in instructors_list:
-            write_instructor_to_csv(df, instructor, public_classes_folder)
+            write_instructor_to_csv(df, instructor, public_classes_folder_path)
             if "02-Private" in list_of_classes[0]:
-                write_instructor_to_csv(df, instructor, private_classes_folder)
+                write_instructor_to_csv(df, instructor, private_classes_folder_path, provide_feedback=False)
+
 
 # input: 'Instructors' cell from processed data
 # output: Array of instructor(s), formatted as F.Last
@@ -84,8 +86,6 @@ def format_column_headers(df):
     return df
 
 
-
-
 def create_folder(folder):
     if not os.path.exists('../output/'):
         os.mkdir('../output/')
@@ -108,22 +108,24 @@ def sort_by_date_time(df):
     return df.sort_values(by=['Class_Date', 'Class_Time'])
 
 
-def write_instructor_to_csv(df, instructor, output_folder):
+def write_instructor_to_csv(df, instructor, output_folder, provide_feedback=True):
     df['Instructors'] = instructor
-    if os.path.isfile("%s%s.csv" % (public_classes_folder, instructor)):
+    if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
         mode = "a"
         include_header = False
-        print("Found %s CSV, appending new data" % instructor)
+        if provide_feedback:
+            print("Found %s CSV, appending new data" % instructor)
     else:
         mode = "w"
         include_header = True
-        print("Writing %s to new CSV..." % instructor)
+        if provide_feedback:
+            print("Writing %s to new CSV..." % instructor)
     df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header, index=False)
 
 
 # takes a dataFrame, isolates the instructor dances, and writes them to the master csv for instructor dances
 def write_to_instructor_dance_csv(df, name):
-    if os.path.isfile(instructor_dance_folder+name):
+    if os.path.isfile(instructor_dance_folder_path+name):
         mode = "a"
         include_header = False
         print("Found %s Instructor Dance CSV, appending new data" % name)
@@ -131,7 +133,7 @@ def write_to_instructor_dance_csv(df, name):
         mode = "w"
         include_header = True
         print("Writing %s to new Instructor Dance CSV..." % name)
-    df.to_csv("%s%s.csv" % (instructor_dance_folder, name), mode=mode, header=include_header, index=False)
+    df.to_csv("%s%s.csv" % (instructor_dance_folder_path, name), mode=mode, header=include_header, index=False)
 
 
 # merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
@@ -151,7 +153,7 @@ def remove_quotes(df):
 #           pd_df - pricing lookup dataFrame
 def export_instructor_dances(po_df):
     file = all_classes_path
-    df = pd.read_csv("%s%s" % (dat_folder, file))
+    df = pd.read_csv("%s%s" % (dat_folder_path, file))
     df = clean_up_dataframe(df, po_df)
     df = assign_instructor_rate(df)
     df = assign_amount_due(df)
@@ -172,13 +174,13 @@ def filter_out_jamal_carolina_classes(df):
 
 # adds deduction rows to the files found in publicClasses folder
 def append_instructor_dances():
-    instructor_csv_list = [name for name in os.listdir(public_classes_folder)]
-    instructor_dance_list = [name for name in os.listdir(instructor_dance_folder)]
+    instructor_csv_list = [name for name in os.listdir(public_classes_folder_path)]
+    instructor_dance_list = [name for name in os.listdir(instructor_dance_folder_path)]
     for file in instructor_csv_list:
         if file in instructor_dance_list:
-            iddf = pd.read_csv('%s%s' % (instructor_dance_folder, file))
+            iddf = pd.read_csv('%s%s' % (instructor_dance_folder_path, file))
             print("appending %s " % file)
-            iddf.to_csv("%s%s" % (public_classes_folder, file), mode="a", index=False, header=False)
+            iddf.to_csv("%s%s" % (public_classes_folder_path, file), mode="a", index=False, header=False)
 
     print("\n\nList of Instructor dances with no matching instructor CSV\n----------")
     total_missing = 0
@@ -191,6 +193,7 @@ def append_instructor_dances():
     if total_missing == 0:
         print('(empty)')
 
+
 # given a name, check the family lookup table to see if
 # the person is associated with an instructor
 def check_against_family_lookup(name):
@@ -202,8 +205,14 @@ def check_against_family_lookup(name):
 
 # writes csv to totals folder containing total for instructor
 def output_instructor_totals():
-    for file in os.listdir(public_classes_folder):
-        df = pd.read_csv("%s%s" % (public_classes_folder, file))
+    for file in os.listdir(public_classes_folder_path):
+        df = pd.read_csv("%s%s" % (public_classes_folder_path, file))
         df = df.append(df.sum(numeric_only=True), ignore_index=True)
         print('Created pay stub for %s' % file.replace('.csv', ''))
-        df.to_csv("%s%s" % (totals_folder, file), mode="w", index=False)
+        df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
+
+
+# removes any data generated by previous runs
+def clean_up_workspace():
+    if os.path.isdir(output_folder_path):
+        shutil.rmtree(output_folder_path)
