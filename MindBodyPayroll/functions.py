@@ -4,6 +4,18 @@ import pandas as pd
 from constants import *
 
 
+# display floats as currency
+pd.options.display.float_format = '{:,.2f}'.format
+
+
+# display all columns for debugging
+pd.set_option('display.max_columns', 10)
+pd.set_option('display.max_rows', 10)
+pd.set_option('display.width', 1500)
+
+
+# the main function for processing a list of classes
+# makes calls to helper functions and outputs a csv for each instructor
 def handle_classes(list_of_classes, po_df):
     # for each (public/private) class file in dataProcessing/dat/ folder
     for file in list_of_classes:
@@ -45,6 +57,8 @@ def get_instructors_list(df):
     return instructors
 
 
+# takes care of merging in the pricing options and
+# making the dataframe easier to process
 def clean_up_dataframe(df, po_df):
     df = format_column_headers(df)
     df = drop_unnecessary_columns(df)
@@ -69,6 +83,7 @@ def drop_unnecessary_columns(df):
     return df
 
 
+# adds the instructor rate column to a dataframe
 def assign_instructor_rate(df, no_of_instructors=None):
     if no_of_instructors is not None:
         return df.assign(Rate=1.0 / no_of_instructors)
@@ -86,6 +101,24 @@ def format_column_headers(df):
     return df
 
 
+# given a name in First Last format,
+# return name in F.Last format
+def format_name(name):
+    if ' ' in name:
+        arr = name.split(' ')
+        first = arr[0][0]
+        last = ''
+        for i in range(1, len(arr)):
+            if i == 1:
+                last = last + arr[i]
+            else:
+                last = last + '-' + arr[i]
+        return first+'.'+last
+    else:
+        return name
+
+
+# creates the [folder] inside the /output/ folder
 def create_folder(folder):
     if not os.path.exists('../output/'):
         os.mkdir('../output/')
@@ -93,23 +126,33 @@ def create_folder(folder):
         os.mkdir(folder)
 
 
+# creates the Amount Due To Instructor column
+# with correct amount
 def assign_amount_due(df):
     df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "")
     return df.assign(Amount_Due_To_Instructor=df.Instructor_Pay.astype('float64') * df.Rate)
 
 
+# takes a client name in F Last format
+# returns name in F.Last format
 def format_client_name(df):
     df.Client_Name = df.Client_Name.str.replace(" ", "")
     return df
 
 
+# sorts a dataframe by class date, class time
 def sort_by_date_time(df):
     df.Class_Date = pd.to_datetime(df.Class_Date)
     return df.sort_values(by=['Class_Date', 'Class_Time'])
 
 
-def write_instructor_to_csv(df, instructor, output_folder, provide_feedback=True):
-    df['Instructors'] = instructor
+# decides whether an instructors csv already exists,
+# writing to a new csv if not
+# appending to existing csv if so
+# provide_feedback allows you to turn off print statements
+def write_instructor_to_csv(df, instructor, output_folder, provide_feedback=True, instructor_dance=False):
+    if not instructor_dance:
+        df['Instructors'] = instructor
     if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
         mode = "a"
         include_header = False
@@ -123,22 +166,33 @@ def write_instructor_to_csv(df, instructor, output_folder, provide_feedback=True
     df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header, index=False)
 
 
-# takes a dataFrame, isolates the instructor dances, and writes them to the master csv for instructor dances
-def write_to_instructor_dance_csv(df, name):
-    if os.path.isfile(instructor_dance_folder_path+name):
-        mode = "a"
-        include_header = False
-        print("Found %s Instructor Dance CSV, appending new data" % name)
-    else:
-        mode = "w"
-        include_header = True
-        print("Writing %s to new Instructor Dance CSV..." % name)
-    df.to_csv("%s%s.csv" % (instructor_dance_folder_path, name), mode=mode, header=include_header, index=False)
+# prepares the class name lookup dataframe for
+# merging into main df
+def clean_up_class_name_dataframe(cn_df):
+    cn_df = format_column_headers(cn_df)
+    cn_df.Day = cn_df.Day.map(dict(Mondays=0, Tuesdays=1, Wednesdays=2, Thursdays=3, Fridays=4, Saturdays=5, Sundays=6))
+    cn_df.Name = cn_df.Name.apply(format_name)
+    cn_df.Time = cn_df.Time.str.replace("PM", "pm")
+    cn_df.Time = cn_df.Time.str.replace("AM", "am")
+    return cn_df
 
 
 # merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
 def include_pricing_options(df, po_df):
     return pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how='left')
+
+
+# merges the class name lookup dataframe with the main dataframe,
+# adds; the class column
+def include_class_names(df, cn_df):
+    df['Day'] = pd.to_datetime(df.Class_Date).dt.dayofweek
+    merged_df = pd.merge(df, cn_df, left_on=['Day', 'Instructors', 'Class_Time'],
+                   right_on=['Day', 'Name', 'Time'], how='left')
+    merged_df = merged_df.drop(columns=['Day', 'Name', 'Time'])
+    merged_df = merged_df[['Instructors', 'Class', 'Class_Date', 'Class_Time',
+                           'Client_Name', 'Series_Used', 'Revenue_per_class',
+                           'Instructor_Pay', 'Rate', 'Amount_Due_To_Instructor']]
+    return merged_df
 
 
 # removes all quotes surround all data in dataFrame
@@ -163,7 +217,7 @@ def export_instructor_dances(po_df):
     unique_instructors = df.Client_Name.unique()
     for instructor in unique_instructors:
         udf = df[df.Client_Name == instructor]
-        write_to_instructor_dance_csv(udf, instructor)
+        write_instructor_to_csv(udf, instructor, instructor_dance_folder_path, instructor_dance=True)
 
 
 # instructors get free classes if the class is taught by carolina and jamal
@@ -204,10 +258,11 @@ def check_against_family_lookup(name):
 
 
 # writes csv to totals folder containing total for instructor
-def output_instructor_totals():
+def output_instructor_totals(cn_df):
     for file in os.listdir(public_classes_folder_path):
         df = pd.read_csv("%s%s" % (public_classes_folder_path, file))
         df = df.append(df.sum(numeric_only=True), ignore_index=True)
+        df = include_class_names(df, cn_df)
         print('Created pay stub for %s' % file.replace('.csv', ''))
         df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
 
