@@ -1,3 +1,6 @@
+" vimScript: ./bin/04cleaning.so
+" ...clean unnecessary lines:
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v/^?<.*>?/d
 g/Grand total$/-1;/^?<endRecord>?/s/^/?<del>?&/
 g/^?<del>?/d

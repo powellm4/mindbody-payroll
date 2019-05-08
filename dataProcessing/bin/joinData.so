@@ -1,6 +1,0 @@
-g/^?<data>?/s/$/",/
-g/^?<endRecord>?/-1s/",/"/
-g/^?<data>?/s//"/
-g/^?<startRecord>?/+1;/^?<endRecord>?/-1j
-g/^?<startRecord>?/d
-g/?<endRecord>?/d
