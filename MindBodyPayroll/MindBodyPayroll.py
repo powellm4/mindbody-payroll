@@ -15,8 +15,6 @@ clean_up_workspace()
 create_all_folders()
 
 
-
-
 # test_list = [list_of_public_classes[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
 
 

@@ -305,3 +305,19 @@ def get_list_of_classes(public=False, private=False):
     if private:
         prefix = "02-Private"
     return [name for name in os.listdir(dat_folder_path) if prefix in name]
+
+
+# opens file in totals folder, adds adjustment, recalculates total and rewrites file
+# input - description - is added under the Series_Used column
+def make_adjustment(instructor, description, amount):
+    df = pd.read_csv("%s%s.csv" % (totals_folder_path, instructor))
+    print(df.tail())
+    df.drop(df.tail(1).index, inplace=True)
+    df = df.append({'Amount_Due_To_Instructor': amount, 'Series_Used': description}, ignore_index=True)
+    print(df.tail())
+    df = df.append(df.sum(numeric_only=True), ignore_index=True)
+    print(df.tail())
+    print('----------------------------------------------------')
+    if os.path.exists('%s%s.csv' % (totals_folder_path, instructor)):
+        os.remove('%s%s.csv' % (totals_folder_path, instructor))
+    df.to_csv("%s%s.csv" % (totals_folder_path, instructor), mode="w", index=False)

@@ -73,3 +73,5 @@ output/
 .idea/misc.xml
 .idea/codeStyles/codeStyleConfig.xml
 .idea/encodings.xml
+lookupTables/.DS_Store
+.idea/MindBodyPayroll.iml
