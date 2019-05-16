@@ -1,4 +1,6 @@
 dat_folder_path = "../dataProcessing/dat/"
+tmp_folder_path = "../dataProcessing/tmp/"
+log_folder_path = "../dataProcessing/log/"
 public_classes_folder_path = "../output/publicClasses/"
 private_classes_folder_path = "../output/privateClasses/"
 instructor_dance_folder_path = "../output/instructorDances/"

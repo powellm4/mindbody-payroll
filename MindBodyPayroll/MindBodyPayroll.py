@@ -1,15 +1,14 @@
 from functions import *
-from constants import *
+
 
 print("\n------------------------------\n\n"
       "\t   MindBody Payroll\n"
       "\n------------------------------\n\n")
 
-# get list of files from dat folder
-list_of_public_classes = get_list_of_classes(public=True)
-list_of_private_classes = get_list_of_classes(private=True)
 
 # remove any output data from previous runs
+clean_up_dataProcessing_folder()
+
 clean_up_workspace()
 
 create_all_folders()
@@ -26,11 +25,20 @@ create_all_folders()
 #############################################################
 #
 
+# run dataProcessing shell scripts
+file_name = './raw/00All.xls'
+run_data_processing_shell_scripts(file_name)
+
+# get list of files from dat folder
+list_of_public_classes = get_list_of_classes(public=True)
+list_of_private_classes = get_list_of_classes(private=True)
+
 # dataFrame for pricing options lookup
 po_df = get_pricing_option_lookup_df()
 
 # dataFrame for class name lookup
 cn_df = get_class_name_lookup_df()
+
 
 print("\nWriting public classes to  CSV\n----------")
 handle_classes(list_of_public_classes, po_df)
