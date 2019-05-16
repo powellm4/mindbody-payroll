@@ -1,6 +1,6 @@
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:39 EDT 2019
+Date: Wed May 15 23:28:39 PDT 2019
 source ./bin/s00-read_file_and_generate_many_csv_files.sh ./raw/00All.xls
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -24,7 +24,7 @@ source ...
 
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:39 EDT 2019
+Date: Wed May 15 23:28:39 PDT 2019
 source ./bin/s01-initial_process.sh ./tmp/01All.txt
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,7 +57,7 @@ cat  ./tmp/02All.txt | sed 's/\xC3\xB1/n/g' \
 
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:39 EDT 2019
+Date: Wed May 15 23:28:39 PDT 2019
 source ./bin/s02-flag_the_significant_lines.sh ./tmp/03All.txt
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,7 +88,7 @@ EOS
 
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:40 EDT 2019
+Date: Wed May 15 23:28:41 PDT 2019
 source ./bin/ s03-insert_instructor_names.sh ./tmp/04flagSignificantLines.txt
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -123,7 +123,7 @@ EOS
 
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:41 EDT 2019
+Date: Wed May 15 23:28:41 PDT 2019
 source ./bin/s04-Create_csv_file_for_Regular_Classes.sh ./tmp/06insertedNames.txt
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -152,7 +152,7 @@ EOS
 
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:42 EDT 2019
+Date: Wed May 15 23:28:41 PDT 2019
 source ./bin/s05-Create_csv_file_for_Private_Lessons.sh ./tmp/06insertedNames.txt
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -181,7 +181,7 @@ EOS
 
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:43 EDT 2019
+Date: Wed May 15 23:28:41 PDT 2019
 source ./bin/s06-generate_csv_files_for_Regular_Classes.sh ./tmp/07ClassAll.txt
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -230,7 +230,7 @@ EOS
 
 
 #--------------------------------------------------
-Date: Mon May  6 03:27:52 EDT 2019
+Date: Wed May 15 23:28:41 PDT 2019
 source ./bin/s07-generate_csv_files_for_Private_Lessons.sh ./tmp/08PrivateAll.txt
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
