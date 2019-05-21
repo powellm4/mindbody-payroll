@@ -1,12 +1,0 @@
-" vimScript: ./bin/01cleaning.so
-" ...clean the unnecessary contents:
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-g//s///     "Remove Line Feeds (LFs)
-g/^ */s///    "Remove leading  blank characters
-g/ *$/s///    "Remove trailing blank characters
-g/^$/d        "Renove blank lines
-g/<./s//\r&/g "Insert CR before any < character
-g/.>/s//&\r/g "Insert CR after  any > character
-g/^ */s///    "Remove leading  blank characters
-g/ *$/s///    "Remove leading  blank characters
-g/^$/d        "Remove trailing blank characters

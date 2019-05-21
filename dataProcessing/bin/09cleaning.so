@@ -1,5 +1,0 @@
-g/^?<stafName>?/d
-g/^?<totalFor>?/d
-2;$g/^"Instructors",/d
-g/?<and>?/s//\&/g
-g/&nbsp;/s// /g

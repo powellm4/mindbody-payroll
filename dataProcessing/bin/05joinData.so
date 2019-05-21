@@ -1,9 +1,0 @@
-" vimScript: ./bin/05joinData.so
-" ...join the data elements as a single line:
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-g/^?<data>?/s/$/",/
-g/^?<endRecord>?/-1s/",/"/
-g/^?<data>?/s//"/
-g/^?<startRecord>?/+1;/^?<endRecord>?/-1j
-g/^?<startRecord>?/d
-g/?<endRecord>?/d
