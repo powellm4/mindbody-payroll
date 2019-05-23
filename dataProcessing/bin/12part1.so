@@ -1,3 +1,0 @@
-v/^?<stafName>?/d
-g/^?<stafName>?/s//\/^&/
-g/?<stafName>?/s/$/\/+1;\/^?<totalFor>?\/-1w! /

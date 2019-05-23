@@ -1,4 +1,4 @@
-﻿# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 
@@ -58,20 +58,26 @@ settings.json
 __pycache__
 
 #generated output
-allInstructorsCSVs/
-.idea/workspace.xml
-dataProcessing/tmp/all.so
-dataProcessing/tmp/each.so
-venv/pyvenv.cfg
-venv/lib64
-instructorDances/
-output/
-.idea/misc.xml
-.idea/MindBodyPayroll.iml
-.idea/MindBodyPayroll.iml
-.idea/misc.xml
-.idea/misc.xml
-.idea/codeStyles/codeStyleConfig.xml
-.idea/encodings.xml
-lookupTables/.DS_Store
-.idea/MindBodyPayroll.iml
+backend/allInstructorsCSVs/
+backend/.idea/workspace.xml
+backend/dataProcessing/tmp/all.so
+backend/dataProcessing/tmp/each.so
+backend/dataProcessing/dat/*
+backend/dataProcessing/tmp/*
+backend/venv/pyvenv.cfg
+backend/venv/lib64
+backend/instructorDances/
+backend/output/
+backend/.idea/misc.xml
+backend/.idea/MindBodyPayroll.iml
+backend/.idea/MindBodyPayroll.iml
+backend/.idea/misc.xml
+backend/.idea/misc.xml
+backend/.idea/codeStyles/codeStyleConfig.xml
+backend/.idea/encodings.xml
+backend/lookupTables/.DS_Store
+backend/.idea/MindBodyPayroll.iml
+backend/.DS_Store
+*.iml
+*.xml
+backend/dataProcessing/.DS_Store
