@@ -1,6 +1,7 @@
 import os
 import shutil
 import pandas as pd
+import numpy as np
 import subprocess
 from constants import *
 from PyQt5.QtWidgets import *
@@ -11,7 +12,7 @@ def test():
     print('test')
 
 # display floats as currency
-pd.options.display.float_format = '{:,.2f}'.format
+#pd.options.display.float_format = '{:,.2f}'.format
 
 
 # display all columns for debugging
@@ -28,6 +29,9 @@ def handle_classes(list_of_classes, po_df):
         df = pd.read_csv("%s%s" % (dat_folder_path, file))
         instructors_list = get_instructors_list(df)
         df = clean_up_dataframe(df, po_df)
+        if df is None:
+            # comped private, skip over
+            continue
         df = assign_instructor_rate(df, len(instructors_list))
         df = assign_amount_due(df)
         for instructor in instructors_list:
@@ -67,6 +71,8 @@ def get_instructors_list(df):
 # making the dataframe easier to process
 def clean_up_dataframe(df, po_df):
     df = format_column_headers(df)
+    if is_comped_private(df):
+        return None
     df = drop_unnecessary_columns(df)
     df = remove_quotes(df)
     df = include_pricing_options(df, po_df)
@@ -74,6 +80,15 @@ def clean_up_dataframe(df, po_df):
     df = sort_by_date_time(df)
     return df
 
+
+def is_comped_private(df):
+    return '#_Clients' in df.columns
+
+
+# fix for private classes coming in 2 separate formats
+def correct_private_class_file(df):
+    # df['Series_Used'] =
+    return None
 
 def drop_unnecessary_columns(df):
     if "Unnamed:_5" in df.columns:
@@ -136,7 +151,17 @@ def create_folder(folder):
 # with correct amount
 def assign_amount_due(df):
     df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "")
-    return df.assign(Amount_Due_To_Instructor=df.Instructor_Pay.astype('float64') * df.Rate)
+    df = df.assign(Amount_Due_To_Instructor=(df.Instructor_Pay.astype(float) * df.Rate).round(3))
+
+    # import decimal
+    # # >> > context = decimal.getcontext()
+    # # >> > context.rounding = decimal.ROUND_HALF_UP
+    # >> > round(decimal.Decimal('2.5'), 0)
+    # Decimal('3')
+
+   # df.Amount_Due_To_Instructor = np.round(df.Amount_Due_To_Instructor, 2)
+    #print(df.Amount_Due_To_Instructor)
+    return df
 
 
 # takes a client name in F Last format
@@ -185,6 +210,7 @@ def clean_up_class_name_dataframe(cn_df):
 
 # merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
 def include_pricing_options(df, po_df):
+    # if "#_Clients" in df.columns:
     return pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how='left')
 
 
