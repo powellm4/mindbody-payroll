@@ -1,0 +1,12 @@
+v/^?<stafName>?/d
+g/^?<stafName>?/s///
+g/ *& */s// and /g
+g/ *$/s///
+g/, */s//-/g
+g/  */s//-/g
+g/^./s/$/.csv/
+%!nl
+g/\t/s/^ *//
+g/^.\t/s/^/0/
+g/^..\t/s/^/0/
+g/\t/s//-/g
