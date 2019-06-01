@@ -6,7 +6,6 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-bin/
 build/
 develop-eggs/
 dist/
@@ -60,24 +59,7 @@ __pycache__
 #generated output
 backend/allInstructorsCSVs/
 backend/.idea/workspace.xml
-backend/dataProcessing/tmp/all.so
-backend/dataProcessing/tmp/each.so
-backend/dataProcessing/dat/*
-backend/dataProcessing/tmp/*
 backend/venv/pyvenv.cfg
 backend/venv/lib64
 backend/instructorDances/
 backend/output/
-backend/.idea/misc.xml
-backend/.idea/MindBodyPayroll.iml
-backend/.idea/MindBodyPayroll.iml
-backend/.idea/misc.xml
-backend/.idea/misc.xml
-backend/.idea/codeStyles/codeStyleConfig.xml
-backend/.idea/encodings.xml
-backend/lookupTables/.DS_Store
-backend/.idea/MindBodyPayroll.iml
-backend/.DS_Store
-*.iml
-*.xml
-backend/dataProcessing/.DS_Store

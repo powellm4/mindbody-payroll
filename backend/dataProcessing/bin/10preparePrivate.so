@@ -1,0 +1,10 @@
+" vimScript:  ./bin/10preparePrivate.so
+" ...prepare to create a csv file for Private Lessons:
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g/^?<startPrivate>?/;/?<totalFor>?/s/^/?<m>?/
+g/^?<stafName>?/s/^/?<m>?/
+v/^?<m>?/d
+g/^?<m>??<startPrivate>?/-1s/^?<m>?//
+g/^?<m>??<startPrivate>?/;/^?<m>??<totalFor>?/s/^?<m>?//
+g/^?<m>?/d
+g/^?<startPrivate>?/d
