@@ -6,3 +6,4 @@ class AppendForm(Form):
     description = StringField('Description')
     id = HiddenField()
     instructor = HiddenField()
+    total = HiddenField()
