@@ -1,6 +1,10 @@
-<doctype html>
-    <title>Python Flask File Upload Example</title>
-    <h2>Select file(s) to upload</h2>
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Upload{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
     <p>
         {% with messages = get_flashed_messages() %}
           {% if messages %}
@@ -26,3 +30,4 @@
     <p>
         <a href="/download">Download a file</a>
     </p>
+{% endblock %}

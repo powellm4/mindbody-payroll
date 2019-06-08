@@ -1,8 +1,11 @@
 <!doctype html>
 <title>{% block title %}{% endblock %} - VMAC Payroll</title>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">VMAC</a>
+    <a class="navbar-brand" href="{{ url_for('upload_form')}}">VMAC</a>
     <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('upload_form')}}">Upload <span class="sr-only">(current)</span></a>
+      </li>
       <li class="nav-item active">
         <a class="nav-link" href="{{ url_for('index')}}">Paystubs <span class="sr-only">(current)</span></a>
       </li>
