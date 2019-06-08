@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import subprocess
 from constants import *
-from PyQt5.QtWidgets import *
+# from PyQt5.QtWidgets import *
 
 
 # test function
@@ -373,14 +373,14 @@ def run_data_processing_shell_scripts(file_name):
     subprocess.run(['pwd'])
 
 
-def gui_testing():
-    # GUI
-    app = QApplication([])
-    window = QWidget()
-    layout = QVBoxLayout()
-    button = QPushButton('Run MindBody')
-    button.clicked.connect(test)
-    layout.addWidget(button)
-    window.setLayout(layout)
-    window.show()
-    app.exec_()
+# def gui_testing():
+#     # GUI
+#     app = QApplication([])
+#     window = QWidget()
+#     layout = QVBoxLayout()
+#     button = QPushButton('Run MindBody')
+#     button.clicked.connect(test)
+#     layout.addWidget(button)
+#     window.setLayout(layout)
+#     window.show()
+#     app.exec_()
