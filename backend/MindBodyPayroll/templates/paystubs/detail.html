@@ -1,7 +1,14 @@
 {% extends 'base.html' %}
 
 {% block header %}
-  <h1>{% block title %}Details{% endblock %}</h1>
+<div class="row">
+    <div class="col">
+        <h1>{% block title %}{{form.instructor.data}}{% endblock %}</h1>
+    </div>
+    <div class="col text-right">
+        <h1 class="align-right">Total: {{form.total.data}}</h1>
+    </div>
+</div>
 {% endblock %}
 
 {% block content %}
@@ -26,10 +33,10 @@
         </div>
     </div>
 </div>
-<div class="card">
-    <div class="card-body">
+
+
         {{paystub|safe}}
-    </div>
-</div>
+
+
 
 {% endblock %}

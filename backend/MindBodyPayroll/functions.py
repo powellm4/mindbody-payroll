@@ -152,15 +152,6 @@ def create_folder(folder):
 def assign_amount_due(df):
     df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "")
     df = df.assign(Amount_Due_To_Instructor=(df.Instructor_Pay.astype(float) * df.Rate).round(3))
-
-    # import decimal
-    # # >> > context = decimal.getcontext()
-    # # >> > context.rounding = decimal.ROUND_HALF_UP
-    # >> > round(decimal.Decimal('2.5'), 0)
-    # Decimal('3')
-
-   # df.Amount_Due_To_Instructor = np.round(df.Amount_Due_To_Instructor, 2)
-    #print(df.Amount_Due_To_Instructor)
     return df
 
 
@@ -294,6 +285,7 @@ def output_instructor_totals(cn_df):
     for file in os.listdir(public_classes_folder_path):
         df = pd.read_csv("%s%s" % (public_classes_folder_path, file))
         df = df.append(df.sum(numeric_only=True), ignore_index=True)
+        df.iloc[-1][0] = 'Total'
         df = include_class_names(df, cn_df)
         print('Created pay stub for %s' % file.replace('.csv', ''))
         df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
@@ -354,13 +346,10 @@ def get_list_of_classes(public=False, private=False):
 # input - description - is added under the Series_Used column
 def make_adjustment(instructor, description, amount):
     df = pd.read_csv("%s%s.csv" % (totals_folder_path, instructor))
-    print(df.tail())
     df.drop(df.tail(1).index, inplace=True)
-    df = df.append({'Amount_Due_To_Instructor': amount, 'Series_Used': description}, ignore_index=True)
-    print(df.tail())
-    df = df.append(df.sum(numeric_only=True), ignore_index=True)
-    print(df.tail())
-    print('----------------------------------------------------')
+    df = df.append({'Amount_Due_To_Instructor': amount,
+                    'Series_Used': description, 'Instructors': 'Adjustment'}, ignore_index=True)
+    df = df.append({'Instructors': 'Total', 'Amount_Due_To_Instructor': df['Amount_Due_To_Instructor'].sum()}, ignore_index=True)
     if os.path.exists('%s%s.csv' % (totals_folder_path, instructor)):
         os.remove('%s%s.csv' % (totals_folder_path, instructor))
     df.to_csv("%s%s.csv" % (totals_folder_path, instructor), mode="w", index=False)
@@ -373,4 +362,17 @@ def run_data_processing_shell_scripts(file_name):
     subprocess.run(['./bin/s00-generate_csv_files.sh', file_name])
     os.chdir('../MindBodyPayroll')
     subprocess.run(['pwd'])
+
+
+def clean_up_df_for_web(df):
+    if "Rate" in df.columns:
+        df = df.drop(columns=["Rate"])
+    if "Instructor_Pay" in df.columns:
+        df = df.drop(columns=["Instructor_Pay"])
+    df.columns = [c.replace('_', ' ') for c in df.columns]
+    df = df.fillna('')
+    # safe to take out next line
+    df.iloc[-1][0] = 'Total'
+    pd.options.display.float_format = '${:,.2f}'.format
+    return df
 

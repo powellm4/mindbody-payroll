@@ -78,13 +78,18 @@ def detail(id):
         instructor = form.instructor.data
         description = form.description.data
         make_adjustment(instructor, description, amount)
+        return redirect(url_for('detail', id=id))
     else:
-
         form.instructor.data = paystub_list[id].replace('.csv', '')
 
     df = pd.read_csv(totals_folder_path+paystub_list[id])
+    df = clean_up_df_for_web(df)
+    form.amount.data = ''
+    form.description.data = ''
+    form.total.data = '${:,.2f}'.format(df.iloc[-1][-1])
 
-    return render_template('paystubs/detail.html', paystub=df.to_html(), form=form)
+    return render_template('paystubs/detail.html', paystub=df.to_html(classes="table table-striped table-hover "
+                                                                              "table-sm table-responsive"), form=form)
 
 
 if __name__ == '__main__':
