@@ -1,15 +1,22 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-  <meta charset="utf-8" />
-  <title>Hello world!</title>
-  <link type="text/css" rel="stylesheet"
-        href="{{ url_for('static',
-              filename='hello.css')}}" />
-</head>
-<body>
-    {{paystub|safe}}
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Details{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <form action="" method = "POST">
+        <div class="form-group">
+            {{form.amount.label}} {{form.amount(class="form-control") }}
+        </div>
+        <div class="form-group">
+        {{form.description.label }} {{form.description(class="form-control") }}
+        </div>
+         <p><input type = "submit" value = "submit" /></p>
+    </form>
+</div>
+{{paystub|safe}}
 
 
+{% endblock %}
