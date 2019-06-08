@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import subprocess
 from constants import *
-from PyQt5.QtWidgets import *
+# from PyQt5.QtWidgets import *
 
 
 # test function
@@ -373,3 +373,4 @@ def run_data_processing_shell_scripts(file_name):
     subprocess.run(['./bin/s00-generate_csv_files.sh', file_name])
     os.chdir('../MindBodyPayroll')
     subprocess.run(['pwd'])
+
