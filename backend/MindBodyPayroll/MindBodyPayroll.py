@@ -1,5 +1,5 @@
 from functions import *
-
+from flask import *
 
 print("\n------------------------------\n\n"
       "\t   MindBody Payroll\n"
@@ -7,11 +7,11 @@ print("\n------------------------------\n\n"
 
 
 # remove any output data from previous runs
-clean_up_dataProcessing_folder()
-
-clean_up_workspace()
-
-create_all_folders()
+# clean_up_dataProcessing_folder()
+#
+# clean_up_workspace()
+#
+# create_all_folders()
 
 
 # test_list = [list_of_public_classes[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
@@ -24,6 +24,8 @@ create_all_folders()
 #                                                           #
 #############################################################
 #
+
+
 
 # run dataProcessing shell scripts
 file_name = './raw/3-1--3-15.xls'

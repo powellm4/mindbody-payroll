@@ -366,21 +366,10 @@ def make_adjustment(instructor, description, amount):
     df.to_csv("%s%s.csv" % (totals_folder_path, instructor), mode="w", index=False)
 
 
+# takes a file and runs all of the shell scripts with it
+# input - path to file
 def run_data_processing_shell_scripts(file_name):
     os.chdir('../dataProcessing')
     subprocess.run(['./bin/s00-generate_csv_files.sh', file_name])
     os.chdir('../MindBodyPayroll')
     subprocess.run(['pwd'])
-
-
-def gui_testing():
-    # GUI
-    app = QApplication([])
-    window = QWidget()
-    layout = QVBoxLayout()
-    button = QPushButton('Run MindBody')
-    button.clicked.connect(test)
-    layout.addWidget(button)
-    window.setLayout(layout)
-    window.show()
-    app.exec_()

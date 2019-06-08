@@ -2,78 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ae1ae-1045-490d-a41b-dc0fd1ea52cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MindBodyPayroll/MindBodyPayroll.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBodyPayroll/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MindBodyPayroll/functions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/01cleaning.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/02markBasics.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/03markData.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/04cleaning.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/05joinData.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/06addColumns.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/07replaceNames.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/08prepareClass.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/09cleaning.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/10preparePrivate.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/11cleaning.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/12part1.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/13part2.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s00-generate_csv_files.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s00-read_file_and_generate_many_csv_files.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s01-initial_process.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s02-flag_the_significant_lines.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s03-insert_instructor_names.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s04-Create_csv_file_for_Regular_Classes.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s05-Create_csv_file_for_Private_Lessons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s06-generate_csv_files_for_Regular_Classes.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/bin/s07-generate_csv_files_for_Private_Lessons.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/00-01-Class-All.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/00-02-Private-All.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-001-Barker-Tyler.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-002-Caballero-Stephanie.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-003-Ezendokwere-Ogochimere.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-004-Ferreira-Joe.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-005-Furrer-Ivy.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-006-Giron-Daniel.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-007-Hilario-Rob.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-008-Inaki-Villanueva-Torres-Deblin-McKnight-and.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-009-Jamal-Rahima-Carolina-Rahima-and.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-010-Joe-Ferreira-Deblin-McKnight-and.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-011-Kakad-Prashant.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-012-Klawender-Heather.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-013-Large-Shea.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-014-Lux-Alia.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-015-Metzler-Paula.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-016-Oefinger-Donna.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-017-Parco-Allen.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-018-Powers-Heather.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-019-Quiseng-Brad.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-020-Rodales-Jesus.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/01-Class-021-Smith-Bruce.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/02-Private-001-Hilario-Rob.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/02-Private-002-Jamal-Rahima-Carolina-Rahima-and.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/dat/02-Private-003-Villanueva-Torres-Inaki.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/log/00All.xls.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/raw/00All.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/raw/Payroll_Report_4-1-2019_4-14-2019.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/01All.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/02All.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/03All.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/04flagSignificantLines.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/05replaceNames.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/06insertedNames.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/07ClassAll.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/08PrivateAll.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/09ClassPart.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/10ClassPart.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/11ClassEach.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/12PrivatePart.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/13PrivatePart.2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataProcessing/tmp/14PrivateEach.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lookupTables/class-name-lookup.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lookupTables/instructor-family-lookup.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lookupTables/pricing-options.csv" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MindBodyPayroll.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MindBodyPayroll.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/MindBodyPayroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/MindBodyPayroll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/tmp/01All.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/tmp/01All.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/tmp/02All.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/tmp/02All.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/tmp/03All.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/tmp/03All.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +21,59 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="344" column="4" selection-start-line="344" selection-start-column="4" selection-end-line="344" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/MindBodyPayroll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -111,6 +102,11 @@
         <option value="$PROJECT_DIR$/MindBodyPayroll/functions.py" />
         <option value="$PROJECT_DIR$/MindBodyPayroll/MindBodyPayroll.py" />
         <option value="$PROJECT_DIR$/MindBodyPayroll/pyQtFunctions.py" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/MindBodyPayroll.py" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/detail.html" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html" />
       </list>
     </option>
   </component>
@@ -119,12 +115,14 @@
     <option name="width" value="1440" />
     <option name="height" value="852" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,16 +137,48 @@
             </path>
             <path>
               <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="MindBodyPayroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="MindBodyPayroll" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="MindBodyPayroll" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="paystubs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -172,11 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MindBodyPayroll" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/MindBodyPayroll" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MindBodyPayroll/MindBodyPayroll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,13 +240,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="852" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23749119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41842106" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41842106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -230,6 +261,17 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="310" height="652" id="Documentation" order="3" side_tool="true" weight="0.3297568" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -250,18 +292,8 @@
     <entry file="file://$PROJECT_DIR$/output/publicClasses/J.Rahima.csv" />
     <entry file="file://$PROJECT_DIR$/output/publicClasses/I.Villanueva-Torres.csv" />
     <entry file="file://$PROJECT_DIR$/output/publicClasses/T.Villanueva.csv" />
-    <entry file="file://$PROJECT_DIR$/dataProcessing/dat/02-Private-003-Villanueva-Torres-Inaki.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataProcessing/dat/02-Private-001-Hilario-Rob.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataProcessing/dat/02-Private-003-Villanueva-Torres-Inaki.csv" />
+    <entry file="file://$PROJECT_DIR$/dataProcessing/dat/02-Private-001-Hilario-Rob.csv" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -276,23 +308,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataProcessing/dat/00-01-Class-All.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataProcessing/dat/00-01-Class-All.csv" />
     <entry file="file://$PROJECT_DIR$/output/totals/C.Rahima.csv" />
     <entry file="file://$PROJECT_DIR$/output/totals/I.Villanueva-Torres.csv" />
-    <entry file="file://$PROJECT_DIR$/dataProcessing/bin/s00-generate_csv_files.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output/totals/A.Lux.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataProcessing/bin/s00-generate_csv_files.sh" />
+    <entry file="file://$PROJECT_DIR$/output/totals/A.Lux.csv" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/1454997710/PyQt5/QtWidgets/QBoxLayout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -300,40 +320,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/MindBodyPayroll.py">
+    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/MindBodyPayroll.py" />
+    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/functions.py" />
+    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/constants.py" />
+    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/pyQtFunctions.py" />
+    <entry file="file://$PROJECT_DIR$/backend/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-942" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/bin/01cleaning.so">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/functions.py">
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="131">
+          <caret line="344" column="4" selection-start-line="344" selection-start-column="4" selection-end-line="344" selection-end-column="4" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/constants.py">
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/MindBodyPayroll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="166">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MindBodyPayroll/pyQtFunctions.py">
+    <entry file="file:///miniconda3/envs/mindbodyenv/lib/python3.7/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="1814" selection-start-line="1814" selection-end-line="1814" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
