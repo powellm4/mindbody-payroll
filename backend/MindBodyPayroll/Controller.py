@@ -7,7 +7,6 @@ import numpy as np
 import subprocess
 from constants import *
 from forms import AppendForm
-from models import Adjustment
 from PyQt5.QtWidgets import *
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 
@@ -22,16 +21,20 @@ def index():
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
 def detail(id):
     form = AppendForm(request.form)
-    if request.method == 'POST':
-        amount = form['amount']
-        print(amount)
-        return amount
     paystub_list = os.listdir(totals_folder_path)
+
+    if request.method == 'POST':
+        amount = form.amount.data
+        instructor = form.instructor.data
+        description = form.description.data
+        make_adjustment(instructor, description, amount)
+    else:
+
+        form.instructor.data = paystub_list[id].replace('.csv', '')
+
     df = pd.read_csv(totals_folder_path+paystub_list[id])
+
     return render_template('paystubs/detail.html', paystub=df.to_html(), form=form)
-
-
-
 
 
 if __name__ == '__main__':

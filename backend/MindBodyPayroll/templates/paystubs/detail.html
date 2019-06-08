@@ -5,18 +5,31 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
-    <form action="" method = "POST">
-        <div class="form-group">
-            {{form.amount.label}} {{form.amount(class="form-control") }}
+<div class="card bg-light mb-3">
+    <div class="card-body">
+        <h5 class="card-title">Adjustments (+/-)</h5>
+        <div class="card-text">
+        <form action="" method = "POST">
+            <div class="row">
+                <div class="col-2">
+                    {{form.amount(class="form-control",placeholder="$0.00") }}
+                </div>
+                <div class="col-8">
+                    {{form.description(class="form-control", placeholder="Description") }}
+                </div >
+            <div class="col">
+                <input type = "submit"  class="btn btn-primary" value = "Submit" />
+            </div>
+            </div>
+            {{form.instructor}}
+        </form>
         </div>
-        <div class="form-group">
-        {{form.description.label }} {{form.description(class="form-control") }}
-        </div>
-         <p><input type = "submit" value = "submit" /></p>
-    </form>
+    </div>
 </div>
-{{paystub|safe}}
-
+<div class="card">
+    <div class="card-body">
+        {{paystub|safe}}
+    </div>
+</div>
 
 {% endblock %}
