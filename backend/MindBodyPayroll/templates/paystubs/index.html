@@ -5,11 +5,11 @@
 {% endblock %}
 
 {% block content %}
-  <ol>
+  <div class="list-group">
     {%for i in range(0, len)%}
 
-        <li id="{{i}}"><a href="{{ url_for('detail', id=i) }}">{{paystub_list[i]}}</a></li>
+        <a class="list-group-item list-group-item-action" id="{{i}}" href="{{ url_for('detail', id=i) }}">{{paystub_list[i]}}</a>
     {%endfor%}
 
-    </ol>
+    </div>
 {% endblock %}
