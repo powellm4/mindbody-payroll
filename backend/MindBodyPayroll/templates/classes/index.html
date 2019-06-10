@@ -3,7 +3,7 @@
 {% block header %}
 <div class="row">
     <div class="col">
-        <h1>{% block title %}Prices{% endblock %}</h1>
+        <h1>{% block title %}Classes{% endblock %}</h1>
     </div>
 </div>
 {% endblock %}
@@ -11,7 +11,7 @@
 {% block content %}
 
 
-{{prices|safe}}
+{{classes|safe}}
 <div class="text-right">
     <button class="btn btn-success" id="add">Add Price Option</button>
     <button class="btn btn-primary save">Save</button>
@@ -31,7 +31,7 @@
         var table = $('.table').tableToJSON();
         $.ajax({
           type: "POST",
-          url: "{{ url_for('prices') }}",
+          url: "{{ url_for('classes') }}",
           data: JSON.stringify(table),
           success: function(data){
             if(data.redirect){
@@ -46,7 +46,7 @@
         $('table th:last').each(function() {
           var i = $(this).html();
           i++;
-          $('table tr:last').after('<tr><th>'+i+'</th><td contenteditable="true">Price Option</td><td contenteditable="true">'
+          $('table tr:last').after('<tr><th>'+i+'</th><td contenteditable="true">Class</td><td contenteditable="true">'
            + '$0.00</td><td contenteditable="true">$0.00</td></tr>');
         });
 

@@ -93,27 +93,33 @@ def paystubs_detail(id):
     return render_template('paystubs/detail.html', paystub=df.to_html(classes="table table-striped table-hover "
                                                                               "table-sm table-responsive"), form=form)
 
-@app.route('/prices/')
+
+@app.route('/prices/',  methods=['POST', 'GET'])
 def prices():
+    if request.method == 'POST':
+        req_data = request.get_json()
+        df = pd.DataFrame.from_dict(req_data)
+        df = df[['Pricing Option', 'Revenue per class', 'Instructor Pay']]
+        df.to_csv("%s" % pricing_options_path, index=False)
+        dict = {"redirect": '/prices/'}
+        return jsonify(dict)
+
     df = pd.read_csv(pricing_options_path)
     return render_template('prices/index.html', prices=df.to_html(classes="table table-striped table-hover table-sm"))
 
 
-@app.route('/prices2/')
-def prices2():
-    df = pd.read_csv(pricing_options_path2)
-    return render_template('prices/index.html', prices=df.to_html(classes="table table-striped table-hover table-sm table-responsive"))
+@app.route('/classes/',  methods=['POST', 'GET'])
+def classes():
+    if request.method == 'POST':
+        req_data = request.get_json()
+        df = pd.DataFrame.from_dict(req_data)
+        df = df[['Name', 'Day', 'Time', 'Class']]
+        df.to_csv("%s" % class_name_lookup_path, index=False)
+        dict = {"redirect": '/classes/'}
+        return jsonify(dict)
 
-
-@app.route('/prices/test', methods=['POST'])
-def prices_test():
-    # requests.get(url).json()
-    req_data = request.get_json()
-    df = pd.DataFrame.from_dict(req_data)
-    df = df[['Pricing Option', 'Revenue per class', 'Instructor Pay']]
-    df.to_csv("%s" % pricing_options_path2, index=False)
-    dict = {"redirect": '/prices2/'}
-    return jsonify(dict)
+    df = pd.read_csv(class_name_lookup_path)
+    return render_template('classes/index.html', classes=df.to_html(classes="table table-striped table-hover table-sm"))
 
 
 @app.route('/export/', methods=['POST', 'GET'])

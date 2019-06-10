@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ae1ae-1045-490d-a41b-dc0fd1ea52cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/classes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/lookupTables/class-name-lookup.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/lookupTables/class-name-lookup.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/lookupTables/instructor-family-lookup.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/lookupTables/pricing-options.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/lookupTables/pricing-options.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/lookupTables/pricing-options2.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,17 +36,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="190">
               <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+            <state relative-caret-position="94">
+              <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -47,10 +73,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html">
+        <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/classes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="40" column="3" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="40" selection-end-column="3" />
+            <state relative-caret-position="248">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -99,12 +125,13 @@
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/detail.html" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/forms.py" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" />
-        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/base.html" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/MindBodyPayroll.py" />
-        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/constants.py" />
-        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/base.html" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/classes/index.html" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/constants.py" />
       </list>
     </option>
   </component>
@@ -138,35 +165,6 @@
               <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="lookupTables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="MindBodyPayroll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="MindBodyPayroll" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="MindBodyPayroll" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="paystubs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="MindBodyPayroll" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="prices" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,8 +273,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.41842106" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.41842106" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49964765" weight="0.4236842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,13 +394,6 @@
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/static/lightswitch05-table-to-json-388f1e2/Gruntfile.js" />
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/static/lightswitch05-table-to-json-388f1e2/tabletojson.jquery.json" />
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/static/lightswitch05-table-to-json-388f1e2/test/index.html" />
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/MindBodyPayroll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -437,13 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -451,27 +435,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html">
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" column="3" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="40" selection-end-column="3" />
+        <state relative-caret-position="190">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html">
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="94">
+          <caret line="115" column="46" selection-start-line="115" selection-start-column="46" selection-end-line="115" selection-end-column="46" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/classes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/lookupTables/instructor-family-lookup.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
