@@ -116,5 +116,10 @@ def prices_test():
     return jsonify(dict)
 
 
+@app.route('/export/', methods=['POST', 'GET'])
+def export():
+    return 0
+
+
 if __name__ == '__main__':
       app.run(debug=True)

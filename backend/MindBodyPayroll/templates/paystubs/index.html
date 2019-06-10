@@ -5,11 +5,26 @@
 {% endblock %}
 
 {% block content %}
+  <button id="export" class="btn btn-primary"> Export </button>
   <div class="list-group">
     {%for i in range(0, len)%}
-
         <a class="list-group-item list-group-item-action" id="{{i}}" href="{{ url_for('paystubs_detail', id=i) }}">{{paystub_list[i]}}</a>
     {%endfor%}
 
     </div>
+{% endblock %}
+
+{% block scripts%}
+  $('#export').click( function() {
+    $.ajax({
+      type: "POST",
+      url: "{{ url_for('export') }}",
+      data: JSON.stringify(table),
+      success: function(){
+
+      dataType: "json",
+      contentType : "application/json"
+    });
+  });
+
 {% endblock %}
