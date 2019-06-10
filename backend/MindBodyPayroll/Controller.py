@@ -1,4 +1,5 @@
 from functions import *
+from wrappers import *
 from flask import *
 import os
 import pandas as pd
@@ -36,20 +37,14 @@ def upload_file():
             return redirect(request.url)
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
+
+            # to-do: prepend filename with upload time
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             flash('File successfully uploaded')
             flash('Starting dataprocessing')
-            # calling scripts
-            file_name = filename
-            print("\n------------------------------\n\n"
-                  "\t   MindBody Payroll\n"
-                  "\n------------------------------\n\n")
 
-            # remove any output data from previous runs
-            # clean_up_dataProcessing_folder()
-            clean_up_workspace()
-            create_all_folders()
-
+            # calling run_backend in wrapper.py
+            run_backend(filename)
             return redirect('/')
 
 

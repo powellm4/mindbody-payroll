@@ -4,12 +4,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 werkzeug-utils = "*"
 werkzeug = "*"
 flask = "*"
 pandas = "*"
+wtforms = "*"
+shutil = "*"
+os = "*"
 
 [requires]
 python_version = "3.7"
