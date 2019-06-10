@@ -3,6 +3,9 @@ from wrappers import *
 from flask import *
 import os
 import datetime
+import zipfile
+import io
+import pathlib
 
 import pandas as pd
 from constants import *
@@ -10,7 +13,6 @@ from forms import AppendForm
 import urllib.request
 from app import app
 from werkzeug.utils import secure_filename
-import requests
 
 ALLOWED_EXTENSIONS = set(['xls'])
 
@@ -53,15 +55,6 @@ def upload_file():
             # calling run_backend in wrapper.py
             run_backend(filename)
             return redirect('/')
-
-
-@app.route('/download')
-def download_file():
-    url = 'https://codeload.github.com/fogleman/Minecraft/zip/master'
-    response = urllib.request.urlopen(url)
-    data = response.read()
-    response.close()
-
 
 
 @app.route('/paystubs/')
@@ -124,7 +117,18 @@ def classes():
 
 @app.route('/export/', methods=['POST', 'GET'])
 def export():
-    return 0
+    base_path = pathlib.Path(totals_folder_path)
+    data = io.BytesIO()
+    with zipfile.ZipFile(data, mode='w') as z:
+        for f_name in base_path.iterdir():
+            z.write(f_name)
+    data.seek(0)
+    return send_file(
+        data,
+        mimetype='application/zip',
+        as_attachment=True,
+        attachment_filename='latest-payroll.zip'
+    )
 
 
 if __name__ == '__main__':
