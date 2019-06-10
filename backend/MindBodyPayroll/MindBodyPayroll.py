@@ -1,6 +1,17 @@
 from functions import *
 from flask import *
 
+
+
+#
+#############################################################
+#                                                           #
+#        This file should NOT BE USED ANYMORE               #
+#                                                           #
+#############################################################
+#
+
+
 print("\n------------------------------\n\n"
       "\t   MindBody Payroll\n"
       "\n------------------------------\n\n")
@@ -17,19 +28,9 @@ create_all_folders()
 
 # test_list = [list_of_public_classes[8]]#, list_of_processed_files[9], list_of_processed_files[10]]
 
-
-#
-#############################################################
-#                                                           #
-#                          MAIN                             #
-#                                                           #
-#############################################################
-#
-
-
-
 # run dataProcessing shell scripts
-file_name = './raw/3-1--3-15.xls'
+file_name = './raw/3-1-3-15.xls'
+print("Got here all GOOD")
 run_data_processing_shell_scripts(file_name)
 
 # get list of files from dat folder

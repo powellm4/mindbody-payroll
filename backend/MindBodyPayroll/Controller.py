@@ -1,6 +1,9 @@
 from functions import *
+from wrappers import *
 from flask import *
 import os
+import datetime
+
 import pandas as pd
 from constants import *
 from forms import AppendForm
@@ -36,21 +39,19 @@ def upload_file():
             flash('Must be an xls file')
             return redirect(request.url)
         if file and allowed_file(file.filename):
+
+            # prepend filename with upload time
             filename = secure_filename(file.filename)
+            currentDT = datetime.datetime.now()
+            filename = currentDT.strftime("%Y-%m-%d-%H-%M-%S") + '-' + filename
+            print (filename)            
+
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             flash('File successfully uploaded')
             flash('Starting dataprocessing')
-            # calling scripts
-            file_name = filename
-            print("\n------------------------------\n\n"
-                  "\t   MindBody Payroll\n"
-                  "\n------------------------------\n\n")
 
-            # remove any output data from previous runs
-            # clean_up_dataProcessing_folder()
-            clean_up_workspace()
-            create_all_folders()
-
+            # calling run_backend in wrapper.py
+            run_backend(filename)
             return redirect('/')
 
 

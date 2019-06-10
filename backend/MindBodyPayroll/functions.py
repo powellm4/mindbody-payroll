@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import subprocess
 from constants import *
+from shutil import copyfile
+from sys import exit
 # from PyQt5.QtWidgets import *
 
 
@@ -307,6 +309,22 @@ def clean_up_workspace():
     if os.path.isdir(output_folder_path):
         shutil.rmtree(output_folder_path)
 
+# move uploaded file to raw_folder_path 
+# where dataprocessing looks for it
+def move_uploaded_file(filename):
+    source = uploads_folder_path + filename
+    target = raw_folder_path + filename
+    # adding exception handling
+    try:
+        copyfile(source, target)
+    except IOError as e:
+        print("Unable to copy file. %s" % e)
+        exit(1)
+    except:
+        print("Unexpected error:", sys.exc_info())
+        exit(1)
+
+    print("\nFile copy done!\n")
 
 # reads in pricing lookup table &
 # prepares it for processing and merging
@@ -357,9 +375,9 @@ def make_adjustment(instructor, description, amount):
 
 # takes a file and runs all of the shell scripts with it
 # input - path to file
-def run_data_processing_shell_scripts(file_name):
+def run_data_processing_shell_scripts(dir_plus_filename):
     os.chdir('../dataProcessing')
-    subprocess.run(['./bin/s00-generate_csv_files.sh', file_name])
+    subprocess.run(['./bin/s00-generate_csv_files.sh', dir_plus_filename])
     os.chdir('../MindBodyPayroll')
     subprocess.run(['pwd'])
 
