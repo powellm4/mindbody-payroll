@@ -2,6 +2,8 @@ from functions import *
 from wrappers import *
 from flask import *
 import os
+import datetime
+
 import pandas as pd
 from constants import *
 from forms import AppendForm
@@ -36,9 +38,13 @@ def upload_file():
             flash('Must be an xls file')
             return redirect(request.url)
         if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
 
-            # to-do: prepend filename with upload time
+            # prepend filename with upload time
+            filename = secure_filename(file.filename)
+            currentDT = datetime.datetime.now()
+            filename = currentDT.strftime("%Y-%m-%d-%H-%M-%S") + '-' + filename
+            print (filename)            
+
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             flash('File successfully uploaded')
             flash('Starting dataprocessing')
