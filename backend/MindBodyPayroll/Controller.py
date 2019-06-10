@@ -7,6 +7,7 @@ from forms import AppendForm
 import urllib.request
 from app import app
 from werkzeug.utils import secure_filename
+import requests
 
 ALLOWED_EXTENSIONS = set(['xls'])
 
@@ -63,13 +64,13 @@ def download_file():
 
 
 @app.route('/paystubs/')
-def index():
+def paystubs():
     paystub_list = os.listdir(totals_folder_path)
     return render_template('paystubs/index.html', paystub_list=paystub_list, len=len(paystub_list))
 
 
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
-def detail(id):
+def paystubs_detail(id):
     form = AppendForm(request.form)
     paystub_list = os.listdir(totals_folder_path)
 
@@ -78,7 +79,7 @@ def detail(id):
         instructor = form.instructor.data
         description = form.description.data
         make_adjustment(instructor, description, amount)
-        return redirect(url_for('detail', id=id))
+        return redirect(url_for('paystubs_detail', id=id))
     else:
         form.instructor.data = paystub_list[id].replace('.csv', '')
 
@@ -90,6 +91,28 @@ def detail(id):
 
     return render_template('paystubs/detail.html', paystub=df.to_html(classes="table table-striped table-hover "
                                                                               "table-sm table-responsive"), form=form)
+
+@app.route('/prices/')
+def prices():
+    df = pd.read_csv(pricing_options_path)
+    return render_template('prices/index.html', prices=df.to_html(classes="table table-striped table-hover table-sm"))
+
+
+@app.route('/prices2/')
+def prices2():
+    df = pd.read_csv(pricing_options_path2)
+    return render_template('prices/index.html', prices=df.to_html(classes="table table-striped table-hover table-sm table-responsive"))
+
+
+@app.route('/prices/test', methods=['POST'])
+def prices_test():
+    # requests.get(url).json()
+    req_data = request.get_json()
+    df = pd.DataFrame.from_dict(req_data)
+    df = df[['Pricing Option', 'Revenue per class', 'Instructor Pay']]
+    df.to_csv("%s" % pricing_options_path2, index=False)
+    dict = {"redirect": '/prices2/'}
+    return jsonify(dict)
 
 
 if __name__ == '__main__':

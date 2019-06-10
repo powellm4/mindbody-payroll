@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<div class="row">
+    <div class="col">
+        <h1>{% block title %}Prices{% endblock %}</h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<button class="btn btn-primary" id="run">Save</button>
+        {{prices|safe}}
+
+
+
+
+
+{% endblock content %}
+
+{% block scripts %}
+<script src="../../static/js/jquery.tabletojson.min.js"></script>
+<script style="text/javascript">
+    $(document).ready(function(){
+        $('td').prop('contenteditable',true);
+    });
+    $('#run').click( function() {
+    var table = $('.table').tableToJSON();
+
+    $.ajax({
+      type: "POST",
+      url: "{{ url_for('prices_test') }}",
+      data: JSON.stringify(table),
+      success: function(data){
+        if(data.redirect){
+            window.location.href = data.redirect;
+        }},
+      dataType: "json",
+      contentType : "application/json"
+    });
+});
+
+</script>
+
+{% endblock scripts %}
