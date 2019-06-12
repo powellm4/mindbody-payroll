@@ -73,8 +73,8 @@ def get_instructors_list(df):
 # making the dataframe easier to process
 def clean_up_dataframe(df, po_df):
     df = format_column_headers(df)
-    if is_comped_private(df):
-        return None
+    if is_alternate_private(df):
+        df = reformat_alternate_private(df)
     df = drop_unnecessary_columns(df)
     df = remove_quotes(df)
     df = include_pricing_options(df, po_df)
@@ -83,7 +83,8 @@ def clean_up_dataframe(df, po_df):
     return df
 
 
-def is_comped_private(df):
+# detects private classes that show up in a different format from mindbody
+def is_alternate_private(df):
     return '#_Clients' in df.columns
 
 
@@ -285,11 +286,12 @@ def check_against_family_lookup(name):
 # writes csv to totals folder containing total for instructor
 def output_instructor_totals(cn_df):
     for file in os.listdir(public_classes_folder_path):
+        print('Creating pay stub for %s' % file.replace('.csv', ''))
         df = pd.read_csv("%s%s" % (public_classes_folder_path, file))
         df = df.append(df.sum(numeric_only=True), ignore_index=True)
         df.iloc[-1][0] = 'Total'
         df = include_class_names(df, cn_df)
-        print('Created pay stub for %s' % file.replace('.csv', ''))
+
         df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
 
 
@@ -394,3 +396,17 @@ def clean_up_df_for_web(df):
     pd.options.display.float_format = '${:,.2f}'.format
     return df
 
+
+# corrects private class files that come in the wrong format
+# attaches the 'private lesson' rate to all classes
+def reformat_alternate_private(df):
+    drop_list = ["#_Clients", "#_Comps", "Base_Pay", "Earnings"]
+    for column in drop_list:
+        if column in df.columns:
+            df = df.drop(columns=[column])
+
+    df = df.rename(columns={'Client_Name(s)': 'Client_Name'})
+    df['Series_Used'] = "Private Lesson"
+    df['Revenue'] = '0.00'
+    df['Earnings'] = '0.00'
+    return df
