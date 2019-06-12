@@ -64,3 +64,4 @@ backend/venv/lib64
 backend/instructorDances/
 backend/output/
 .idea/workspace.xml
+backend/lookupTables/.DS_Store

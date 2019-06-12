@@ -89,6 +89,7 @@ def paystubs_detail(id):
 
 @app.route('/prices/',  methods=['POST', 'GET'])
 def prices():
+    pd.set_option('display.max_colwidth', -1)
     if request.method == 'POST':
         req_data = request.get_json()
         df = pd.DataFrame.from_dict(req_data)
@@ -98,6 +99,7 @@ def prices():
         return jsonify(dict)
 
     df = pd.read_csv(pricing_options_path)
+
     return render_template('prices/index.html', prices=df.to_html(classes="table table-striped table-hover table-sm"))
 
 
