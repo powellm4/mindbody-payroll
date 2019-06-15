@@ -119,14 +119,17 @@ def classes():
 
 @app.route('/export/', methods=['POST', 'GET'])
 def export():
-    base_path = pathlib.Path(totals_folder_path)
+    export_paystubs_to_pdf()
+    base_path = pathlib.Path(export_pdf_folder_path)
     data = io.BytesIO()
     with zipfile.ZipFile(data, mode='w') as z:
         for f_name in base_path.iterdir():
+            print(f_name)
             z.write(f_name)
     data.seek(0)
     return send_file(
         data,
+        cache_timeout=-1,
         mimetype='application/zip',
         as_attachment=True,
         attachment_filename='latest-payroll.zip'
