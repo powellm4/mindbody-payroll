@@ -15,7 +15,7 @@ def run_backend(filename):
             "\n------------------------------\n\n")
 
     # remove any output data from previous runs
-    # clean_up_dataProcessing_folder()
+    clean_up_dataProcessing_folder()
     clean_up_dataProcessing_folder()
     clean_up_workspace()
     create_all_folders()

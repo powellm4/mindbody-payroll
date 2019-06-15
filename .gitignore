@@ -65,3 +65,5 @@ backend/instructorDances/
 backend/output/
 .idea/workspace.xml
 backend/lookupTables/.DS_Store
+backend/MindBodyPayroll/uploads/*
+backend/dataProcessing/raw/*
