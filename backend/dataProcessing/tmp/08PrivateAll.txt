@@ -1,13 +1,11 @@
-?<stafName>?Hilario, Rob
-"Instructors","Appointment Date", "Appt. Time", "Client Name", "Series Used", "Revenue", "Rev. per Session", "Earnings"
-"Hilario, Rob","Tuesday, March 12, 2019", "5:00 pm", "C. Robaina", "Private Lesson 5 hour package", "320.00", "64.00", "54.40"
-?<totalFor>?Total for Hilario, Rob
-?<stafName>?Iñaki Villanueva-Torres, Deblin McKnight &
-"Instructors","Appointment Date", "Appt. Time", "Client Name(s)", "# Clients", "# Comps", "Base Pay", "Earnings"
-"Iñaki Villanueva-Torres, Deblin McKnight ?<and>?","Thursday, March 14, 2019", "5:30 pm", "M. Powell", "1", "0", "0.00", "0.00"
-?<totalFor>?Total for Inaki Villanueva-Torres, Deblin McKnight &
 ?<stafName>?Jamal Rahima, Carolina Rahima &
 "Instructors","Appointment Date", "Appt. Time", "Client Name", "Series Used", "Revenue", "Rev. per Session", "Earnings"
-"Jamal Rahima, Carolina Rahima ?<and>?","Saturday, March 02, 2019", "7:00 pm", "R. Phillips", "Private Lesson", "70.00", "0.00", "0.00"
-"Jamal Rahima, Carolina Rahima ?<and>?","Friday, March 15, 2019", "6:30 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
+"Jamal Rahima, Carolina Rahima ?<and>?","Friday, May 17, 2019", "5:00 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
+"Jamal Rahima, Carolina Rahima ?<and>?","Wednesday, May 22, 2019", "6:15 pm", "P. Helling", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
+"Jamal Rahima, Carolina Rahima ?<and>?","Friday, May 24, 2019", "5:00 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
+"Jamal Rahima, Carolina Rahima ?<and>?","Friday, May 31, 2019", "5:00 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
 ?<totalFor>?Total for Jamal Rahima, Carolina Rahima &
+?<stafName>?Large, Shea
+"Instructors","Appointment Date", "Appt. Time", "Client Name", "Series Used", "Revenue", "Rev. per Session", "Earnings"
+"Large, Shea","Thursday, May 16, 2019", "6:00 pm", "A. Aburto", "Private Lesson 10 hour package One Instructor", "630.00", "63.00", "50.40"
+?<totalFor>?Total for Large, Shea
