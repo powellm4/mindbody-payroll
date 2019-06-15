@@ -400,14 +400,14 @@ def clean_up_df_for_web(df):
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
 def export_paystubs_to_pdf():
     for file in os.listdir(totals_folder_path):
+    # for file in ["A.Lux.csv"]: #remove!!
         input_file =  totals_folder_path + file
         output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
         output_pdf_file = export_pdf_folder_path + file.replace('.csv', '') + '.pdf'
         print(output_pdf_file)
         df = pd.read_csv(input_file)
         df = clean_up_df_for_web(df)
-        df.to_html(output_html_file, classes="table table-striped table-hover "
-                           "table-sm table-responsive")
+        df.to_html(output_html_file, classes="table table-striped table-hover table-sm table-responsive")
         fileA = open(output_html_file,mode='a')
         fileA.write("<style>.table{background-color: black;}</style>")
         fileA.close()
