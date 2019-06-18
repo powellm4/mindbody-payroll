@@ -13,7 +13,7 @@
 
 {{classes|safe}}
 <div class="text-right">
-    <button class="btn btn-success" id="add">Add Price Option</button>
+    <button class="btn btn-success" id="add">Add Class</button>
     <button class="btn btn-primary save">Save</button>
 </div>
 
@@ -46,8 +46,8 @@
         $('table th:last').each(function() {
           var i = $(this).html();
           i++;
-          $('table tr:last').after('<tr><th>'+i+'</th><td contenteditable="true">Class</td><td contenteditable="true">'
-           + '$0.00</td><td contenteditable="true">$0.00</td></tr>');
+          $('table tr:last').after('<tr><th>'+i+'</th><td contenteditable="true">Instructor Name</td><td contenteditable="true">'
+           + 'Mondays</td><td contenteditable="true">6:30 PM</td><td contenteditable="true">Example</td></tr>');
         });
 
     });

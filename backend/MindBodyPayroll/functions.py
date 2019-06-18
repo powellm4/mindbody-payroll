@@ -398,14 +398,14 @@ def clean_up_df_for_web(df):
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
 def export_paystubs_to_pdf():
     for file in os.listdir(totals_folder_path):
-    # for file in ["A.Lux.csv"]: # for testing purposes only
+    # for file in ["D.McKnight.csv"]: # for testing purposes only
         output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
         output_pdf_file = export_pdf_folder_path + file.replace('.csv', '') + '.pdf'
 
         input_file = totals_folder_path + file
         df = pd.read_csv(input_file)
         df = clean_up_df_for_web(df)
-        total = df.iloc[-1][-1]
+        total = '${:,.2f}'.format(df.iloc[-1][-1])
 
         create_html_paystub_file(file, str(total))
         add_table_to_html_paystub_file(df.to_html(classes="table table-striped table-hover table-sm table-responsive"),
