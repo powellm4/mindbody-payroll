@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 
 {% block header %}
+<style type="text/css">
+    .card-header{
+        cursor: pointer;
+    }
+
+  </style>
 <div class="row">
     <div class="col">
         <h1>{% block title %}Unpaid{% endblock %}</h1>
@@ -11,22 +17,18 @@
 {% block content %}
 
 
-<!--{{tables|safe}}-->
-
-
 
 <div class="accordion" id="accordionExample">
 
     {% for key, value in tables.items() %}
         {% set id = key.replace(' ','').replace('/','') %}
-        <h1> {{x}}</h1>
         <div class="card">
-            <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{id}}" aria-expanded="true" aria-controls="{{id}}">
+            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#{{id}}" aria-expanded="true" aria-controls="{{id}}">
+
+
                   {{ key }}
-                </button>
-                </h5>
+
+
             </div>
 
             <div id="{{id}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -54,3 +56,4 @@
 </script>
 
 {% endblock scripts %}
+

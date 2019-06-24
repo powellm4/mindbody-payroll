@@ -46,7 +46,7 @@ def upload_file():
             filename = secure_filename(file.filename)
             currentDT = datetime.datetime.now()
             filename = currentDT.strftime("%Y-%m-%d-%H-%M-%S") + '-' + filename
-            print (filename)            
+            print(filename)
 
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
@@ -142,6 +142,7 @@ def unpaid():
         df = clean_up_df_for_web(df)
         tables[file.replace('_', ' ').replace('---', '/').replace('.csv', '')] = df.to_html(classes="table table-striped table-hover table-sm")
     return render_template('unpaid.html', tables=tables)
+
 
 if __name__ == '__main__':
       app.run(debug=True)

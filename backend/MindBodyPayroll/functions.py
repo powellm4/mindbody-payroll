@@ -7,6 +7,7 @@ from constants import *
 from shutil import copyfile
 from sys import exit
 from pdf_helper import create_html_paystub_file, add_table_to_html_paystub_file
+import re
 
 
 # display floats as currency
@@ -407,9 +408,11 @@ def export_paystubs_to_pdf():
         input_file = totals_folder_path + file
         df = pd.read_csv(input_file)
         df = clean_up_df_for_web(df)
+        df.index += 1
         total = '${:,.2f}'.format(df.iloc[-1][-1])
-
-        create_html_paystub_file(file, str(total))
+        student_count = df['Instructors'].count()-1
+        create_html_paystub_file(file, str(total), str(student_count), get_global_pay_period()
+                                 .replace('-', '/').replace('_/_', ' - '))
         add_table_to_html_paystub_file(df.to_html(classes="table table-striped table-hover table-sm table-responsive"),
                                        output_html_file)
 
@@ -469,3 +472,22 @@ def find_unpaid_classes(po_df):
         pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (unpaid_folder_path, pricing_option.replace(' ', '_')
                                                                 .replace('/','---')), mode='w', index=False)
     return pricing_option_dfs
+
+
+def get_pay_period_from_filename(filename):
+    pay_period = None
+    dates = re.findall('\d{1,2}\-\d{1,2}\-\d{4}', filename)
+    if len(dates) >1:
+        pay_period = dates[0]+'_-_'+dates[1]
+    return pay_period
+
+
+def set_global_pay_period(pay_period):
+    f = open(output_folder_path+'payperiod.txt', "w+")
+    f.write(pay_period)
+    f.close()
+
+
+def get_global_pay_period():
+    f = open(output_folder_path + 'payperiod.txt')
+    return f.read()

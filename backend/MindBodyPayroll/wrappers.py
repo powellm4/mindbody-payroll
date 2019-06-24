@@ -8,6 +8,7 @@ from functions import *
 #############################################################
 #
 
+
 def run_backend(filename):
     # calling scripts
     print("\n------------------------------\n\n"
@@ -27,6 +28,7 @@ def run_backend(filename):
     dir_plus_filename = './raw/' + filename
     run_data_processing_shell_scripts(dir_plus_filename)
 
+
     # get list of files from dat folder
     list_of_public_classes = get_list_of_classes(public=True)
     list_of_private_classes = get_list_of_classes(private=True)
@@ -36,6 +38,9 @@ def run_backend(filename):
 
     # dataFrame for class name lookup
     cn_df = get_class_name_lookup_df()
+
+    pay_period = get_pay_period_from_filename(filename)
+    set_global_pay_period(pay_period)
 
 
 
