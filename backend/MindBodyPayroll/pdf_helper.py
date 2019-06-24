@@ -1,10 +1,11 @@
-from constants import export_html_folder_path
+from constants import export_html_folder_path, logo_path
 
 
-def create_html_paystub_file(file, total):
+
+def create_html_paystub_file(file, total, student_count, pay_period):
     output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
     f = open(output_html_file, "w+")
-    f.write(get_header(file, total))
+    f.write(get_header(file, total, student_count, pay_period))
     f.write(get_styles())
     f.close()
 
@@ -15,19 +16,52 @@ def add_table_to_html_paystub_file(table, output_html_file):
     f.close()
 
 
-def get_header(file, total):
-    return """<div ">
-    <div class="left">
-        <h1>""" + file.replace('.csv', '') + """</h1>
+def get_header(file, total, student_count, pay_period):
+    return """
+    <div class="row">
+        <div class="column">
+            <img src="data:image/png;base64,""" + get_vmac_logo() + """ " alt="VMAC Logo" />
+        </div>
+        <div class="column">
+            <h3 class="text-right">Number of Students: """+student_count+"""</h3>
+             <h3 class="text-right">Pay Date Range: """+pay_period+"""</h3>
+        </div>
     </div>
-    <div class="right">
-        <h1 class="align-right">Total: """+total+"""</h1>
-    </div>
+    <div class="row">
+        <div class="column">
+            <h1>""" + file.replace('.csv', '') + """</h1>
+        </div>
+        <div class="column">
+            <h1 class="text-right">Check Amount: """+total+"""</h1>
+        </div>
     </div>"""
+
+
+def get_vmac_logo():
+    with open(logo_path) as f:
+        return f.read()
+
+
+def file_get_contents(filename):
+    with open(filename) as f:
+        return f.read()
 
 
 def get_styles():
     return """<style>
+    
+        .column {
+          float: left;
+          width: 50%;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
         table {
         border-collapse: collapse;
         width: 100%;
@@ -39,7 +73,21 @@ def get_styles():
         float: left;
         }
         .right{
-        float: right;
+            float: right;
+            vertical-align: bottom;
+        
+        }
+        .right span {
+           position: absolute;
+           bottom: 0;
+           right: 0;
+        }
+        .container {
+          width: 100%;
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
         }
         
         .table th,
@@ -71,5 +119,9 @@ def get_styles():
         padding: 0.3rem;
         }
         
-        
+        .text-right {
+          text-align: right !important;
+          vertical-align: bottom;
+        }
+         
         </style>"""
