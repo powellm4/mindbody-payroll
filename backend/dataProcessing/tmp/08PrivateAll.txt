@@ -1,11 +1,4 @@
 ?<stafName>?Jamal Rahima, Carolina Rahima &
 "Instructors","Appointment Date", "Appt. Time", "Client Name", "Series Used", "Revenue", "Rev. per Session", "Earnings"
-"Jamal Rahima, Carolina Rahima ?<and>?","Friday, May 17, 2019", "5:00 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
-"Jamal Rahima, Carolina Rahima ?<and>?","Wednesday, May 22, 2019", "6:15 pm", "P. Helling", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
-"Jamal Rahima, Carolina Rahima ?<and>?","Friday, May 24, 2019", "5:00 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
-"Jamal Rahima, Carolina Rahima ?<and>?","Friday, May 31, 2019", "5:00 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
+"Jamal Rahima, Carolina Rahima ?<and>?","Friday, June 14, 2019", "5:30 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
 ?<totalFor>?Total for Jamal Rahima, Carolina Rahima &
-?<stafName>?Large, Shea
-"Instructors","Appointment Date", "Appt. Time", "Client Name", "Series Used", "Revenue", "Rev. per Session", "Earnings"
-"Large, Shea","Thursday, May 16, 2019", "6:00 pm", "A. Aburto", "Private Lesson 10 hour package One Instructor", "630.00", "63.00", "50.40"
-?<totalFor>?Total for Large, Shea

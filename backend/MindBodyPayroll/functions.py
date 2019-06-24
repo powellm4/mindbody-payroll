@@ -64,7 +64,7 @@ def get_instructors_list(df):
 
 # takes care of merging in the pricing options and
 # making the dataframe easier to process
-def clean_up_dataframe(df, po_df):
+def clean_up_dataframe(df, po_df=None):
     if is_alternate_format(df):
         if ' "Class name"' in df.columns:
             df = reformat_alternate_public(df)
@@ -73,7 +73,8 @@ def clean_up_dataframe(df, po_df):
     df = format_column_headers(df)
     df = drop_unnecessary_columns(df)
     df = remove_quotes(df)
-    df = include_pricing_options(df, po_df)
+    if po_df is not None:
+        df = include_pricing_options(df, po_df)
     df = format_client_name(df)
     df = sort_by_date_time(df)
     return df
@@ -238,7 +239,7 @@ def export_instructor_dances(po_df):
     df = clean_up_dataframe(df, po_df)
     df = assign_instructor_rate(df)
     df = assign_amount_due(df)
-    df = df[df.Series_Used == "VMAC INSTRUCTOR DANCE"]
+    df = df[(df.Series_Used == "VMAC INSTRUCTOR DANCE") | (df.Series_Used == "VMAC INSTRUCTOR FITNESS")]
     df = filter_out_jamal_carolina_classes(df)
     df.Amount_Due_To_Instructor = df.Amount_Due_To_Instructor * -2
     unique_instructors = df.Client_Name.unique()
@@ -342,6 +343,7 @@ def get_class_name_lookup_df():
 # creates folders for outputs
 def create_all_folders():
     create_folder(public_classes_folder_path)
+    create_folder(unpaid_folder_path)
     create_folder(private_classes_folder_path)
     create_folder(instructor_dance_folder_path)
     create_folder(totals_folder_path)
@@ -450,3 +452,20 @@ def reformat_alternate_public(df):
     df["Revenue"] = "0.00"
     df["Earnings"] = "0.00"
     return df
+
+
+# finds any classes who's pricing options do not show up in the pricing options list
+# writes them to output/unpaid folder
+def find_unpaid_classes(po_df):
+    df = pd.read_csv(dat_folder_path + all_classes_path)
+    df = clean_up_dataframe(df)
+    df = pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how="outer", indicator=True)
+    df = df[df['_merge'] == 'left_only']
+    if "_merge" in df.columns:
+        df = df.drop(columns=["_merge"])
+
+    pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
+    for pricing_option in pricing_option_dfs:
+        pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (unpaid_folder_path, pricing_option.replace(' ', '_')
+                                                                .replace('/','---')), mode='w', index=False)
+    return pricing_option_dfs

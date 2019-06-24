@@ -1,11 +1,18 @@
 {% extends 'base.html' %}
 
 {% block header %}
+<div class="row mt-2 justify-content-between">
+  <div class="col">
   <h1>{% block title %}Paystubs{% endblock %}</h1>
+    </div>
+    <div class="col text-right">
+  <a id="export" href="{{ url_for('export') }}" class="btn btn-primary btn-lg"> Export </a>
+      </div>
+</div>
 {% endblock %}
 
 {% block content %}
-  <a id="export" href="{{ url_for('export') }}" class="btn btn-primary"> Export </a>
+
 
   <div class="list-group">
     {%for i in range(0, len)%}
@@ -13,17 +20,4 @@
     {%endfor%}
 
     </div>
-{% endblock %}
-
-{% block scripts%}
-  $('#export').click( function() {
-    $.ajax({
-      type: "POST",
-      url: "{{ url_for('export') }}",
-      success: function(){
-      dataType: "json",
-      contentType : "application/json"
-    });
-  });
-
 {% endblock %}
