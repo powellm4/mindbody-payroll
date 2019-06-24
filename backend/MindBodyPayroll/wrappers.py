@@ -38,6 +38,7 @@ def run_backend(filename):
     cn_df = get_class_name_lookup_df()
 
 
+
     print("\nWriting public classes to  CSV\n----------")
     handle_classes(list_of_public_classes, po_df)
 
@@ -56,3 +57,7 @@ def run_backend(filename):
 
     print("\n\nWriting pay stubs with totals\n----------")
     output_instructor_totals(cn_df)
+
+
+    print("\n\nCreating unpaid class list\n----------")
+    find_unpaid_classes(po_df)

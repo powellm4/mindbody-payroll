@@ -49,12 +49,10 @@ def upload_file():
             print (filename)            
 
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            flash('File successfully uploaded')
-            flash('Starting dataprocessing')
 
             # calling run_backend in wrapper.py
             run_backend(filename)
-            return redirect('/')
+            return redirect('/paystubs/')
 
 
 @app.route('/paystubs/')
@@ -135,6 +133,15 @@ def export():
         attachment_filename='latest-payroll.zip'
     )
 
+
+@app.route('/unpaid/',  methods=['GET'])
+def unpaid():
+    tables = {}
+    for file in os.listdir(unpaid_folder_path):
+        df = pd.read_csv(unpaid_folder_path + file)
+        df = clean_up_df_for_web(df)
+        tables[file.replace('_', ' ').replace('---', '/').replace('.csv', '')] = df.to_html(classes="table table-striped table-hover table-sm")
+    return render_template('unpaid.html', tables=tables)
 
 if __name__ == '__main__':
       app.run(debug=True)

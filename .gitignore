@@ -67,5 +67,12 @@ backend/output/
 backend/lookupTables/.DS_Store
 backend/MindBodyPayroll/uploads/*
 backend/dataProcessing/raw/*
+backend/dataProcessing/dat/
+backend/dataProcessing/tmp/*
 .idea/workspace.xml
 .idea/workspace.xml
+backend/.DS_Store
+unknown-0.0-py37_0.tar.bz2
+backend/MindBodyPayroll/.DS_Store
+backend/lookupTables/.DS_Store
+backend/dataProcessing/dat/00-01-Class-All.csv
