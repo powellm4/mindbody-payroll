@@ -403,8 +403,8 @@ def export_paystubs_to_pdf():
     for file in os.listdir(totals_folder_path):
     # for file in ["D.McKnight.csv"]: # for testing purposes only
         output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
-        output_pdf_file = export_pdf_folder_path + file.replace('.csv', '') + '.pdf'
-
+        output_pdf_file_name = export_pdf_folder_path + get_global_pay_period() + '--' \
+            + file.replace('.csv', '') + '.pdf'
         input_file = totals_folder_path + file
         df = pd.read_csv(input_file)
         df = clean_up_df_for_web(df)
@@ -416,7 +416,7 @@ def export_paystubs_to_pdf():
         add_table_to_html_paystub_file(df.to_html(classes="table table-striped table-hover table-sm table-responsive"),
                                        output_html_file)
 
-        pdfkit.from_file(output_html_file, output_pdf_file)
+        pdfkit.from_file(output_html_file, output_pdf_file_name)
 
 
 # corrects private class files that come in the wrong format

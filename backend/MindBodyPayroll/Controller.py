@@ -122,7 +122,6 @@ def export():
     data = io.BytesIO()
     with zipfile.ZipFile(data, mode='w') as z:
         for f_name in base_path.iterdir():
-            print(f_name)
             z.write(f_name)
     data.seek(0)
     return send_file(
@@ -130,7 +129,7 @@ def export():
         cache_timeout=-1,
         mimetype='application/zip',
         as_attachment=True,
-        attachment_filename='latest-payroll.zip'
+        attachment_filename=get_global_pay_period() + '.zip'
     )
 
 
