@@ -58,7 +58,13 @@ def upload_file():
 @app.route('/paystubs/')
 def paystubs():
     paystub_list = os.listdir(totals_folder_path)
-    return render_template('paystubs/index.html', paystub_list=paystub_list, len=len(paystub_list))
+    totals_list = []
+    for file in paystub_list:
+        df = pd.read_csv(totals_folder_path + file)
+        totals_list.append('${:,.2f}'.format(df.iloc[-1][-1]))
+
+    return render_template('paystubs/index.html', totals_list=totals_list,
+                           paystub_list=paystub_list, len=len(paystub_list))
 
 
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])

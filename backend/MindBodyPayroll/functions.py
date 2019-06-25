@@ -283,7 +283,7 @@ def output_instructor_totals(cn_df):
         print('Creating pay stub for %s' % file.replace('.csv', ''))
         df = pd.read_csv("%s%s" % (public_classes_folder_path, file))
         df = df.append(df.sum(numeric_only=True), ignore_index=True)
-        df.iloc[-1][0] = 'Total'
+        # df.iloc[-1][0] = 'Total'
         df = include_class_names(df, cn_df)
 
         df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
@@ -392,8 +392,6 @@ def clean_up_df_for_web(df):
         df = df.drop(columns=["Instructor_Pay"])
     df.columns = [c.replace('_', ' ') for c in df.columns]
     df = df.fillna('')
-    # safe to take out next line
-    df.iloc[-1][0] = 'Total'
     pd.options.display.float_format = '${:,.2f}'.format
     return df
 
