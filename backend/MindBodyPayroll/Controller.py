@@ -58,7 +58,13 @@ def upload_file():
 @app.route('/paystubs/')
 def paystubs():
     paystub_list = os.listdir(totals_folder_path)
-    return render_template('paystubs/index.html', paystub_list=paystub_list, len=len(paystub_list))
+    totals_list = []
+    for file in paystub_list:
+        df = pd.read_csv(totals_folder_path + file)
+        totals_list.append('${:,.2f}'.format(df.iloc[-1][-1]))
+
+    return render_template('paystubs/index.html', totals_list=totals_list,
+                           paystub_list=paystub_list, len=len(paystub_list))
 
 
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
@@ -122,7 +128,6 @@ def export():
     data = io.BytesIO()
     with zipfile.ZipFile(data, mode='w') as z:
         for f_name in base_path.iterdir():
-            print(f_name)
             z.write(f_name)
     data.seek(0)
     return send_file(
@@ -130,7 +135,7 @@ def export():
         cache_timeout=-1,
         mimetype='application/zip',
         as_attachment=True,
-        attachment_filename='latest-payroll.zip'
+        attachment_filename=get_global_pay_period() + '.zip'
     )
 
 
