@@ -1,6 +1,6 @@
 # RUN BELOW COMMANDS
-# cp myproject /etc/nginx/sites-available/vmac
-# sudo ln -s /etc/nginx/sites-available/vmac /etc/nginx/sites-enabled
+# cp nginx-vmac /etc/nginx/sites-available/nginx-vmac
+# sudo ln -s /etc/nginx/sites-available/nginx-vmac /etc/nginx/sites-enabled
 # sudo nginx -t
 
 server {
