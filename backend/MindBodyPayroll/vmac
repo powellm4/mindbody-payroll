@@ -1,0 +1,14 @@
+# RUN BELOW COMMANDS
+# cp myproject /etc/nginx/sites-available/vmac
+# sudo ln -s /etc/nginx/sites-available/vmac /etc/nginx/sites-enabled
+# sudo nginx -t
+
+server {
+    listen 80;
+    server_name deploymentstory.com;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:home/nuatut_gmail_com/mindbody-payroll/backend/MindBodyPayroll/vmac.sock;
+    }
+}
