@@ -16,6 +16,7 @@ shutil = "*"
 os = "*"
 pdfkit = "*"
 uwsgi = "*"
+pipenv-to-requirements = "*"
 
 [requires]
 python_version = "3.7"
