@@ -15,6 +15,7 @@ wtforms = "*"
 shutil = "*"
 os = "*"
 pdfkit = "*"
+uwsgi = "*"
 
 [requires]
 python_version = "3.7"
