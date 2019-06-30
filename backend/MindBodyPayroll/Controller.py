@@ -146,6 +146,10 @@ def unpaid():
         df = pd.read_csv(unpaid_folder_path + file)
         df = clean_up_df_for_web(df)
         tables[file.replace('_', ' ').replace('---', '/').replace('.csv', '')] = df.to_html(classes="table table-striped table-hover table-sm")
+        # from re import sub
+        # import jinja2
+        # environment = jinja2.Environment()
+        # environment.filters['sub'] = sub
     return render_template('unpaid.html', tables=tables)
 
 
