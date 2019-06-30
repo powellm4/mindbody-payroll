@@ -2,13 +2,18 @@
 " ...clean unnecessary lines:
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v/^?<.*>?/d
+"
 g/Grand total$/-1;/^?<endRecord>?/s/^/?<del>?&/
 g/^?<del>?/d
+"
 g/^?<totalFor>?/-1s/start/end/
 g/^?<totalFor>?/+1;/^?<endRecord>?/s/^/?<del>?&/
 g/^?<del>?/d
-g/^?<data>?Vitalidad Movement Arts Center/-1;/^?<totalFor>?/-2s/^/?<del>?/
+"
+"g/^?<data>?Vitalidad Movement Arts Center/-1;/^?<totalFor>?/-2s/^/?<del>?/
+g/^?<data>?Vitalidad Movement Arts Center/-1;/^?<endRecord>?/-1s/^/?<del>?/
 g/^?<del>?/d
-g/^?<startRecord>?<tr class="subtotal">$/-1;/^?<endRecord>?/s/^/?<del>?&/
+"
+g/^?<startRecord>?<tr class="subtotal">$/.;/^?<endRecord>?/-1s/^/?<del>?&/
 g/^?<del>?/d
-g/^?<startPrivate>?/s/^/?<endRecord>?\r/
+"

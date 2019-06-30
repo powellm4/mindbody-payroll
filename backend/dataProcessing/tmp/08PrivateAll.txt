@@ -1,4 +1,0 @@
-?<stafName>?Jamal Rahima, Carolina Rahima &
-"Instructors","Appointment Date", "Appt. Time", "Client Name", "Series Used", "Revenue", "Rev. per Session", "Earnings"
-"Jamal Rahima, Carolina Rahima ?<and>?","Friday, June 14, 2019", "5:30 pm", "A. Gallegos", "Private Lesson 10 hour package", "630.00", "63.00", "53.55"
-?<totalFor>?Total for Jamal Rahima, Carolina Rahima &
