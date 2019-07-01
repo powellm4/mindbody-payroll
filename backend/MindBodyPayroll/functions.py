@@ -36,6 +36,20 @@ def handle_classes(list_of_classes, po_df):
                 write_instructor_to_csv(df, instructor, private_classes_folder_path, provide_feedback=False)
 
 
+def remove_bad(list_of_classes):
+    remove_list = []
+    for file in list_of_classes:
+        df = pd.read_csv("%s%s" % (dat_folder_path, file), error_bad_lines=False)
+        if len(df.columns) < 6:
+            print('Removing %s\n', file)
+            print(df.head())
+            remove_list.append(file)
+
+    for file in remove_list:
+        os.remove("%s%s" % (dat_folder_path, file))
+
+
+
 # input: 'Instructors' cell from processed data
 # output: Array of instructor(s), formatted as F.Last
 def get_instructors_list(df):
@@ -359,7 +373,7 @@ def get_list_of_classes(public=False, private=False):
     if public:
         prefix = "01-Class"
     if private:
-        prefix = "02-Private"
+        prefix = "01-Private"
     return [name for name in os.listdir(dat_folder_path) if name.startswith(prefix)]
 
 
