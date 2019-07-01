@@ -43,7 +43,8 @@ def run_backend(filename):
     set_global_pay_period(pay_period)
 
 
-
+    remove_non_instructor_staff(list_of_public_classes)
+    list_of_public_classes = get_list_of_classes(public=True)
     print("\nWriting public classes to  CSV\n----------")
     handle_classes(list_of_public_classes, po_df)
 

@@ -25,7 +25,8 @@ pd.set_option('display.width', 1500)
 def handle_classes(list_of_classes, po_df):
     # for each (public/private) class file in dataProcessing/dat/ folder
     for file in list_of_classes:
-        df = pd.read_csv("%s%s" % (dat_folder_path, file))
+        df = pd.read_csv("%s%s" % (dat_folder_path, file), error_bad_lines=False)
+
         instructors_list = get_instructors_list(df)
         df = clean_up_dataframe(df, po_df)
         df = assign_instructor_rate(df, len(instructors_list))
@@ -71,6 +72,8 @@ def clean_up_dataframe(df, po_df=None):
             df = reformat_alternate_public(df)
         else:
             df = reformat_alternate_private(df)
+    if 'Class Date' in df.columns:
+        df = df[~df['Class Date'].str.contains("Front Desk")]
     df = format_column_headers(df)
     df = drop_unnecessary_columns(df)
     df = remove_quotes(df)
@@ -359,7 +362,7 @@ def get_list_of_classes(public=False, private=False):
     if public:
         prefix = "01-Class"
     if private:
-        prefix = "02-Private"
+        prefix = "01-Private"
     return [name for name in os.listdir(dat_folder_path) if name.startswith(prefix)]
 
 
@@ -489,3 +492,17 @@ def set_global_pay_period(pay_period):
 def get_global_pay_period():
     f = open(output_folder_path + 'payperiod.txt')
     return f.read()
+
+
+def remove_non_instructor_staff(class_list):
+    remove_list = []
+    for file in class_list:
+        df = pd.read_csv("%s%s" % (dat_folder_path, file), error_bad_lines=False)
+        if df.columns[0] != 'Instructors':
+            remove_list.append(file)
+        elif "Rental-Room" in file:
+            remove_list.append(file)
+    # return remove_list
+
+    for file in remove_list:
+        os.remove("%s%s" % (dat_folder_path, file))
