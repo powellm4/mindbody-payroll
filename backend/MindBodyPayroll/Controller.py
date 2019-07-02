@@ -153,5 +153,10 @@ def unpaid():
     return render_template('unpaid.html', tables=tables)
 
 
+@app.route('/instructions/',  methods=['GET'])
+def instructions():
+    return render_template('instructions.html')
+
+
 if __name__ == '__main__':
       app.run(debug=True)

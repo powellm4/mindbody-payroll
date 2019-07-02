@@ -21,7 +21,7 @@
 <div class="accordion" id="accordionExample">
 
     {% for key, value in tables.items() %}
-        {% set id = key.replace(' ','').replace('/','').replace('&','') %}
+        {% set id = key.replace(' ','').replace('/','').replace('&','').replace('(','').replace(')','') %}
 
         <div class="card">
 

@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1 class="mb-5">{% block title %}VMAC Payroll Instructions{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+   <ol>
+       <h4><li >Update Prices Page</li></h4>
+        <div class="container mb-4">Make sure the Prices page is up to date. The system uses this page to lookup
+            the prices to use when adding up an instructors paycheck. Make sure the prices
+            are spelled exactly as they are in MindBody.
+        </div>
+       <h4><li >Update Classes Page</li></h4>
+        <div class="container mb-4">Check that the Classes page is up to date. This page is used by the system to include
+            the name of each class that is listed on an instructors paystub.
+        </div>
+       <h4><li >Export Payroll Report from MindBody</li></h4>
+        <div class="container mb-4">
+            <ul start="1">
+                <li>On MindBody, go to Reports</li>
+                <li>Under 'Staff', go to 'Payroll'</li>
+                <li>Make sure 'All Locations' is selected under the locations dropdown</li>
+                <li>Select the following 4 Options under the 'Service Category' area on the right
+                    <ol>
+                        <li>Dance Classes</li>
+                    <li>Fitness Classes</li>
+                    <li>Private Lessons</li>
+                    <li>Workshops</li>
+                    </ol>
+                </li>
+                <li>Select the correct Pay Period Dates</li>
+                <li>Click the 'Generate' Button</li>
+                <li>Once the Report shows on screen, click the 'XLS' icon next to the 'Generate' button</li>
+                <li>Save the file to your computer. <span class="font-weight-bold">Do not change the file name.</span></li>
+            </ul>
+        </div>
+       <h4><li >Upload Page</li></h4>
+        <div class="container mb-4">
+            Back on the VMAC Payroll website, go to the Upload page and upload the file from MindBody.<br>
+            This creates all of the Paystubs. Once finished, it will redirect you to the 'Paystubs' page.
+            This can take up to 1 minute to complete.
+        </div>
+       <h4><li >Check the Unpaid page</li></h4>
+        <div class="container mb-4">
+            The Unpaid page lists any classes with Price options that could not be found on the 'Prices' page. <br>
+            This page makes it easy to see any outlying classes that may have been entered into MindBody incorrectly.<br>
+            This also makes it easy to see if the Prices page is missing a pricing option.
+        </div>
+       <h4><li >Export Paystubs</li></h4>
+        <div class="container mb-4">
+            Back on the Paystubs page, click the export page at the top of the screen. This will output a downloadble zip folder
+            with all of the paystubs for the pay period. This process can take up to 1 minute.
+        </div>
+
+   </ol>
+{% endblock %}
