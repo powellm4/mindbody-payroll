@@ -8,6 +8,7 @@ from shutil import copyfile
 from sys import exit
 from pdf_helper import create_html_paystub_file, add_table_to_html_paystub_file
 import re
+from db_helper import *
 
 
 # display floats as currency
@@ -31,6 +32,7 @@ def handle_classes(list_of_classes, po_df):
         df = assign_instructor_rate(df, len(instructors_list))
         df = assign_amount_due(df)
         for instructor in instructors_list:
+            # add_instructor_to_db()
             write_instructor_to_csv(df, instructor, public_classes_folder_path)
             if "02-Private" in list_of_classes[0]:
                 write_instructor_to_csv(df, instructor, private_classes_folder_path, provide_feedback=False)
@@ -43,6 +45,9 @@ def remove_bad(list_of_classes):
         if len(df.columns) < 6:
             print('Removing %s\n', file)
             print(df.head())
+            remove_list.append(file)
+        elif 'Jamal-Rahima' in file and 'Carolina-Rahima' in file:
+            print('Removing %s\n' % file)
             remove_list.append(file)
 
     for file in remove_list:
@@ -301,6 +306,9 @@ def output_instructor_totals(cn_df):
         df = include_class_names(df, cn_df)
 
         df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
+        with create_connection(database_path) as conn:
+            instructor = (file, 0)
+            print(create_instructor(conn, instructor))
 
 
 # same as running the shell command:

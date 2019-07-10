@@ -57,14 +57,25 @@ def upload_file():
 
 @app.route('/paystubs/')
 def paystubs():
-    paystub_list = os.listdir(totals_folder_path)
+    # paystub_list = os.listdir(totals_folder_path)
+    with create_connection(database_path) as conn:
+        instructors_list = select_all_instructors(conn)
+    # formatted_list = []
+    # for item in paystub_list:
+    #     first = item[0:1]
+    #     second = item[2:]
+    #     new_name = '%s, %s' % (second, first)
+    #     formatted_list.append(new_name)
+    # sorted = formatted_list
+    # sorted.sort()
     totals_list = []
-    for file in paystub_list:
-        df = pd.read_csv(totals_folder_path + file)
+    for file in instructors_list:
+        file_name = file[InstructorRecord.NAME]
+        df = pd.read_csv(totals_folder_path + file[InstructorRecord.NAME])
         totals_list.append('${:,.2f}'.format(df.iloc[-1][-1]))
 
-    return render_template('paystubs/index.html', totals_list=totals_list,
-                           paystub_list=paystub_list, len=len(paystub_list))
+    return render_template('paystubs/index.html', instructors_list=instructors_list, totals_list=totals_list,
+                           paystub_list=sorted, len=len(instructors_list))
 
 
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
@@ -79,9 +90,12 @@ def paystubs_detail(id):
         make_adjustment(instructor, description, amount)
         return redirect(url_for('paystubs_detail', id=id))
     else:
-        form.instructor.data = paystub_list[id].replace('.csv', '')
+        with create_connection(database_path) as conn:
+            form.instructor.data = select_instructor_by_id(conn, id)[InstructorRecord.NAME].replace('.csv', '')
 
-    df = pd.read_csv(totals_folder_path+paystub_list[id])
+    with create_connection(database_path) as conn:
+        file_name = select_instructor_by_id(conn, id)[InstructorRecord.NAME]
+    df = pd.read_csv(totals_folder_path+file_name)
     df = clean_up_df_for_web(df)
     form.amount.data = ''
     form.description.data = ''

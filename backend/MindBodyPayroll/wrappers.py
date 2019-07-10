@@ -1,4 +1,7 @@
 from functions import *
+from db_helper import *
+import config
+
 
 #
 #############################################################
@@ -15,10 +18,14 @@ def run_backend(filename):
             "\t   MindBody Payroll\n"
             "\n------------------------------\n\n")
 
+
     # remove any output data from previous runs
     clean_up_dataProcessing_folder()
     clean_up_workspace()
     create_all_folders()
+    with create_connection(database_path) as conn:
+        wipe_database(conn)
+        create_table(conn, config.sql_create_instructors_table)
 
     # copy file from upload folder to raw folder
     move_uploaded_file(filename)
