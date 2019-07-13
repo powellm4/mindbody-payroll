@@ -1,3 +1,5 @@
+from enum import IntEnum
+
 dat_folder_path = "../dataProcessing/dat/"
 tmp_folder_path = "../dataProcessing/tmp/"
 log_folder_path = "../dataProcessing/log/"
@@ -16,3 +18,10 @@ export_folder_path = "../output/export/"
 export_html_folder_path = "../output/export/html/"
 export_pdf_folder_path = "../output/export/pdf/"
 logo_path = "static/img/logo.txt"
+database_path = "db/payroll.db"
+
+
+class InstructorRecord(IntEnum):
+    ID = 0
+    NAME = 1
+    TOTAL = 2

@@ -1,4 +1,7 @@
 from functions import *
+from db_helper import *
+import config
+
 
 #
 #############################################################
@@ -15,10 +18,14 @@ def run_backend(filename):
             "\t   MindBody Payroll\n"
             "\n------------------------------\n\n")
 
+
     # remove any output data from previous runs
     clean_up_dataProcessing_folder()
     clean_up_workspace()
     create_all_folders()
+    with create_connection(database_path) as conn:
+        wipe_database(conn)
+        create_table(conn, config.sql_create_instructors_table)
 
     # copy file from upload folder to raw folder
     move_uploaded_file(filename)
@@ -43,7 +50,8 @@ def run_backend(filename):
     set_global_pay_period(pay_period)
 
 
-
+    remove_bad(list_of_public_classes)
+    list_of_public_classes = get_list_of_classes(public=True)
     print("\nWriting public classes to  CSV\n----------")
     handle_classes(list_of_public_classes, po_df)
 
