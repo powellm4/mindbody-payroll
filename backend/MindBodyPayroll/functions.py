@@ -477,6 +477,10 @@ def reformat_alternate_public(df):
     return df
 
 
+def sort_name(val):
+    return val[InstructorRecord.NAME]
+
+
 # finds any classes who's pricing options do not show up in the pricing options list
 # writes them to output/unpaid folder
 def find_unpaid_classes(po_df):
