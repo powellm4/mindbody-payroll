@@ -477,10 +477,14 @@ def reformat_alternate_public(df):
     return df
 
 
+def sort_name(val):
+    return val[InstructorRecord.NAME]
+
+
 # finds any classes who's pricing options do not show up in the pricing options list
 # writes them to output/unpaid folder
-def find_unpaid_classes(po_df):
-    df = pd.read_csv(dat_folder_path + all_classes_path)
+def find_unpaid_classes(po_df, classes_path):
+    df = pd.read_csv(dat_folder_path + classes_path, error_bad_lines=False)
     df = clean_up_dataframe(df)
     df = pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how="outer", indicator=True)
     df = df[df['_merge'] == 'left_only']
