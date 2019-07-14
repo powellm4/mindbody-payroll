@@ -308,7 +308,7 @@ def output_instructor_totals(cn_df):
         df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
         with create_connection(database_path) as conn:
             instructor = (file, 0)
-            print(create_instructor(conn, instructor))
+            create_instructor(conn, instructor)
 
 
 # same as running the shell command:
@@ -420,8 +420,8 @@ def clean_up_df_for_web(df):
 
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
 def export_paystubs_to_pdf():
-    for file in os.listdir(totals_folder_path):
-    # for file in ["D.McKnight.csv"]: # for testing purposes only
+    # for file in os.listdir(totals_folder_path):
+    for file in ["I.Villanueva-Torres.csv"]: # for testing purposes only
         output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
         output_pdf_file_name = export_pdf_folder_path + get_global_pay_period() + '--' \
             + file.replace('.csv', '') + '.pdf'

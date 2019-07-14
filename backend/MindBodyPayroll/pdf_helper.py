@@ -18,6 +18,7 @@ def add_table_to_html_paystub_file(table, output_html_file):
 
 def get_header(file, total, student_count, pay_period):
     return """
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <div class="row">
         <div class="column">
             <img src="data:image/png;base64,""" + get_vmac_logo() + """ " alt="VMAC Logo" />
