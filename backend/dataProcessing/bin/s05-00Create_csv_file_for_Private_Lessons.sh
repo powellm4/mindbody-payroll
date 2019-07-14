@@ -6,7 +6,7 @@
 #        #Output: ./dat/00-02-Private-All.csv
 
 # Create a csv file for Private Lessons:
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./bin/s05-01preparePrivate.so
 w! ./tmp/s05-01PrivateAll.txt
 so ./bin/s05-02cleaning.so

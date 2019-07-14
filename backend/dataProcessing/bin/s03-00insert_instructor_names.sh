@@ -6,14 +6,14 @@
 #         #Output: ./tmp/s03-01insertedNames.txt
 
 # Create a vim script which inserts the instructor names:
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./bin/s03-01replaceNames.so
 w! ./tmp/s03-02replaceNames.so
 q!
 EOS
 
 # Insert instructor names for each record:
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./tmp/s03-02replaceNames.so
 g/^?<startPrivate>?/s/^/?<totalFor>?\r/
 g/^"Instructors",/s/^/?<m>?/

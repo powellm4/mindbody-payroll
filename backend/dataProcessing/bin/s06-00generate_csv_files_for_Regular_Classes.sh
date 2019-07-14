@@ -10,7 +10,7 @@
 # Create a vim script for Regular Classes,
 # which generate csv files,
 # one for each set of instructors:
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./bin/s06-01part1Class.so
 w! ./tmp/s06-01ClassPart.1
 e! $1
@@ -21,12 +21,12 @@ w! ./tmp/s06-02ClassPart.2
 q!
 EOS
 
-paste ./tmp/s06-01ClassPart.1 ./tmp/s06-02ClassPart.2 \
+/usr/bin/paste ./tmp/s06-01ClassPart.1 ./tmp/s06-02ClassPart.2 \
 > ./tmp/s06-03ClassEach.so
 
 # Generate one csv file for each set of instructors
 # for Regula Classes:
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./tmp/s06-03ClassEach.so
 so ./bin/s06-03cleaningClass.so
 q!

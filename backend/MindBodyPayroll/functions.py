@@ -404,7 +404,9 @@ def run_data_processing_shell_scripts(dir_plus_filename):
     os.chdir('../dataProcessing')
     subprocess.run(['./bin/s00-generate_csv_files.sh', dir_plus_filename])
     os.chdir('../MindBodyPayroll')
-    subprocess.run(['pwd'])
+    
+    # HAD TO COMMENT OUT BELOW LINE TO GET SYSTEM TO RUN
+    # subprocess.run(['pwd'])
 
 
 def clean_up_df_for_web(df):

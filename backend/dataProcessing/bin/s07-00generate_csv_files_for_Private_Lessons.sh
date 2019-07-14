@@ -10,7 +10,7 @@
 # Create a vim script for Private Lessons,
 # which generate csv files,
 # one for each set of instructors:
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./bin/s07-01part1Private.so
 w! ./tmp/s07-01PrivatePart.1
 e! $1
@@ -21,12 +21,12 @@ w! ./tmp/s07-02PrivatePart.2
 q!
 EOS
 
-paste ./tmp/s07-01PrivatePart.1 ./tmp/s07-02PrivatePart.2 \
+/usr/bin/paste ./tmp/s07-01PrivatePart.1 ./tmp/s07-02PrivatePart.2 \
 > ./tmp/s07-03PrivateEach.so
 
 # Generate one csv file for each set of instructors
 # for Regula Privatees:
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./tmp/s07-03PrivateEach.so
 so ./bin/s07-03cleaningPrivate.so
 q!

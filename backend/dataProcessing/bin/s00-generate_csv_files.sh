@@ -12,7 +12,7 @@ fileName="$1"
 # echo "fileName: \"$fileName\""
 # rm -f ./dat/* ./tmp/* ./log/*
 
-cp -a "$fileName" ./tmp/s00-01All.txt
+/bin/cp -a "$fileName" ./tmp/s00-01All.txt
 
 # Convert tabs to spaces and Convert html symbols to text
 source ./bin/s01-initial_process.sh \

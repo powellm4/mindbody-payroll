@@ -5,7 +5,7 @@
 #        #Input-: ./tmp/s03-01insertedNames.txt
 #        #Output: ./dat/00-01-Class-All.csv
 
-ex $1 <<EOS
+/usr/bin/ex $1 <<EOS
 so ./bin/s04-01prepareClass.so
 w! ./tmp/s04-01ClassAll.txt
 so ./bin/s04-02cleaning.so
