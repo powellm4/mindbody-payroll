@@ -21,19 +21,16 @@
 <div class="accordion" id="accordionExample">
 
     {% for key, value in tables.items() %}
-        {% set id = key.replace(' ','').replace('/','').replace('&','').replace('(','').replace(')','') %}
 
         <div class="card">
 
-            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#{{id}}" aria-expanded="true" aria-controls="{{id}}">
-
+            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#a{{loop.index}}" aria-expanded="true" aria-controls="a{{loop.index}}">
 
                   {{ key }}
 
-
             </div>
 
-            <div id="{{id}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="a{{loop.index}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
                 {{ value |safe}}
                 </div>

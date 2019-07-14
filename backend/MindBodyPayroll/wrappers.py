@@ -73,4 +73,5 @@ def run_backend(filename):
 
 
     print("\n\nCreating unpaid class list\n----------")
-    find_unpaid_classes(po_df)
+    find_unpaid_classes(po_df, all_classes_path)
+    find_unpaid_classes(po_df, all_private_classes_path)
