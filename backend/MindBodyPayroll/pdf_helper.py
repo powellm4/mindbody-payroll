@@ -1,7 +1,6 @@
 from constants import export_html_folder_path, logo_path
 
 
-
 def create_html_paystub_file(file, total, student_count, pay_period):
     output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
     f = open(output_html_file, "w+")
@@ -21,11 +20,17 @@ def get_header(file, total, student_count, pay_period):
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <div class="row">
         <div class="column">
-            <img src="data:image/png;base64,""" + get_vmac_logo() + """ " alt="VMAC Logo" />
+            <img class="logo" src="data:image/png;base64,""" + get_vmac_logo() + """ " alt="VMAC Logo" />
+            <div class="address">
+                <br/>
+                Vitalidad Movement Arts Center<br/>
+                116 SE Yamhill St, Portland OR 97214<br/>
+                971-266-3935
+            </div>
         </div>
         <div class="column">
-            <h3 class="text-right">Number of Students: """+student_count+"""</h3>
-             <h3 class="text-right">Pay Date Range: """+pay_period+"""</h3>
+            <div class="text-right">Pay Date Range: """+pay_period+"""<br/>
+            Number of Students: """+student_count+"""</div>
         </div>
     </div>
     <div class="row">
@@ -54,6 +59,15 @@ def get_styles():
         .column {
           float: left;
           width: 50%;
+        }
+        
+        .logo{
+            width: 170px;
+            float: left;
+        }
+        
+        .address{
+            float: right;
         }
         
         /* Clear floats after the columns */
