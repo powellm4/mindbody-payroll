@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ae1ae-1045-490d-a41b-dc0fd1ea52cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
-              <caret line="479" column="4" selection-start-line="479" selection-start-column="4" selection-end-line="479" selection-end-column="4" />
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -43,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="121">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -55,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+            <state relative-caret-position="79">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -83,7 +84,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>open</find>
       <find>write</find>
       <find>upload</find>
       <find>upl</find>
@@ -110,8 +110,9 @@
       <find>logo_path</find>
       <find>pay</find>
       <find>logo</find>
-      <find>conn</find>
       <find>export</find>
+      <find>conn</find>
+      <find>paul</find>
       <find>pdf</find>
     </findStrings>
     <replaceStrings>
@@ -146,11 +147,11 @@
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/db_helper.py" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/unpaid.html" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/templates/paystubs/index.html" />
-        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py" />
-        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/constants.py" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/pdf_helper.py" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" />
+        <option value="$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py" />
       </list>
     </option>
   </component>
@@ -179,6 +180,19 @@
               <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
               <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
+              <item name="dat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
@@ -290,9 +304,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="851" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23749119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35940802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -334,13 +347,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -360,34 +366,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="69" column="27" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/lookupTables/class-name-lookup.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="946">
-          <caret line="70" column="12" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/templates/prices/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="58" lean-forward="true" selection-end-line="58" />
-          <folding>
-            <element signature="n#style#0;n#script#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/static/img/logo" />
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -479,12 +457,6 @@
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-1843" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/01-Private-001-Jamal-Rahima-Carolina-Rahima-and.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/dataProcessing/bin/s01-initial_process.sh">
       <provider selected="true" editor-type-id="text-editor" />
@@ -619,16 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/00-01-Class-All.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="271">
-          <caret line="306" column="68" lean-forward="true" selection-start-line="306" selection-start-column="68" selection-end-line="306" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -643,16 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/db_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -663,20 +615,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/01-Class-018-McKnight-Deblin.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/01-Class-012-Jamal-Rahima-Carolina-Rahima-and.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/01-Private-002-McKnight-Deblin.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/01-Private-001-Jamal-Rahima-Carolina-Rahima-and.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/00-01-Class-All.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="108">
+          <caret line="685" column="14" selection-start-line="685" selection-start-column="10" selection-end-line="685" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/01-Class-019-Metzler-Paula.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
-          <caret line="479" column="4" selection-start-line="479" selection-start-column="4" selection-end-line="479" selection-end-column="4" />
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py">
+    <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        <state relative-caret-position="121">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
