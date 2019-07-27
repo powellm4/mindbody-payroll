@@ -39,6 +39,11 @@ def run_backend(filename):
     # get list of files from dat folder
     list_of_public_classes = get_list_of_classes(public=True)
     list_of_private_classes = get_list_of_classes(private=True)
+    remove_bad(list_of_public_classes)
+    remove_bad(list_of_private_classes)
+    list_of_public_classes = get_list_of_classes(public=True)
+    list_of_private_classes = get_list_of_classes(private=True)
+
 
     # dataFrame for pricing options lookup
     po_df = get_pricing_option_lookup_df()
@@ -50,8 +55,8 @@ def run_backend(filename):
     set_global_pay_period(pay_period)
 
 
-    remove_bad(list_of_public_classes)
-    list_of_public_classes = get_list_of_classes(public=True)
+
+
     print("\nWriting public classes to  CSV\n----------")
     handle_classes(list_of_public_classes, po_df)
 
