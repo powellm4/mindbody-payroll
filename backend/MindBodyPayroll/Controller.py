@@ -64,12 +64,9 @@ def paystubs():
     formatted_list = []
     for item in instructors_tuples:
         name = item[InstructorRecord.NAME]
-        first = name[0:1]
-        second = name[2:].replace('.csv', '')
-        new_name = '%s, %s' % (second, first)
         df = pd.read_csv(totals_folder_path + item[InstructorRecord.NAME])
         total = '${:,.2f}'.format(df.iloc[-1][-1])
-        formatted_list.append((item[InstructorRecord.ID], new_name, total))
+        formatted_list.append((item[InstructorRecord.ID], name, total))
 
     formatted_list.sort(key=sort_name)
     return render_template('paystubs/index.html', instructors_list=formatted_list,
