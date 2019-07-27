@@ -49,6 +49,9 @@ def remove_bad(list_of_classes):
         elif 'Jamal-Rahima' in file and 'Carolina-Rahima' in file:
             print('Removing %s\n' % file)
             remove_list.append(file)
+        elif 'McKnight-Deblin' in file:
+            print('Removing %s\n' % file)
+            remove_list.append(file)
 
     for file in remove_list:
         os.remove("%s%s" % (dat_folder_path, file))
