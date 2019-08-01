@@ -491,7 +491,9 @@ def sort_name(val):
 def find_unpaid_classes(po_df, classes_path):
     df = pd.read_csv(dat_folder_path + classes_path, error_bad_lines=False)
     df = clean_up_dataframe(df)
-    df = pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how="outer", indicator=True)
+    df['lower'] = df.Series_Used.str.lower()
+    po_df['lower'] = po_df.index.str.lower()
+    df = pd.merge(df, po_df, left_on='lower', right_on='lower', how="outer", indicator=True)
     df = df[df['_merge'] == 'left_only']
     if "_merge" in df.columns:
         df = df.drop(columns=["_merge"])

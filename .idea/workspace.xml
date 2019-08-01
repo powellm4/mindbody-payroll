@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ae1ae-1045-490d-a41b-dc0fd1ea52cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s00-generate_csv_files.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s00-generate_csv_files.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s01-initial_process.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s01-initial_process.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-00flag_the_significant_lines.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-00flag_the_significant_lines.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-01cleaning.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-01cleaning.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-02markBasics.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-02markBasics.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-03markData.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-03markData.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-04cleaning.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-04cleaning.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-05joinData.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-05joinData.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s02-06addColumns.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s03-00insert_instructor_names.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s03-00insert_instructor_names.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s03-01replaceNames.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s03-01replaceNames.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s04-00Create_csv_file_for_Regular_Classes.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s04-00Create_csv_file_for_Regular_Classes.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s04-01prepareClass.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s04-01prepareClass.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s04-02cleaning.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s04-02cleaning.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s05-00Create_csv_file_for_Private_Lessons.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s05-00Create_csv_file_for_Private_Lessons.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s05-01preparePrivate.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s05-01preparePrivate.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s05-02cleaning.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s05-02cleaning.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-00generate_csv_files_for_Regular_Classes.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-00generate_csv_files_for_Regular_Classes.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-01part1Class.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-01part1Class.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-02part2Class.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-02part2Class.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-03cleaningClass.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s06-03cleaningClass.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s07-00generate_csv_files_for_Private_Lessons.sh" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s07-00generate_csv_files_for_Private_Lessons.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s07-01part1Private.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s07-01part1Private.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/bin/s07-02part2Private.so" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/bin/s07-02part2Private.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/dataProcessing/raw/Payroll_Report_4-1-2019_4-14-2019.xls" beforeDir="false" afterPath="$PROJECT_DIR$/backend/dataProcessing/raw/Payroll_Report_4-1-2019_4-14-2019.xls" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="231" column="63" selection-start-line="231" selection-start-column="63" selection-end-line="231" selection-end-column="63" />
+            <state relative-caret-position="211">
+              <caret line="495" column="61" selection-start-line="495" selection-start-column="61" selection-end-line="495" selection-end-column="61" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -98,7 +70,6 @@
       <find>create_conn</find>
       <find>read_csv</find>
       <find>id</find>
-      <find>unpaid</find>
       <find>payd</find>
       <find>formatt</find>
       <find>totals</find>
@@ -118,6 +89,7 @@
       <find>pricing options</find>
       <find>pricing</find>
       <find>include_</find>
+      <find>unpaid</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -709,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="231" column="63" selection-start-line="231" selection-start-column="63" selection-end-line="231" selection-end-column="63" />
+        <state relative-caret-position="211">
+          <caret line="495" column="61" selection-start-line="495" selection-start-column="61" selection-end-line="495" selection-end-column="61" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
