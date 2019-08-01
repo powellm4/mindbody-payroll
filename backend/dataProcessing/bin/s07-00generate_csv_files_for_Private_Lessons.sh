@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # generate one csv file for each set of instructors for Private Lessons:
 # source ./bin/s07-00generate_csv_files_for_Private_Lessons.sh \
 #        ./tmp/s05-01PrivateAll.txt
@@ -7,6 +9,7 @@
 #        #Output: ./dat/02-Private-002-<instructorName>.txt
 #        #Output: ./dat/02-Private-...-<instructorName>.txt
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Create a vim script for Private Lessons,
 # which generate csv files,
 # one for each set of instructors:
@@ -21,9 +24,11 @@ w! ./tmp/s07-02PrivatePart.2
 q!
 EOS
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 paste ./tmp/s07-01PrivatePart.1 ./tmp/s07-02PrivatePart.2 \
 > ./tmp/s07-03PrivateEach.so
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Generate one csv file for each set of instructors
 # for Regula Privatees:
 ex $1 <<EOS
