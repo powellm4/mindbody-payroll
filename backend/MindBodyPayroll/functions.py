@@ -227,7 +227,9 @@ def clean_up_class_name_dataframe(cn_df):
 # merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
 def include_pricing_options(df, po_df):
     # if "#_Clients" in df.columns:
-    return pd.merge(df, po_df, left_on='Series_Used', right_on='Pricing_Option', how='left')
+    df['lower'] = df.Series_Used.str.lower()
+    po_df['lower'] = po_df.index.str.lower()
+    return pd.merge(df, po_df, left_on='lower', right_on='lower', how='left')
 
 
 # merges the class name lookup dataframe with the main dataframe,
