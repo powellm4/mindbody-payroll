@@ -1,10 +1,5 @@
-" vimScript: ./bin/s07-01part1Private.so
-" ...
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-v/^?<stafName>?/d
 g/^?<stafName>?/d
 g/^?<totalFor>?/d
 2;$g/^"Instructors",/d
 g/?<and>?/s//\&/g
 g/&nbsp;/s// /g
-

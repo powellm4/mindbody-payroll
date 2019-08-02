@@ -1,4 +1,4 @@
-" vimScript: ./bin/s02-04cleaning.so
+" vimScript: ./bin/04cleaning.so
 " ...clean unnecessary lines:
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v/^?<.*>?/d
@@ -16,4 +16,4 @@ g/^?<del>?/d
 "
 g/^?<startRecord>?<tr class="subtotal">$/.;/^?<endRecord>?/-1s/^/?<del>?&/
 g/^?<del>?/d
-
+"

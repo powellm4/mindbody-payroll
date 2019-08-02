@@ -1,4 +1,4 @@
-" vimScript: ./bin/s03-01replaceNames.so
+" vimScript: ./bin/07replaceNames.so
 " ...used to create a vim script that will insert the instructor names:
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v/?<stafName>?/d
@@ -11,4 +11,3 @@ g/?<m>?/s//\/"Names"\/"&/
 g/?<m>?/s/$/"\//
 g/?<m>?/s///
 g/?<and>?/s//\&/
-

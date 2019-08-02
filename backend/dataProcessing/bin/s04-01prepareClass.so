@@ -1,9 +1,7 @@
-" vimScript: ./bin/s04-01prepareClass.so
+" vimScript: ./bin/08prepareClass.so
 " ...prepare to create a csv file for regular Classes:
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 g/^?<startPrivate>?/.;/?<totalFor>?/s/^/?<del>?&/
-g/^?<del>?/d
-g/^?<stafName>?/+1s/^?<totalFor>?$/?<del>&/
 g/^?<del>?/d
 "
 g/?<and>?/s//\&/g
@@ -11,4 +9,3 @@ g/?<and>?/s//\&/g
 g/^?<totalFor>?$/+1s/^"Instructors",/?<del>?&/
 g/^?<del>?"Instructors",/-1s/^?<totalFor>?$/?<del>&/
 g/^?<del>?/d
-
