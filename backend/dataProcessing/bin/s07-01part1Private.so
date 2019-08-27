@@ -1,3 +1,8 @@
+" vimScript: ./bin/s07-02part2Private.so
+" ...
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v/^?<stafName>?/d
 v/^?<stafName>?/d
 g/^?<stafName>?/s//\/^&/
 g/?<stafName>?/s/$/\/+1;\/^?<totalFor>?\/-1w! /
+

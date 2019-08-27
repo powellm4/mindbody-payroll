@@ -1,4 +1,4 @@
-" vimScript: ./bin/06addColumns.so
+" vimScript: ./bin/s02-07addColumns.so
 " ..add some more data columns (fields):
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 v/^?<.*>?/s/^/?<m>?"Instructors",/
@@ -6,3 +6,4 @@ g/^?<m>?.*,"Class Date",/s/^?<m>?//
 g/^?<m>?.*,"Appointment Date",/s/^?<m>?//
 g/^?<m>?"Instructors",/s//"Names",/
 g/^"Names","# Services", "# Clients",/d
+

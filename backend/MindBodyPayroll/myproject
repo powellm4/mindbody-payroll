@@ -1,0 +1,35 @@
+# RUN BELOW COMMANDS
+# cp myproject /etc/nginx/sites-available/myproject
+# sudo ln -s /etc/nginx/sites-available/myproject /etc/nginx/sites-enabled
+# sudo nginx -t
+
+server {
+    server_name deploymentstory.com;
+        auth_basic "VMAC FOR LIFE";
+        auth_basic_user_file /etc/nginx/.htpasswd;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/home/nuatut_gmail_com/mindbody-payroll/backend/MindBodyPayroll/vmac.sock;
+    }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/deploymentstory.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/deploymentstory.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+
+server {
+    if ($host = deploymentstory.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    listen 80;
+    server_name deploymentstory.com;
+    return 404; # managed by Certbot
+
+
+}
