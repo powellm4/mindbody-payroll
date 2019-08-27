@@ -7,6 +7,10 @@ verify_ssl = true
 
 [packages]
 pdfkit = "*"
+pandas = "*"
+numpy = "*"
+flask = "*"
+wtforms = "*"
 
 [requires]
 python_version = "3.7"
