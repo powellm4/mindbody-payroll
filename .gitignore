@@ -82,3 +82,5 @@ backend/dataProcessing/dat/00-01-Class-All.csv
 .idea/misc.xml
 
 backend/MindBodyPayroll/db/payroll.db
+
+.idea/

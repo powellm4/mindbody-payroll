@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8e921ed0b0ede234a310cf288cfcd44018c77fb5faebd194abbd9bd383359f6f"
+            "sha256": "cd19a087363c4202e879d4e874aea887ffa8181c15c222d3134b7902d8373f80"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -92,6 +92,7 @@
                 "sha256:a3f6b3024f8826d8b1490e6e2a9b99e841cd2c375791b1df62991bd8f4c00b89",
                 "sha256:bede70fd8699695363f39e86c1e869b2c8b74fb5ef135a67b9e1eeebff50322a",
                 "sha256:c304b2221f33489cd15a915237a84cdfe9420d7e4d4828c78a0820f9d990395c",
+                "sha256:f11331530f0eff69a758d62c2461cd98cdc2eae0147279d8fc86e0464eb7e8ca",
                 "sha256:fa5f2a8ef1e07ba258dc07d4dd246de23ef4ab920ae0f3fa2a1cc5e90f0f1888",
                 "sha256:fb6178b0488b0ce6a54bc4accbdf5225e937383586555604155d64773f6beb2b",
                 "sha256:fd5e830d4dc31658d61a6452cd3e842213594d8c15578cdae6829e36ad9c0930"
@@ -156,6 +157,13 @@
                 "sha256:a13b74dd3c45f758d4ebdb224be8f1ab8ef58b3c0ffc1783a8c7d9f4f50227e6"
             ],
             "version": "==0.15.5"
+        },
+        "wkhtmltopdf": {
+            "hashes": [
+                "sha256:530fffb5d1faf4f4cd5248c14fd1b4b7fe311541d0660dc2c2272c32b3c72211"
+            ],
+            "index": "pypi",
+            "version": "==0.2"
         },
         "wtforms": {
             "hashes": [
