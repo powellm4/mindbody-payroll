@@ -419,6 +419,8 @@ def clean_up_df_for_web(df):
         df = df.drop(columns=["Rate"])
     if "Instructor_Pay" in df.columns:
         df = df.drop(columns=["Instructor_Pay"])
+    if "lower" in df.columns:
+        df = df.drop(columns=["lower"])
     df.columns = [c.replace('_', ' ') for c in df.columns]
     df = df.fillna('')
     pd.options.display.float_format = '${:,.2f}'.format
