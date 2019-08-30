@@ -1,3 +1,11 @@
+#
+#############################################################
+#                                                           #
+#     THIS FILE DEPRECATED, NO LONGER NEEDED                #
+#                                                           #
+#############################################################
+#
+
 from flask import Flask
 
 UPLOAD_FOLDER = './uploads/'

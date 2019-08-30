@@ -1,4 +1,4 @@
-" vimScript: ./bin/03markData.so"
+" vimScript: ./bin/s02-03markData.so
 " ...flag the lines containing the data emenets:
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 g/^?<startData>?/+1s/^?<endData>?/?<del>?&/
@@ -8,3 +8,4 @@ g/^?<startData>?/+1;/^?<endData>?/-1s/^/?<data>?/
 g/^?<startData>?/d
 g/^?<endData>?/d
 g/^?<data>??<totalFor>?/s/^?<data>?//
+

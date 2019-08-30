@@ -1,0 +1,22 @@
+# Need to cp this file to /etc/systemd/system/vmac.service
+# cp vmac.service /etc/systemd/system/vmac.service
+# sudo systemctl start vmac
+# sudo systemctl enable vmac
+#
+# Above commands will start the uWSGI service
+# and enable it so that it starts at boot
+
+[Unit]
+Description=uWSGI instance to serve vmac
+After=network.target
+
+[Service]
+User=nuatut_gmail_com
+Group=www-data
+# UPDATE BELOW ACCORDING TO PIPENV OR VENV LOCATION OF uwsgi BINARY ON UBUNTU VM
+WorkingDirectory=/home/nuatut_gmail_com/mindbody-payroll/backend/MindBodyPayroll
+Environment="PATH=/home/nuatut_gmail_com/mindbody-payroll/backend/MindBodyPayroll/vmac/bin"
+ExecStart=/home/nuatut_gmail_com/mindbody-payroll/backend/MindBodyPayroll/vmac/bin/uwsgi --ini vmac.ini
+
+[Install]
+WantedBy=multi-user.target

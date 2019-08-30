@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Generate one csv file for each set of instructors for Regula Classes
 # source ./bin/s06-00generate_csv_files_for_Regular_Classes.sh \
 #        ./tmp/s04-01ClassAll.txt
@@ -7,6 +9,7 @@
 #        #Output: ./dat/01-Class-002-<instructorName>.txt
 #        #Output: ./dat/01-Class-...-<instructorName>.txt
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Create a vim script for Regular Classes,
 # which generate csv files,
 # one for each set of instructors:
@@ -21,9 +24,11 @@ w! ./tmp/s06-02ClassPart.2
 q!
 EOS
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 paste ./tmp/s06-01ClassPart.1 ./tmp/s06-02ClassPart.2 \
 > ./tmp/s06-03ClassEach.so
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Generate one csv file for each set of instructors
 # for Regula Classes:
 ex $1 <<EOS

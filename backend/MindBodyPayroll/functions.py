@@ -409,7 +409,9 @@ def run_data_processing_shell_scripts(dir_plus_filename):
     os.chdir('../dataProcessing')
     subprocess.run(['./bin/s00-generate_csv_files.sh', dir_plus_filename])
     os.chdir('../MindBodyPayroll')
-    subprocess.run(['pwd'])
+    
+    # HAD TO COMMENT OUT BELOW LINE TO GET SYSTEM TO RUN
+    # subprocess.run(['pwd'])
 
 
 def clean_up_df_for_web(df):
@@ -440,7 +442,9 @@ def export_paystubs_to_pdf():
                                  .replace('-', '/').replace('_/_', ' - '))
         add_table_to_html_paystub_file(df.to_html(classes="table table-striped table-hover table-sm table-responsive"),
                                        output_html_file)
-
+        # added below line to fix export feature
+        # config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
+        # pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
         pdfkit.from_file(output_html_file, output_pdf_file_name)
 
 

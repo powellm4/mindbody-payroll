@@ -1,0 +1,18 @@
+" vimScript: ./bin/s02-06cleaning.so
+" ...clean unnecessary lines:
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g/^"# Services", "# Clients",/;/^?<totalFor>?/-1s/^/?<del>?/
+g/^?<del>?/d
+"
+g/"Class name", "# Clients", "# Comps",/;/^"Class Date",/-1s/^/?<del>?/
+g/^?<del>??<stafName>?/s/^?<del>?//
+g/^?<del>?/d
+"
+g/"Client Name(s)", "# Clients", "# Comps",/-1;/^"Class Date",/-1s/^/?<del>?/
+g/^?<del>??<stafName>?/s/^?<del>?//
+g/^?<del>?/d
+"
+g/^?<stafName>?/-1s/^?<stafName>?/?<del>?&/
+2;$g/^?<del>?/d
+g/<del>??<stafName>?/s/^?<del>?//
+
