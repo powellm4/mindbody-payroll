@@ -338,9 +338,11 @@ def clean_up_workspace():
 def move_uploaded_file(filename):
     source = uploads_folder_path + filename
     target = raw_folder_path + filename
+    data_cleaner_target = data_cleaner_upload_folder_path + filename
     # adding exception handling
     try:
         copyfile(source, target)
+        # copyfile(source, data_cleaner_target)
     except IOError as e:
         print("Unable to copy file. %s" % e)
         exit(1)

@@ -1,3 +1,4 @@
+from backend.DataCleaner.main import run_data_cleaner
 from functions import *
 from db_helper import *
 import config
@@ -34,6 +35,7 @@ def run_backend(filename):
     # consider adding logic to clear out raw folder
     dir_plus_filename = './raw/' + filename
     run_data_processing_shell_scripts(dir_plus_filename)
+    run_data_cleaner(filename)
 
 
     # get list of files from dat folder

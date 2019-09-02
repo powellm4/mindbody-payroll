@@ -4,6 +4,7 @@ dat_folder_path = "../dataProcessing/dat/"
 tmp_folder_path = "../dataProcessing/tmp/"
 log_folder_path = "../dataProcessing/log/"
 raw_folder_path = "../dataProcessing/raw/"
+data_cleaner_upload_folder_path = "../DataCleaner/uploads/"
 uploads_folder_path = "./uploads/"
 public_classes_folder_path = "../output/publicClasses/"
 private_classes_folder_path = "../output/privateClasses/"
@@ -20,6 +21,8 @@ export_html_folder_path = "../output/export/html/"
 export_pdf_folder_path = "../output/export/pdf/"
 logo_path = "static/img/logo.txt"
 database_path = "db/payroll.db"
+data_cleaner_output_folder = "data_cleaner_output/"
+
 
 
 class InstructorRecord(IntEnum):
