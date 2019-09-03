@@ -56,7 +56,6 @@ def upload_file():
             filename = secure_filename(file.filename)
             currentDT = datetime.datetime.now()
             filename = currentDT.strftime("%Y-%m-%d-%H-%M-%S") + '-' + filename
-            print(filename)
 
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
@@ -74,7 +73,7 @@ def paystubs():
     formatted_list = []
     for item in instructors_tuples:
         name = item[InstructorRecord.NAME]
-        df = pd.read_csv(totals_folder_path + item[InstructorRecord.NAME])
+        df = pd.read_csv(dc_totals_folder_path + item[InstructorRecord.NAME])
         total = '${:,.2f}'.format(df.iloc[-1][-1])
         formatted_list.append((item[InstructorRecord.ID], name, total))
 
@@ -86,7 +85,7 @@ def paystubs():
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
 def paystubs_detail(id):
     form = AppendForm(request.form)
-    paystub_list = os.listdir(totals_folder_path)
+    paystub_list = os.listdir(dc_totals_folder_path)
 
     if request.method == 'POST':
         amount = form.amount.data
@@ -100,7 +99,7 @@ def paystubs_detail(id):
 
     with create_connection(database_path) as conn:
         file_name = select_instructor_by_id(conn, id)[InstructorRecord.NAME]
-    df = pd.read_csv(totals_folder_path+file_name)
+    df = pd.read_csv(dc_totals_folder_path+file_name)
     df = clean_up_df_for_web(df)
     form.amount.data = ''
     form.description.data = ''
