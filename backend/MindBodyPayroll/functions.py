@@ -226,10 +226,14 @@ def clean_up_class_name_dataframe(cn_df):
 
 # merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
 def include_pricing_options(df, po_df):
-    # if "#_Clients" in df.columns:
-    df['lower'] = df.Series_Used.str.lower()
-    po_df['lower'] = po_df.index.str.lower()
-    return pd.merge(df, po_df, left_on='lower', right_on='lower', how='left')
+
+    # df['lower'] = df.Series_Used.str.lower()
+    # po_df['lower'] = po_df.index.str.lower()
+    # return pd.merge(df, po_df, left_on='lower', right_on='lower', how='left')
+    po_df['lower'] = po_df.index
+    new_df = pd.merge(df, po_df, left_on='Series_Used', right_on='lower', how='left')
+    new_df = new_df.drop(columns=['lower'])
+    return new_df
 
 
 # merges the class name lookup dataframe with the main dataframe,
@@ -497,13 +501,17 @@ def sort_name(val):
 def find_unpaid_classes(po_df, classes_path):
     df = pd.read_csv(dat_folder_path + classes_path, error_bad_lines=False)
     df = clean_up_dataframe(df)
-    df['lower'] = df.Series_Used.str.lower()
-    po_df['lower'] = po_df.index.str.lower()
-    df = pd.merge(df, po_df, left_on='lower', right_on='lower', how="outer", indicator=True)
+    # df['lower'] = df.Series_Used.str.lower()
+    # po_df['lower'] = po_df.index.str.lower()
+    # df = pd.merge(df, po_df, left_on='lower', right_on='lower', how="outer", indicator=True)
+
+    po_df['lower'] = po_df.index
+    df = pd.merge(df, po_df, left_on='Series_Used', right_on='lower', how='outer', indicator=True)
+
     df = df[df['_merge'] == 'left_only']
     if "_merge" in df.columns:
         df = df.drop(columns=["_merge"])
-
+    df = df.drop(columns=['lower'])
     pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
     for pricing_option in pricing_option_dfs:
         pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (unpaid_folder_path, pricing_option.replace(' ', '_')
