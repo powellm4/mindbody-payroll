@@ -445,8 +445,8 @@ def export_paystubs_to_pdf():
         add_table_to_html_paystub_file(df.to_html(classes="table table-striped table-hover table-sm table-responsive"),
                                        output_html_file)
         # added below line to fix export feature
-        # config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
-        # pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
+        config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
+        pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
         pdfkit.from_file(output_html_file, output_pdf_file_name)
 
 
