@@ -160,8 +160,8 @@ def export():
 @app.route('/unpaid/',  methods=['GET'])
 def unpaid():
     tables = {}
-    for file in os.listdir(unpaid_folder_path):
-        df = pd.read_csv(unpaid_folder_path + file)
+    for file in os.listdir(dc_unpaid_folder_path):
+        df = pd.read_csv(dc_unpaid_folder_path + file)
         df = clean_up_df_for_web(df)
         tables[file.replace('_', ' ').replace('---', '/').replace('.csv', '')] = df.to_html(classes="table table-striped table-hover table-sm")
     return render_template('unpaid.html', tables=tables)
