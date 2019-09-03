@@ -268,7 +268,10 @@ def export_instructor_dances(po_df):
     df = clean_up_dataframe(df, po_df)
     df = assign_instructor_rate(df)
     df = assign_amount_due(df)
-    df = df[(df.Series_Used == "VMAC INSTRUCTOR DANCE") | (df.Series_Used == "VMAC INSTRUCTOR FITNESS")]
+    df = df[(df.Series_Used == "VMAC INSTRUCTOR DANCE") |
+            (df.Series_Used == "VMAC INSTRUCTOR FITNESS") |
+            (df.Series_Used == "VMAC Instructor Drop In Dance") |
+            (df.Series_Used == "VMAC Instructor  Drop In Dance")]
     df = filter_out_jamal_carolina_classes(df)
     df.Amount_Due_To_Instructor = df.Amount_Due_To_Instructor * -2
     unique_instructors = df.Client_Name.unique()

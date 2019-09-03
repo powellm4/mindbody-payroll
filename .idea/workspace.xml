@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ae1ae-1045-490d-a41b-dc0fd1ea52cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/lookupTables/pricing-options.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/lookupTables/pricing-options.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="508" column="97" selection-start-line="508" selection-start-column="97" selection-end-line="508" selection-end-column="97" />
+            <state relative-caret-position="167">
+              <caret line="273" column="49" selection-start-line="273" selection-start-column="49" selection-end-line="273" selection-end-column="49" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -27,8 +29,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/lookupTables/pricing-options.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="120">
-              <caret line="20" column="36" selection-start-line="20" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/00-01-Class-All.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="121">
+              <caret line="772" column="64" selection-start-line="772" selection-start-column="64" selection-end-line="772" selection-end-column="94" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -94,11 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create_connection</find>
-      <find>create_conn</find>
-      <find>read_csv</find>
-      <find>id</find>
-      <find>payd</find>
       <find>formatt</find>
       <find>totals</find>
       <find>instruc</find>
@@ -124,6 +133,11 @@
       <find>Drop in $15 D</find>
       <find>lower</find>
       <find>_merge</find>
+      <find>VMAC Instructor Drop In Dance</find>
+      <find>instructor</find>
+      <find>VMAC instructor  dr</find>
+      <find>VMAC Instructor Drop In Dance</find>
+      <find>VMAC</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -197,6 +211,13 @@
               <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mindbody-payroll" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProcessing" type="462c0819:PsiDirectoryNode" />
+              <item name="dat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mindbody-payroll" type="b2602c69:ProjectViewProjectNode" />
@@ -302,8 +323,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32806325" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.4176548" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49964765" visible="true" weight="0.4229249" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.4176548" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49964765" weight="0.4229249" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -508,16 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/00-01-Class-All.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="120">
-          <caret line="606" column="99" selection-start-line="606" selection-start-column="82" selection-end-line="606" selection-end-column="99" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file:///miniconda3/lib/python3.7/site-packages/virtualenv.py" />
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/Pipfile" />
     <entry file="file://$PROJECT_DIR$/Pipfile">
@@ -570,10 +581,20 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/dataProcessing/dat/00-01-Class-All.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="121">
+          <caret line="772" column="64" selection-start-line="772" selection-start-column="64" selection-end-line="772" selection-end-column="94" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="508" column="97" selection-start-line="508" selection-start-column="97" selection-end-line="508" selection-end-column="97" />
+        <state relative-caret-position="167">
+          <caret line="273" column="49" selection-start-line="273" selection-start-column="49" selection-end-line="273" selection-end-column="49" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -582,8 +603,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/lookupTables/pricing-options.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="36" selection-start-line="20" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
