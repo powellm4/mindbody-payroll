@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ae1ae-1045-490d-a41b-dc0fd1ea52cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/db/payroll.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/lookupTables/pricing-options.csv" beforeDir="false" afterPath="$PROJECT_DIR$/backend/lookupTables/pricing-options.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="91">
@@ -25,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/lookupTables/pricing-options.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="20" column="36" selection-start-line="20" selection-end-line="20" selection-end-column="36" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -95,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>h45</find>
       <find>create_connection</find>
       <find>create_conn</find>
       <find>read_csv</find>
@@ -125,6 +123,7 @@
       <find>left</find>
       <find>Drop in $15 D</find>
       <find>lower</find>
+      <find>_merge</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/Controller.py" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/wrappers.py" />
         <option value="$PROJECT_DIR$/backend/MindBodyPayroll/functions.py" />
+        <option value="$PROJECT_DIR$/backend/lookupTables/pricing-options.csv" />
       </list>
     </option>
   </component>
@@ -297,13 +297,13 @@
     <frame x="0" y="24" width="1440" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35870332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35870332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32806325" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.4176548" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49964765" visible="true" weight="0.4229249" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49964765" visible="true" weight="0.4229249" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -339,18 +339,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py</url>
-          <line>506</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py</url>
-          <line>510</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -582,16 +570,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/lookupTables/pricing-options.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/MindBodyPayroll/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -600,6 +578,16 @@
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/lookupTables/pricing-options.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="36" selection-start-line="20" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
