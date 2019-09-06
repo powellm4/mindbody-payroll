@@ -58,29 +58,22 @@ __pycache__
 
 #generated output
 backend/allInstructorsCSVs/
-backend/.idea/workspace.xml
 backend/venv/pyvenv.cfg
 backend/venv/lib64
 backend/instructorDances/
 backend/output/
-.idea/workspace.xml
 backend/lookupTables/.DS_Store
 backend/MindBodyPayroll/uploads/*
 backend/dataProcessing/raw/*
 backend/dataProcessing/dat/
 backend/dataProcessing/tmp/*
-.idea/workspace.xml
-.idea/workspace.xml
 backend/.DS_Store
 unknown-0.0-py37_0.tar.bz2
 backend/MindBodyPayroll/.DS_Store
 backend/lookupTables/.DS_Store
 backend/dataProcessing/dat/00-01-Class-All.csv
 
-.idea/MindBodyPayroll.iml
-
-.idea/misc.xml
-
+.idea/
+.DS_Store
 backend/MindBodyPayroll/db/payroll.db
 
-.idea/
