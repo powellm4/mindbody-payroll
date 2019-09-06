@@ -6,12 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pdfkit = "*"
 pandas = "*"
-numpy = "*"
-flask = "*"
-wtforms = "*"
-wkhtmltopdf = "*"
 xmlx = "*"
 lxml = "*"
 html5lib = "*"

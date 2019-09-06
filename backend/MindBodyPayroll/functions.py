@@ -33,9 +33,25 @@ def handle_classes(list_of_classes, po_df):
         df = assign_amount_due(df)
         for instructor in instructors_list:
             # add_instructor_to_db()
-            write_instructor_to_csv(df, instructor, public_classes_folder_path)
+            update_instructor_csv(df, instructor, public_classes_folder_path)
             if "02-Private" in list_of_classes[0]:
-                write_instructor_to_csv(df, instructor, private_classes_folder_path, provide_feedback=False)
+                update_instructor_csv(df, instructor, private_classes_folder_path, provide_feedback=False)
+
+# the main function for processing a list of classes
+# makes calls to helper functions and outputs a csv for each instructor
+def handle_dc_classes(list_of_classes, po_df):
+    # for each (public/private) class file in dataProcessing/dat/ folder
+    for file in list_of_classes:
+        df = pd.read_csv("%s%s" % (output_folder_path + data_cleaner_output_folder, file))
+        instructors_list = get_instructors_list(df)
+        if po_df is not None:
+            df = include_pricing_options(df, po_df)
+        df = assign_instructor_rate(df, len(instructors_list))
+        df = assign_amount_due(df)
+        for instructor in instructors_list:
+            # add_instructor_to_db()
+            update_instructor_csv(df, instructor, dc_classes_folder_path)
+
 
 
 def remove_bad(list_of_classes):
@@ -197,7 +213,7 @@ def sort_by_date_time(df):
 # writing to a new csv if not
 # appending to existing csv if so
 # provide_feedback allows you to turn off print statements
-def write_instructor_to_csv(df, instructor, output_folder, provide_feedback=True, instructor_dance=False):
+def update_instructor_csv(df, instructor, output_folder, provide_feedback=True, instructor_dance=False):
     if not instructor_dance:
         df['Instructors'] = instructor
     if os.path.isfile("%s%s.csv" % (output_folder, instructor)):
@@ -277,7 +293,29 @@ def export_instructor_dances(po_df):
     unique_instructors = df.Client_Name.unique()
     for instructor in unique_instructors:
         udf = df[df.Client_Name == instructor]
-        write_instructor_to_csv(udf, instructor, instructor_dance_folder_path, instructor_dance=True)
+        update_instructor_csv(udf, instructor, instructor_dance_folder_path, instructor_dance=True)
+
+
+# takes the original dataFrame with all classes and writes
+#   all instructor dances to their own file
+# inputs: dat_folder - contains full data csv
+#           pd_df - pricing lookup dataFrame
+def handle_dc_instructor_dances(po_df):
+    file = all_classes_path
+    df = pd.read_csv("%s%s" % (output_folder_path + data_cleaner_output_folder, file))
+    df = df[(df.Series_Used == "VMAC INSTRUCTOR DANCE") |
+            (df.Series_Used == "VMAC INSTRUCTOR FITNESS") |
+            (df.Series_Used == "VMAC Instructor Drop In Dance")]
+    if po_df is not None:
+        df = include_pricing_options(df, po_df)
+    df = assign_instructor_rate(df)
+    df = assign_amount_due(df)
+    df = filter_out_jamal_carolina_classes(df)
+    df.Amount_Due_To_Instructor = df.Amount_Due_To_Instructor * -2
+    unique_instructors = df.Client_Name.unique()
+    for instructor in unique_instructors:
+        udf = df[df.Client_Name == instructor]
+        update_instructor_csv(udf, instructor, dc_instructor_dance_folder_path, instructor_dance=True)
 
 
 # instructors get free classes if the class is taught by carolina and jamal
@@ -307,6 +345,27 @@ def append_instructor_dances():
     if total_missing == 0:
         print('(empty)')
 
+# adds deduction rows to the files found in publicClasses folder
+def dc_append_instructor_dances():
+    instructor_csv_list = [name for name in os.listdir(dc_classes_folder_path)]
+    instructor_dance_list = [name for name in os.listdir(dc_instructor_dance_folder_path)]
+    for file in instructor_csv_list:
+        if file in instructor_dance_list:
+            iddf = pd.read_csv('%s%s' % (dc_instructor_dance_folder_path, file))
+            print("appending %s " % file)
+            iddf.to_csv("%s%s" % (dc_classes_folder_path, file), mode="a", index=False, header=False)
+
+    print("\n\nList of Instructor dances with no matching instructor CSV\n----------")
+    total_missing = 0
+    for file in instructor_dance_list:
+        if file not in instructor_csv_list:
+            total_missing = total_missing + 1
+            print('Instructor Dance: %s not found as an Instructor for pay period' % file)
+            # name = file.replace(".csv", "")
+            # check_against_family_lookup(name)
+    if total_missing == 0:
+        print('(empty)')
+
 
 # writes csv to totals folder containing total for instructor
 def output_instructor_totals(cn_df):
@@ -318,6 +377,21 @@ def output_instructor_totals(cn_df):
         df = include_class_names(df, cn_df)
 
         df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
+        # with create_connection(database_path) as conn:
+        #     instructor = (file, 0)
+        #     create_instructor(conn, instructor)
+
+
+# writes csv to totals folder containing total for instructor
+def dc_output_instructor_totals(cn_df):
+    for file in os.listdir(dc_classes_folder_path):
+        print('Creating pay stub for %s' % file.replace('.csv', ''))
+        df = pd.read_csv("%s%s" % (dc_classes_folder_path, file))
+        df = df.append(df.sum(numeric_only=True), ignore_index=True)
+        # df.iloc[-1][0] = 'Total'
+        df = include_class_names(df, cn_df)
+
+        df.to_csv("%s%s" % (dc_totals_folder_path, file), mode="w", index=False)
         with create_connection(database_path) as conn:
             instructor = (file, 0)
             create_instructor(conn, instructor)
@@ -345,9 +419,11 @@ def clean_up_workspace():
 def move_uploaded_file(filename):
     source = uploads_folder_path + filename
     target = raw_folder_path + filename
+    data_cleaner_target = data_cleaner_upload_folder_path + filename
     # adding exception handling
     try:
         copyfile(source, target)
+        # copyfile(source, data_cleaner_target)
     except IOError as e:
         print("Unable to copy file. %s" % e)
         exit(1)
@@ -355,7 +431,6 @@ def move_uploaded_file(filename):
         print("Unexpected error:", sys.exc_info())
         exit(1)
 
-    print("\nFile copy done!\n")
 
 
 # reads in pricing lookup table &
@@ -386,6 +461,15 @@ def create_all_folders():
     create_folder(export_folder_path)
     create_folder(export_html_folder_path)
     create_folder(export_pdf_folder_path)
+    # create dc folders
+    create_folder(dc_classes_folder_path)
+    create_folder(dc_export_folder_path)
+    create_folder(dc_export_html_folder_path)
+    create_folder(dc_export_pdf_folder_path)
+    create_folder(dc_instructor_dance_folder_path)
+    create_folder(dc_unpaid_folder_path)
+    create_folder(dc_totals_folder_path)
+
 
 
 # gets list of file names from the dat folder
@@ -396,18 +480,22 @@ def get_list_of_classes(public=False, private=False):
         prefix = "01-Private"
     return [name for name in os.listdir(dat_folder_path) if name.startswith(prefix)]
 
+# gets list of file names from the dc output folder
+def get_dc_list_of_classes():
+    return [name for name in os.listdir(output_folder_path + data_cleaner_output_folder) if not name.startswith('00-01')]
+
 
 # opens file in totals folder, adds adjustment, recalculates total and rewrites file
 # input - description - is added under the Series_Used column
 def make_adjustment(instructor, description, amount):
-    df = pd.read_csv("%s%s.csv" % (totals_folder_path, instructor))
+    df = pd.read_csv("%s%s.csv" % (dc_totals_folder_path, instructor))
     df.drop(df.tail(1).index, inplace=True)
     df = df.append({'Amount_Due_To_Instructor': amount,
                     'Series_Used': description, 'Instructors': 'Adjustment'}, ignore_index=True)
     df = df.append({'Instructors': 'Total', 'Amount_Due_To_Instructor': df['Amount_Due_To_Instructor'].sum()}, ignore_index=True)
-    if os.path.exists('%s%s.csv' % (totals_folder_path, instructor)):
-        os.remove('%s%s.csv' % (totals_folder_path, instructor))
-    df.to_csv("%s%s.csv" % (totals_folder_path, instructor), mode="w", index=False)
+    if os.path.exists('%s%s.csv' % (dc_totals_folder_path, instructor)):
+        os.remove('%s%s.csv' % (dc_totals_folder_path, instructor))
+    df.to_csv("%s%s.csv" % (dc_totals_folder_path, instructor), mode="w", index=False)
 
 
 # takes a file and runs all of the shell scripts with it
@@ -436,12 +524,12 @@ def clean_up_df_for_web(df):
 
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
 def export_paystubs_to_pdf():
-    for file in os.listdir(totals_folder_path):
+    for file in os.listdir(dc_totals_folder_path):
     # for file in ["I.Villanueva-Torres.csv"]: # for testing purposes only
-        output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
-        output_pdf_file_name = export_pdf_folder_path + get_global_pay_period() + '--' \
+        output_html_file = dc_export_html_folder_path + file.replace('.csv', '') + '.html'
+        output_pdf_file_name = dc_export_pdf_folder_path + get_global_pay_period() + '--' \
             + file.replace('.csv', '') + '.pdf'
-        input_file = totals_folder_path + file
+        input_file = dc_totals_folder_path + file
         df = pd.read_csv(input_file)
         df = clean_up_df_for_web(df)
         df.index += 1
@@ -501,6 +589,23 @@ def sort_name(val):
 
 # finds any classes who's pricing options do not show up in the pricing options list
 # writes them to output/unpaid folder
+def dc_find_unpaid_classes(po_df, classes_path):
+    df = pd.read_csv(output_folder_path + data_cleaner_output_folder + classes_path)
+    df['lower'] = df.Series_Used.str.lower()
+    po_df['lower'] = po_df.index.str.lower()
+    df = pd.merge(df, po_df, left_on='lower', right_on='lower', how="outer", indicator=True)
+    df = df[df['_merge'] == 'left_only']
+    if "_merge" in df.columns:
+        df = df.drop(columns=["_merge"])
+    ##this is where to drop 'lower' column
+
+    pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
+    for pricing_option in pricing_option_dfs:
+        pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (dc_unpaid_folder_path, pricing_option.replace(' ', '_')
+                                                                .replace('/','---')), mode='w', index=False)
+    return pricing_option_dfs
+
+
 def find_unpaid_classes(po_df, classes_path):
     df = pd.read_csv(dat_folder_path + classes_path, error_bad_lines=False)
     df = clean_up_dataframe(df)
@@ -514,7 +619,11 @@ def find_unpaid_classes(po_df, classes_path):
     df = df[df['_merge'] == 'left_only']
     if "_merge" in df.columns:
         df = df.drop(columns=["_merge"])
-    df = df.drop(columns=['lower'])
+    if "lower" in df.columns:
+        df = df.drop(columns=["lower"])
+
+
+
     pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
     for pricing_option in pricing_option_dfs:
         pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (unpaid_folder_path, pricing_option.replace(' ', '_')
