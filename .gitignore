@@ -84,3 +84,5 @@ backend/dataProcessing/dat/00-01-Class-All.csv
 backend/MindBodyPayroll/db/payroll.db
 
 .idea/
+
+*.db
