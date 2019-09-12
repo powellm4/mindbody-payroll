@@ -303,19 +303,22 @@ def export_instructor_dances(po_df):
 def handle_dc_instructor_dances(po_df):
     file = all_classes_path
     df = pd.read_csv("%s%s" % (output_folder_path + data_cleaner_output_folder, file))
-    df = df[(df.Series_Used == "VMAC INSTRUCTOR DANCE") |
-            (df.Series_Used == "VMAC INSTRUCTOR FITNESS") |
-            (df.Series_Used == "VMAC Instructor Drop In Dance")]
+    df = df[
+        (df.Series_Used == "VMAC Instructor Dance") |
+        (df.Series_Used == "VMAC Instructor Fitness") |
+        (df.Series_Used == "VMAC Instructor Drop In Dance")
+    ]
     if po_df is not None:
         df = include_pricing_options(df, po_df)
     df = assign_instructor_rate(df)
+    df = df.drop_duplicates()
     df = assign_amount_due(df)
     df = filter_out_jamal_carolina_classes(df)
     df.Amount_Due_To_Instructor = df.Amount_Due_To_Instructor * -2
     unique_instructors = df.Client_Name.unique()
     for instructor in unique_instructors:
         udf = df[df.Client_Name == instructor]
-        update_instructor_csv(udf, instructor, dc_instructor_dance_folder_path, instructor_dance=True)
+        update_instructor_csv(udf, instructor, dc_classes_folder_path, instructor_dance=True)
 
 
 # instructors get free classes if the class is taught by carolina and jamal
