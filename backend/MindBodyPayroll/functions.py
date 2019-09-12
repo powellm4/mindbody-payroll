@@ -305,6 +305,8 @@ def handle_dc_instructor_dances(po_df):
     df = pd.read_csv("%s%s" % (output_folder_path + data_cleaner_output_folder, file))
     df = df[
         (df.Series_Used == "VMAC Instructor Dance") |
+        (df.Series_Used == "VMAC INSTRUCTOR DANCE") |
+        (df.Series_Used == "VMAC INSTRUCTOR FITNESS") |
         (df.Series_Used == "VMAC Instructor Fitness") |
         (df.Series_Used == "VMAC Instructor Drop In Dance")
     ]
@@ -594,13 +596,15 @@ def sort_name(val):
 # writes them to output/unpaid folder
 def dc_find_unpaid_classes(po_df, classes_path):
     df = pd.read_csv(output_folder_path + data_cleaner_output_folder + classes_path)
-    df['lower'] = df.Series_Used.str.lower()
-    po_df['lower'] = po_df.index.str.lower()
-    df = pd.merge(df, po_df, left_on='lower', right_on='lower', how="outer", indicator=True)
+    # df['lower'] = df.Series_Used.str.lower()
+    po_df['lower'] = po_df.index
+    df = pd.merge(df, po_df, left_on='Series_Used', right_on='lower', how="outer", indicator=True)
     df = df[df['_merge'] == 'left_only']
     if "_merge" in df.columns:
         df = df.drop(columns=["_merge"])
-    ##this is where to drop 'lower' column
+    if "lower" in df.columns:
+        df = df.drop(columns=["lower"])
+
 
     pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
     for pricing_option in pricing_option_dfs:
