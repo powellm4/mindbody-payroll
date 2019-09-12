@@ -3,3 +3,5 @@ sql_create_instructors_table = """ CREATE TABLE IF NOT EXISTS instructors (
                                         name text NOT NULL,
                                         total text
                                     ); """
+
+unnecessary_columns = ["Unnamed:_5", "Earnings_per_Client", "Earnings", "Revenue", "Rev_per_Session"]

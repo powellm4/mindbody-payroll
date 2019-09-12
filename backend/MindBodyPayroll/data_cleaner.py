@@ -1,5 +1,5 @@
 import pandas
-from backend.DataCleaner.cleaner_functions import *
+from cleaner_functions import *
 from constants import uploads_folder_path
 
 

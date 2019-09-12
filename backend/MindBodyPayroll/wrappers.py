@@ -1,4 +1,4 @@
-from backend.DataCleaner.main import run_data_cleaner
+from data_cleaner import run_data_cleaner
 from functions import *
 from db_helper import *
 import config
@@ -76,14 +76,14 @@ def run_backend(filename):
 
 
     print("\n\nWriting instructor dances to CSV\n----------")#dp
-    export_instructor_dances(po_df)#dp
+    # export_instructor_dances(po_df)#dp
     print("\n\ndata cleaner instructor dances..\n----------")
     handle_dc_instructor_dances(po_df)
 
 
 
-    print("\n\nAppending instructor dances to instructor CSVs\n----------")#dp
-    append_instructor_dances()#dp
+    # print("\n\nAppending instructor dances to instructor CSVs\n----------")#dp
+    # append_instructor_dances()#dp
     dc_append_instructor_dances()
 
 

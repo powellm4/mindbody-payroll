@@ -1,1 +1,0 @@
-unnecessary_columns = ["Unnamed:_5", "Earnings_per_Client", "Earnings", "Revenue", "Rev_per_Session"]
