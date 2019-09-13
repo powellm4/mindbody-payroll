@@ -138,7 +138,7 @@ def classes():
 @app.route('/export/', methods=['POST', 'GET'])
 def export():
     export_paystubs_to_pdf()
-    base_path = pathlib.Path(export_pdf_folder_path)
+    base_path = pathlib.Path(dc_export_pdf_folder_path)
     data = io.BytesIO()
     with zipfile.ZipFile(data, mode='w') as z:
         for f_name in base_path.iterdir():
