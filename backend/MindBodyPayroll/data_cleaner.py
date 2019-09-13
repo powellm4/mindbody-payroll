@@ -4,6 +4,7 @@ from constants import uploads_folder_path
 
 
 def run_data_cleaner(filename):
+	print('Cleaning Mindbody Data...')
 	create_folder(data_cleaner_output_folder)
 	initial_read = pandas.read_html(uploads_folder_path + filename)
 	master_list = remove_fluff_dfs_from_master_list(initial_read)

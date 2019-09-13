@@ -23,22 +23,6 @@ pd.set_option('display.width', 1500)
 
 # the main function for processing a list of classes
 # makes calls to helper functions and outputs a csv for each instructor
-def handle_classes(list_of_classes, po_df):
-    # for each (public/private) class file in dataProcessing/dat/ folder
-    for file in list_of_classes:
-        df = pd.read_csv("%s%s" % (dat_folder_path, file))
-        instructors_list = get_instructors_list(df)
-        df = clean_up_dataframe(df, po_df)
-        df = assign_instructor_rate(df, len(instructors_list))
-        df = assign_amount_due(df)
-        for instructor in instructors_list:
-            # add_instructor_to_db()
-            update_instructor_csv(df, instructor, public_classes_folder_path)
-            if "02-Private" in list_of_classes[0]:
-                update_instructor_csv(df, instructor, private_classes_folder_path, provide_feedback=False)
-
-# the main function for processing a list of classes
-# makes calls to helper functions and outputs a csv for each instructor
 def handle_dc_classes(list_of_classes, po_df):
     # for each (public/private) class file in dataProcessing/dat/ folder
     for file in list_of_classes:
@@ -53,27 +37,6 @@ def handle_dc_classes(list_of_classes, po_df):
             update_instructor_csv(df, instructor, dc_classes_folder_path)
 
 
-
-def remove_bad(list_of_classes):
-    remove_list = []
-    for file in list_of_classes:
-        df = pd.read_csv("%s%s" % (dat_folder_path, file), error_bad_lines=False)
-        if len(df.columns) < 6:
-            print('Removing %s\n', file)
-            print(df.head())
-            remove_list.append(file)
-        elif 'Jamal-Rahima' in file and 'Carolina-Rahima' in file:
-            print('Removing %s\n' % file)
-            remove_list.append(file)
-        elif 'McKnight-Deblin' in file:
-            print('Removing %s\n' % file)
-            remove_list.append(file)
-
-    for file in remove_list:
-        os.remove("%s%s" % (dat_folder_path, file))
-
-
-
 # input: 'Instructors' cell from processed data
 # output: Array of instructor(s), formatted as F.Last
 def get_instructors_list(df):
@@ -81,7 +44,6 @@ def get_instructors_list(df):
     if "&" in instructors_cell:
         instructors = instructors_cell.replace("&", "").strip().split(', ')
         for i in range(len(instructors)):
-            # print(instructors[i])
             temp = instructors[i].split()
             last = temp[1]
             first = temp[0][0]
@@ -90,59 +52,13 @@ def get_instructors_list(df):
     else:
         instructors = [instructors_cell]
         for i in range(len(instructors)):
-            # print(instructors[i])
             temp = instructors[i].split(', ')
             first = temp[1]
             first = first[0]
             last = temp[0].replace(",", "").replace(' ', '-').strip()
             full = first+"."+last
             instructors[i] = full
-    # print(instructors)
     return instructors
-
-
-# takes care of merging in the pricing options and
-# making the dataframe easier to process
-def clean_up_dataframe(df, po_df=None):
-    if is_alternate_format(df):
-        if ' "Class name"' in df.columns:
-            df = reformat_alternate_public(df)
-        else:
-            df = reformat_alternate_private(df)
-    df = format_column_headers(df)
-    df = drop_unnecessary_columns(df)
-    df = remove_quotes(df)
-    if po_df is not None:
-        df = include_pricing_options(df, po_df)
-    df = format_client_name(df)
-    df = sort_by_date_time(df)
-    return df
-
-
-# detects private classes that show up in a different format from mindbody
-def is_alternate_format(df):
-    if "# Clients" in df.columns or ' "# Clients"' in df.columns:
-        return True
-
-
-# fix for private classes coming in 2 separate formats
-def correct_private_class_file(df):
-    # df['Series_Used'] =
-    return None
-
-
-def drop_unnecessary_columns(df):
-    if "Unnamed:_5" in df.columns:
-        df = df.drop(columns=["Unnamed:_5"])
-    if "Earnings_per_Client" in df.columns:
-        df = df.drop(columns=["Earnings_per_Client"])
-    if "Earnings" in df.columns:
-        df = df.drop(columns=["Earnings"])
-    if "Revenue" in df.columns:
-        df = df.drop(columns=["Revenue"])
-    if "Rev_per_Session" in df.columns:
-        df = df.drop(columns=["Rev_per_Session"])
-    return df
 
 
 # adds the instructor rate column to a dataframe
@@ -194,19 +110,6 @@ def assign_amount_due(df):
     df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "")
     df = df.assign(Amount_Due_To_Instructor=(df.Instructor_Pay.astype(float) * df.Rate).round(3))
     return df
-
-
-# takes a client name in F Last format
-# returns name in F.Last format
-def format_client_name(df):
-    df.Client_Name = df.Client_Name.str.replace(" ", "")
-    return df
-
-
-# sorts a dataframe by class date, class time
-def sort_by_date_time(df):
-    df.Class_Date = pd.to_datetime(df.Class_Date)
-    return df.sort_values(by=['Class_Date', 'Class_Time'])
 
 
 # decides whether an instructors csv already exists,
@@ -265,37 +168,6 @@ def include_class_names(df, cn_df):
     return merged_df
 
 
-# removes all quotes surround all data in dataFrame
-def remove_quotes(df):
-    df = df.apply(lambda x: x.str.strip())
-    return df.apply(lambda x: x.str.strip('"'))
-
-
-# takes the original dataFrame with all classes and writes
-#   all instructor dances to their own file
-# inputs: dat_folder - contains full data csv
-#           pd_df - pricing lookup dataFrame
-def export_instructor_dances(po_df):
-    file = all_classes_path
-    #
-
-    #
-    df = pd.read_csv("%s%s" % (dat_folder_path, file), error_bad_lines=False)
-    df = clean_up_dataframe(df, po_df)
-    df = assign_instructor_rate(df)
-    df = assign_amount_due(df)
-    df = df[(df.Series_Used == "VMAC INSTRUCTOR DANCE") |
-            (df.Series_Used == "VMAC INSTRUCTOR FITNESS") |
-            (df.Series_Used == "VMAC Instructor Drop In Dance") |
-            (df.Series_Used == "VMAC Instructor  Drop In Dance")]
-    df = filter_out_jamal_carolina_classes(df)
-    df.Amount_Due_To_Instructor = df.Amount_Due_To_Instructor * -2
-    unique_instructors = df.Client_Name.unique()
-    for instructor in unique_instructors:
-        udf = df[df.Client_Name == instructor]
-        update_instructor_csv(udf, instructor, instructor_dance_folder_path, instructor_dance=True)
-
-
 # takes the original dataFrame with all classes and writes
 #   all instructor dances to their own file
 # inputs: dat_folder - contains full data csv
@@ -330,27 +202,6 @@ def filter_out_jamal_carolina_classes(df):
 
 
 # adds deduction rows to the files found in publicClasses folder
-def append_instructor_dances():
-    instructor_csv_list = [name for name in os.listdir(public_classes_folder_path)]
-    instructor_dance_list = [name for name in os.listdir(instructor_dance_folder_path)]
-    for file in instructor_csv_list:
-        if file in instructor_dance_list:
-            iddf = pd.read_csv('%s%s' % (instructor_dance_folder_path, file))
-            print("appending %s " % file)
-            iddf.to_csv("%s%s" % (public_classes_folder_path, file), mode="a", index=False, header=False)
-
-    print("\n\nList of Instructor dances with no matching instructor CSV\n----------")
-    total_missing = 0
-    for file in instructor_dance_list:
-        if file not in instructor_csv_list:
-            total_missing = total_missing + 1
-            print('Instructor Dance: %s not found as an Instructor for pay period' % file)
-            # name = file.replace(".csv", "")
-            # check_against_family_lookup(name)
-    if total_missing == 0:
-        print('(empty)')
-
-# adds deduction rows to the files found in publicClasses folder
 def dc_append_instructor_dances():
     instructor_csv_list = [name for name in os.listdir(dc_classes_folder_path)]
     instructor_dance_list = [name for name in os.listdir(dc_instructor_dance_folder_path)]
@@ -373,21 +224,6 @@ def dc_append_instructor_dances():
 
 
 # writes csv to totals folder containing total for instructor
-def output_instructor_totals(cn_df):
-    for file in os.listdir(public_classes_folder_path):
-        print('Creating pay stub for %s' % file.replace('.csv', ''))
-        df = pd.read_csv("%s%s" % (public_classes_folder_path, file))
-        df = df.append(df.sum(numeric_only=True), ignore_index=True)
-        # df.iloc[-1][0] = 'Total'
-        df = include_class_names(df, cn_df)
-
-        df.to_csv("%s%s" % (totals_folder_path, file), mode="w", index=False)
-        # with create_connection(database_path) as conn:
-        #     instructor = (file, 0)
-        #     create_instructor(conn, instructor)
-
-
-# writes csv to totals folder containing total for instructor
 def dc_output_instructor_totals(cn_df):
     for file in os.listdir(dc_classes_folder_path):
         print('Creating pay stub for %s' % file.replace('.csv', ''))
@@ -402,40 +238,10 @@ def dc_output_instructor_totals(cn_df):
             create_instructor(conn, instructor)
 
 
-# same as running the shell command:
-# rm -f ./dat/* ./tmp/* ./log/*
-def clean_up_dataProcessing_folder():
-      for file in os.listdir(dat_folder_path):
-            os.remove(dat_folder_path + file)
-      for file in os.listdir(tmp_folder_path):
-            os.remove(tmp_folder_path + file)
-      for file in os.listdir(log_folder_path):
-            os.remove(log_folder_path + file)
-
-
 # removes any data generated by previous runs
 def clean_up_workspace():
     if os.path.isdir(output_folder_path):
         shutil.rmtree(output_folder_path)
-
-
-# move uploaded file to raw_folder_path 
-# where dataprocessing looks for it
-def move_uploaded_file(filename):
-    source = uploads_folder_path + filename
-    target = raw_folder_path + filename
-    data_cleaner_target = data_cleaner_upload_folder_path + filename
-    # adding exception handling
-    try:
-        copyfile(source, target)
-        # copyfile(source, data_cleaner_target)
-    except IOError as e:
-        print("Unable to copy file. %s" % e)
-        exit(1)
-    except:
-        print("Unexpected error:", sys.exc_info())
-        exit(1)
-
 
 
 # reads in pricing lookup table &
@@ -476,15 +282,6 @@ def create_all_folders():
     create_folder(dc_totals_folder_path)
 
 
-
-# gets list of file names from the dat folder
-def get_list_of_classes(public=False, private=False):
-    if public:
-        prefix = "01-Class"
-    if private:
-        prefix = "01-Private"
-    return [name for name in os.listdir(dat_folder_path) if name.startswith(prefix)]
-
 # gets list of file names from the dc output folder
 def get_dc_list_of_classes():
     return [name for name in os.listdir(output_folder_path + data_cleaner_output_folder) if not name.startswith('00-01')]
@@ -501,17 +298,6 @@ def make_adjustment(instructor, description, amount):
     if os.path.exists('%s%s.csv' % (dc_totals_folder_path, instructor)):
         os.remove('%s%s.csv' % (dc_totals_folder_path, instructor))
     df.to_csv("%s%s.csv" % (dc_totals_folder_path, instructor), mode="w", index=False)
-
-
-# takes a file and runs all of the shell scripts with it
-# input - path to file
-def run_data_processing_shell_scripts(dir_plus_filename):
-    os.chdir('../dataProcessing')
-    subprocess.run(['./bin/s00-generate_csv_files.sh', dir_plus_filename])
-    os.chdir('../MindBodyPayroll')
-    
-    # HAD TO COMMENT OUT BELOW LINE TO GET SYSTEM TO RUN
-    # subprocess.run(['pwd'])
 
 
 def clean_up_df_for_web(df):
@@ -545,47 +331,9 @@ def export_paystubs_to_pdf():
         add_table_to_html_paystub_file(df.to_html(classes="table table-striped table-hover table-sm table-responsive"),
                                        output_html_file)
         # added below line to fix export feature
-        config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
-        pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
+        # config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
+        # pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
         pdfkit.from_file(output_html_file, output_pdf_file_name)
-
-
-# corrects private class files that come in the wrong format
-# attaches the 'private lesson' rate to all classes
-def reformat_alternate_private(df):
-    df.columns = [c.replace('"', '') for c in df.columns]
-    df.columns = [c.strip() for c in df.columns]
-    drop_list = ["Class Name", "# Clients", "# Comps", "Base Pay", "Earnings", "Assistant Pay", "Bonus Pay"]
-    for column in drop_list:
-        if column in df.columns:
-            df = df.drop(columns=[column])
-
-    df = df.rename(columns={'Client Name(s)': 'Client Name'})
-    df['Series Used'] = "Private Lesson"
-    df['Revenue'] = '0.00'
-    df['Earnings'] = '0.00'
-    return df
-
-
-# reformats a file that comes in the wrong format from mindbody
-def reformat_alternate_public(df):
-    df.columns = [c.replace('"', '') for c in df.columns]
-    df.columns = [c.strip() for c in df.columns]
-
-    if "Client Name(s)" in df.columns:
-        df = df.rename(columns={"Client Name(s)": "Client Name"})
-    elif "Client Name" not in df.columns:
-        df["Client Name"] = ''
-
-    df["Series Used"] = df["Class name"]
-    drop_list = ['Class name', '# Clients', '# Comps', 'Base Pay', 'Assistant Pay', 'Bonus Pay']
-    for column in drop_list:
-        if column in df.columns:
-            df = df.drop(columns=[column])
-
-    df["Revenue"] = "0.00"
-    df["Earnings"] = "0.00"
-    return df
 
 
 def sort_name(val):
@@ -609,31 +357,6 @@ def dc_find_unpaid_classes(po_df, classes_path):
     pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
     for pricing_option in pricing_option_dfs:
         pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (dc_unpaid_folder_path, pricing_option.replace(' ', '_')
-                                                                .replace('/','---')), mode='w', index=False)
-    return pricing_option_dfs
-
-
-def find_unpaid_classes(po_df, classes_path):
-    df = pd.read_csv(dat_folder_path + classes_path, error_bad_lines=False)
-    df = clean_up_dataframe(df)
-    # df['lower'] = df.Series_Used.str.lower()
-    # po_df['lower'] = po_df.index.str.lower()
-    # df = pd.merge(df, po_df, left_on='lower', right_on='lower', how="outer", indicator=True)
-
-    po_df['lower'] = po_df.index
-    df = pd.merge(df, po_df, left_on='Series_Used', right_on='lower', how='outer', indicator=True)
-
-    df = df[df['_merge'] == 'left_only']
-    if "_merge" in df.columns:
-        df = df.drop(columns=["_merge"])
-    if "lower" in df.columns:
-        df = df.drop(columns=["lower"])
-
-
-
-    pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
-    for pricing_option in pricing_option_dfs:
-        pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (unpaid_folder_path, pricing_option.replace(' ', '_')
                                                                 .replace('/','---')), mode='w', index=False)
     return pricing_option_dfs
 
