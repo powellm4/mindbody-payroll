@@ -16,6 +16,7 @@ xmlx = "*"
 lxml = "*"
 html5lib = "*"
 beautifulsoup4 = "*"
+uwsgi = "*"
 
 [requires]
 python_version = "3.7"
