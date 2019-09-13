@@ -1,8 +1,8 @@
-from constants import export_html_folder_path, logo_path
+from constants import logo_path, dc_export_html_folder_path
 
 
 def create_html_paystub_file(file, total, student_count, pay_period):
-    output_html_file = export_html_folder_path + file.replace('.csv', '') + '.html'
+    output_html_file = dc_export_html_folder_path + file.replace('.csv', '') + '.html'
     f = open(output_html_file, "w+")
     f.write(get_header(file, total, student_count, pay_period))
     f.write(get_styles())
