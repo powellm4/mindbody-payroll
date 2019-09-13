@@ -10,7 +10,7 @@ server {
 
     location / {
         include uwsgi_params;
-        uwsgi_pass unix:/home/nuatut_gmail_com/mindbody-payroll/backend/MindBodyPayroll/vmac.sock;
+        uwsgi_pass unix:/home/powellmarshall3_gmail_com/mindbody-payroll/backend/MindBodyPayroll/vmac.sock;
     }
 
     listen 443 ssl; # managed by Certbot
