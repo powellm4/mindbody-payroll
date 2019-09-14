@@ -1,3 +1,5 @@
+from os.path import basename
+
 from wrappers import *
 from flask import *
 import os
@@ -142,7 +144,7 @@ def export():
     data = io.BytesIO()
     with zipfile.ZipFile(data, mode='w') as z:
         for f_name in base_path.iterdir():
-            z.write(f_name)
+            z.write(f_name, basename(f_name))
     data.seek(0)
     return send_file(
         data,
