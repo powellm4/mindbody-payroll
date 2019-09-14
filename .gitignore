@@ -76,4 +76,3 @@ backend/dataProcessing/dat/00-01-Class-All.csv
 .idea/
 .DS_Store
 
-*.db
