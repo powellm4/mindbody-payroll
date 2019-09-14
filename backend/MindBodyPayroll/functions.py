@@ -1,11 +1,10 @@
 import os
 import shutil
-import pandas as pd
+import sys
 import subprocess
+import pandas as pd
 import pdfkit
 from constants import *
-from shutil import copyfile
-from sys import exit
 from pdf_helper import create_html_paystub_file, add_table_to_html_paystub_file
 import re
 from db_helper import *
@@ -333,7 +332,12 @@ def export_paystubs_to_pdf():
         # added below line to fix export feature
         # config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
         # pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
-        pdfkit.from_file(output_html_file, output_pdf_file_name)
+        if sys.platform == 'win32':
+            wk = subprocess.call('where wkhtmltopdf')
+        else:
+            wk = subprocess.call("which wkhtmltopdf")
+        config = pdfkit.configuration(wkhtmltopdf=wk)
+        pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
 
 
 def sort_name(val):
