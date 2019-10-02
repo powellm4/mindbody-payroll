@@ -178,5 +178,20 @@ def authorize_quickbooks():
     return redirect(authorization_service.authorize_quickbooks())
 
 
+@app.route('/oauth-redirect',  methods=['GET'])
+def oauth_redirect():
+    code = request.args.get('code')
+    realm_id = request.args.get('realmId')
+    with create_connection(database_path) as conn:
+        update_auth_code(conn, code, realm_id)
+        # code = get_auth_code(conn)[AuthCodeRecord.CODE]
+        # realm_id = get_auth_code(conn)[AuthCodeRecord.REALM_ID]
+        # print(code)
+        # print(realm_id)
+    return redirect('/paystubs/')
+
+
 if __name__ == '__main__':
+    create_workspace()
     app.run(debug=True)
+

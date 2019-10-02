@@ -4,6 +4,8 @@ import sys
 import subprocess
 import pandas as pd
 import pdfkit
+
+import config
 from constants import *
 from pdf_helper import create_html_paystub_file, add_table_to_html_paystub_file
 import re
@@ -298,6 +300,13 @@ def make_adjustment(instructor, description, amount):
         os.remove('%s%s.csv' % (dc_totals_folder_path, instructor))
     df.to_csv("%s%s.csv" % (dc_totals_folder_path, instructor), mode="w", index=False)
 
+
+def create_workspace():
+    create_all_folders()
+    with create_connection(database_path) as conn:
+        wipe_instructors_database(conn)
+        create_table(conn, config.sql_create_instructors_table)
+        create_table(conn, config.sql_create_auth_code_table)
 
 def clean_up_df_for_web(df):
     if "Rate" in df.columns:
