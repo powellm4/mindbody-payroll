@@ -17,6 +17,7 @@ lxml = "*"
 html5lib = "*"
 beautifulsoup4 = "*"
 uwsgi = "*"
+intuit-oauth = "*"
 
 [requires]
 python_version = "3.7"

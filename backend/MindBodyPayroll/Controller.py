@@ -1,5 +1,6 @@
 from os.path import basename
 
+import authorization_service
 from wrappers import *
 from flask import *
 import os
@@ -71,13 +72,15 @@ def paystubs():
     formatted_list = []
     for item in instructors_tuples:
         name = item[InstructorRecord.NAME]
-        df = pd.read_csv(dc_totals_folder_path + item[InstructorRecord.NAME])
-        total = '${:,.2f}'.format(df.iloc[-1][-1])
-        formatted_list.append((item[InstructorRecord.ID], name, total))
-
+        if os.path.exists('%s%s.csv' % (dc_totals_folder_path, name)):
+            df = pd.read_csv(dc_totals_folder_path + item[InstructorRecord.NAME])
+            total = '${:,.2f}'.format(df.iloc[-1][-1])
+            formatted_list.append((item[InstructorRecord.ID], name, total))
+    if not formatted_list:
+        return redirect('/')
     formatted_list.sort(key=sort_name)
     return render_template('paystubs/index.html', instructors_list=formatted_list,
-                           len=len(instructors_tuples))
+                           len=len(formatted_list))
 
 
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
@@ -168,6 +171,11 @@ def unpaid():
 @app.route('/instructions/',  methods=['GET'])
 def instructions():
     return render_template('instructions.html')
+
+
+@app.route('/quickbooks/auth',  methods=['GET'])
+def authorize_quickbooks():
+    return redirect(authorization_service.authorize_quickbooks())
 
 
 if __name__ == '__main__':
