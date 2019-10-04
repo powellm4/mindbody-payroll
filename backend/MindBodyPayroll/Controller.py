@@ -188,6 +188,13 @@ def oauth_redirect():
         # realm_id = get_auth_code(conn)[AuthCodeRecord.REALM_ID]
         # print(code)
         # print(realm_id)
+    authorization_service.auth_client.get_bearer_token(code, realm_id=realm_id)
+
+# //retrieve access_token and refresh_token
+    print(authorization_service.auth_client.access_token)
+    print(authorization_service.auth_client.refresh_token)
+
+    # store with redis
     return redirect('/paystubs/')
 
 
