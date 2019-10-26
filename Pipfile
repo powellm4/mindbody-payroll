@@ -18,6 +18,7 @@ html5lib = "*"
 beautifulsoup4 = "*"
 uwsgi = "*"
 intuit-oauth = "*"
+redis = "*"
 
 [requires]
 python_version = "3.7"

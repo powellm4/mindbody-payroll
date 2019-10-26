@@ -15,11 +15,9 @@ def authorize_quickbooks():
     # Prepare scopes
     scopes = [
         Scopes.ACCOUNTING,
-        Scopes.PAYMENT,
     ]
 
     # Get authorization URL
     auth_url = auth_client.get_authorization_url(scopes)
     return auth_url
-    # Using standard redirect
-    # return redirect(auth_url)
+
