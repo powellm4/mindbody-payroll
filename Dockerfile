@@ -21,4 +21,5 @@ USER root
 RUN  pip3 install -r requirements.txt
 COPY deployment/nginx.conf /etc/nginx
 RUN chmod -R 777 ../
+EXPOSE 80
 CMD service nginx start && uwsgi --ini uwsgi.ini
