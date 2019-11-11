@@ -11,6 +11,7 @@ from constants import *
 from forms import AppendForm
 from werkzeug.utils import secure_filename
 
+# coding=latin-1
 
 UPLOAD_FOLDER = './uploads/'
 
