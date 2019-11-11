@@ -1,5 +1,4 @@
 from os.path import basename
-
 from wrappers import *
 from flask import *
 import os
@@ -7,11 +6,9 @@ import datetime
 import zipfile
 import io
 import pathlib
-
 import pandas as pd
 from constants import *
 from forms import AppendForm
-#from app import app
 from werkzeug.utils import secure_filename
 
 
@@ -54,7 +51,7 @@ def upload_file():
             filename = secure_filename(file.filename)
             currentDT = datetime.datetime.now()
             filename = currentDT.strftime("%Y-%m-%d-%H-%M-%S") + '-' + filename
-
+            print(os.getcwd())
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
             # calling run_backend in wrapper.py

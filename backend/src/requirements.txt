@@ -1,0 +1,11 @@
+pdfkit
+pandas
+numpy
+flask
+wtforms
+wkhtmltopdf
+xmlx
+lxml
+html5lib
+uwsgi
+pathlib

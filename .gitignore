@@ -63,13 +63,13 @@ backend/venv/lib64
 backend/instructorDances/
 backend/output/
 backend/lookupTables/.DS_Store
-backend/MindBodyPayroll/uploads/*
+backend/src/uploads/*
 backend/dataProcessing/raw/*
 backend/dataProcessing/dat/
 backend/dataProcessing/tmp/*
 backend/.DS_Store
 unknown-0.0-py37_0.tar.bz2
-backend/MindBodyPayroll/.DS_Store
+backend/src/.DS_Store
 backend/lookupTables/.DS_Store
 backend/dataProcessing/dat/00-01-Class-All.csv
 
