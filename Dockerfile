@@ -10,14 +10,9 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
+COPY . /app
+WORKDIR /app/backend/src
 
-WORKDIR /home/www-data
-USER www-data
-
-COPY . /home/www-data/app
-WORKDIR /home/www-data/app/backend/src
-
-USER root
 RUN  pip3 install -r requirements.txt
 COPY deployment/nginx.conf /etc/nginx
 RUN chmod -R 777 ../
