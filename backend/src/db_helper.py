@@ -10,7 +10,7 @@ def create_connection(database_filename):
         print(e)
 
 
-def wipe_database(conn):
+def wipe_instructors_database(conn):
     try:
         c = conn.cursor()
         c.execute('DELETE FROM instructors')
@@ -50,3 +50,26 @@ def select_instructor_by_id(conn, id):
 
     return row
 
+
+def update_auth_code(conn, code, realm_id):
+    delete_sql = '''DELETE FROM auth_code'''
+    sql = '''INSERT INTO auth_code(code,realmId) 
+                VALUES(?,?)'''
+    try:
+        c = conn.cursor()
+        c.execute(delete_sql)
+        c.execute(sql, (code, realm_id))
+    except Error as e:
+        print(e)
+
+
+def get_auth_code(conn):
+    sql ="SELECT * FROM auth_code"
+    try:
+        cur = conn.cursor()
+        cur.execute(sql)
+        row = cur.fetchone()
+    except Error as e:
+        print(e)
+
+    return row

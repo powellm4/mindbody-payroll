@@ -45,3 +45,8 @@ class InstructorRecord(IntEnum):
     ID = 0
     NAME = 1
     TOTAL = 2
+
+class AuthCodeRecord(IntEnum):
+    ID = 0
+    CODE = 1
+    REALM_ID = 2

@@ -15,8 +15,9 @@ def run_backend(filename):
     clean_up_workspace()
     create_all_folders()
     with create_connection(database_path) as conn:
-        wipe_database(conn)
+        wipe_instructors_database(conn)
         create_table(conn, config.sql_create_instructors_table)
+        create_table(conn, config.sql_create_auth_code_table)
 
     run_data_cleaner(filename)
 

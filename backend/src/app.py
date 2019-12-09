@@ -6,6 +6,7 @@ import datetime
 import zipfile
 import io
 import pathlib
+import authorization_service
 import pandas as pd
 from constants import *
 from forms import AppendForm
@@ -69,13 +70,15 @@ def paystubs():
     formatted_list = []
     for item in instructors_tuples:
         name = item[InstructorRecord.NAME]
-        df = pd.read_csv(dc_totals_folder_path + item[InstructorRecord.NAME])
-        total = '${:,.2f}'.format(df.iloc[-1][-1])
-        formatted_list.append((item[InstructorRecord.ID], name, total))
-
+        if os.path.exists('%s%s' % (dc_totals_folder_path, name)):
+            df = pd.read_csv(dc_totals_folder_path + item[InstructorRecord.NAME])
+            total = '${:,.2f}'.format(df.iloc[-1][-1])
+            formatted_list.append((item[InstructorRecord.ID], name, total))
+    if not formatted_list:
+        return redirect('/')
     formatted_list.sort(key=sort_name)
     return render_template('paystubs/index.html', instructors_list=formatted_list,
-                           len=len(instructors_tuples))
+                           len=len(formatted_list))
 
 
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
@@ -168,5 +171,24 @@ def instructions():
     return render_template('instructions.html')
 
 
+@app.route('/quickbooks/auth',  methods=['GET'])
+def authorize_quickbooks():
+    return redirect(authorization_service.authorize_quickbooks())
+
+
+@app.route('/oauth-redirect',  methods=['GET'])
+def oauth_redirect():
+    code = request.args.get('code')
+    realm_id = request.args.get('realmId')
+    with create_connection(database_path) as conn:
+        update_auth_code(conn, code, realm_id)
+        # code = get_auth_code(conn)[AuthCodeRecord.CODE]
+        # realm_id = get_auth_code(conn)[AuthCodeRecord.REALM_ID]
+        # print(code)
+        # print(realm_id)
+    return redirect('/paystubs/')
+
+
 if __name__ == '__main__':
+    create_workspace()
     app.run(debug=True)

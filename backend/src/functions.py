@@ -5,6 +5,7 @@ import subprocess
 import pandas as pd
 import pdfkit
 from constants import *
+import config
 from pdf_helper import create_html_paystub_file, add_table_to_html_paystub_file
 import re
 from db_helper import *
@@ -311,6 +312,13 @@ def clean_up_df_for_web(df):
     pd.options.display.float_format = '${:,.2f}'.format
     return df
 
+
+def create_workspace():
+    create_all_folders()
+    with create_connection(database_path) as conn:
+        wipe_instructors_database(conn)
+        create_table(conn, config.sql_create_instructors_table)
+        create_table(conn, config.sql_create_auth_code_table)
 
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
 def export_paystubs_to_pdf():

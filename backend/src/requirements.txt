@@ -9,3 +9,4 @@ lxml
 html5lib
 uwsgi
 pathlib
+intuit-oauth
