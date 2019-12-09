@@ -6,6 +6,7 @@ import datetime
 import zipfile
 import io
 import pathlib
+import redis
 import authorization_service
 import pandas as pd
 from constants import *
@@ -180,12 +181,19 @@ def authorize_quickbooks():
 def oauth_redirect():
     code = request.args.get('code')
     realm_id = request.args.get('realmId')
+
+    # is it necessary to store auth code??
     with create_connection(database_path) as conn:
         update_auth_code(conn, code, realm_id)
-        # code = get_auth_code(conn)[AuthCodeRecord.CODE]
-        # realm_id = get_auth_code(conn)[AuthCodeRecord.REALM_ID]
-        # print(code)
-        # print(realm_id)
+
+    # make call for bearer token
+    authorization_service.auth_client.get_bearer_token(code, realm_id=realm_id)
+
+    # retrieve access_token and refresh_token
+    print(authorization_service.auth_client.access_token)
+    print(authorization_service.auth_client.refresh_token)
+
+    # store with redis
     return redirect('/paystubs/')
 
 
