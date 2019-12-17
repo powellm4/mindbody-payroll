@@ -8,3 +8,5 @@ services:
       - ./:/app
     environment:
       FLASK_ENV: development
+  certbot:
+    image: certbot/certbot
