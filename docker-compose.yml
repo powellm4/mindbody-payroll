@@ -6,7 +6,12 @@ services:
       - "56733:80"
     volumes:
       - ./:/app
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
     environment:
       FLASK_ENV: development
   certbot:
     image: certbot/certbot
+    volumes:
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
