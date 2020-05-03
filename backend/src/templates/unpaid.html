@@ -9,16 +9,17 @@
   </style>
 <div class="row">
     <div class="col">
-        <h1>{% block title %}Unpaid{% endblock %}</h1>
+        <h1>{% block title %}Unpaid Classes{% endblock %}</h1>
     </div>
 </div>
 {% endblock %}
 
 {% block content %}
 
-
+{% if tables %}
 
 <div class="accordion" id="accordionExample">
+
 
     {% for key, value in tables.items() %}
 
@@ -41,6 +42,10 @@
 
 
 </div>
+
+{% else %}
+    All classes are paid for! <a href="/paystubs/">Continue to the Paystubs page.</a>
+{% endif %}
 
 
 

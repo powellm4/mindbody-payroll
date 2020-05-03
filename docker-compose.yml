@@ -6,7 +6,6 @@ services:
       - "56733:80"
     volumes:
       - ./:/app
-      - db-data:/app/backend/lookupTables
     environment:
       FLASK_ENV: development
 volumes:
