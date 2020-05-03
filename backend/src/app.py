@@ -59,7 +59,7 @@ def upload_file():
 
             # calling run_backend in wrapper.py
             run_backend(filename)
-            return redirect('/paystubs/')
+            return redirect('/unpaid/')
 
 
 @app.route('/paystubs/')

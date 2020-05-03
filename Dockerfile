@@ -1,5 +1,4 @@
 FROM ubuntu:18.04
-MAINTAINER Marshall Powell "powellmarshall3@gmail.com"
 
 RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive
