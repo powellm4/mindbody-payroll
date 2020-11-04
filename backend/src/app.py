@@ -7,11 +7,12 @@ import zipfile
 import io
 import pathlib
 import redis
-import authorization_service
+#import authorization_service
 import pandas as pd
 from constants import *
 from forms import AppendForm
 from werkzeug.utils import secure_filename
+from google_cloud_storage_service import GoogleCloudStorageService
 
 # coding=latin-1
 
@@ -111,15 +112,18 @@ def paystubs_detail(id):
 
 @app.route('/prices/',  methods=['POST', 'GET'])
 def prices():
+    cloud_storage = GoogleCloudStorageService()
     pd.set_option('display.max_colwidth', -1)
     if request.method == 'POST':
         req_data = request.get_json()
         df = pd.DataFrame.from_dict(req_data)
         df = df[['Pricing Option', 'Revenue per class', 'Instructor Pay']]
         df.to_csv("%s" % pricing_options_path, index=False)
+        cloud_storage.save_prices()
         dict = {"redirect": '/prices/'}
         return jsonify(dict)
 
+    cloud_storage.fetch_prices()
     df = pd.read_csv(pricing_options_path)
 
     return render_template('prices/index.html', prices=df.to_html(classes="table table-striped table-hover table-sm"))
@@ -127,14 +131,17 @@ def prices():
 
 @app.route('/classes/',  methods=['POST', 'GET'])
 def classes():
+    cloud_storage = GoogleCloudStorageService()
     if request.method == 'POST':
         req_data = request.get_json()
         df = pd.DataFrame.from_dict(req_data)
         df = df[['Name', 'Day', 'Time', 'Class']]
         df.to_csv("%s" % class_name_lookup_path, index=False)
+        cloud_storage.save_classes()
         dict = {"redirect": '/classes/'}
         return jsonify(dict)
 
+    cloud_storage.fetch_classes()
     df = pd.read_csv(class_name_lookup_path)
     return render_template('classes/index.html', classes=df.to_html(classes="table table-striped table-hover table-sm"))
 
@@ -172,12 +179,12 @@ def instructions():
     return render_template('instructions.html')
 
 
-@app.route('/quickbooks/auth',  methods=['GET'])
+""" @app.route('/quickbooks/auth',  methods=['GET'])
 def authorize_quickbooks():
-    return redirect(authorization_service.authorize_quickbooks())
+    return redirect(authorization_service.authorize_quickbooks()) """
 
 
-@app.route('/oauth-redirect',  methods=['GET'])
+""" @app.route('/oauth-redirect',  methods=['GET'])
 def oauth_redirect():
     code = request.args.get('code')
     realm_id = request.args.get('realmId')
@@ -194,7 +201,7 @@ def oauth_redirect():
     print(authorization_service.auth_client.refresh_token)
 
     # store with redis
-    return redirect('/paystubs/')
+    return redirect('/paystubs/') """
 
 
 if __name__ == '__main__':

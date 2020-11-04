@@ -11,3 +11,4 @@ uwsgi
 pathlib
 intuit-oauth
 redis
+google-cloud-storage
