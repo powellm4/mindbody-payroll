@@ -26,7 +26,8 @@ pd.set_option('display.width', 1500)
 def handle_dc_classes(list_of_classes, po_df):
     # for each (public/private) class file in dataProcessing/dat/ folder
     for file in list_of_classes:
-        df = pd.read_csv("%s%s" % (output_folder_path + data_cleaner_output_folder, file))
+        df = pd.read_csv("%s%s" % (output_folder_path +
+                                   data_cleaner_output_folder, file))
         instructors_list = get_instructors_list(df)
         if po_df is not None:
             df = include_pricing_options(df, po_df)
@@ -108,7 +109,8 @@ def create_folder(folder):
 # with correct amount
 def assign_amount_due(df):
     df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "")
-    df = df.assign(Amount_Due_To_Instructor=(df.Instructor_Pay.astype(float) * df.Rate).round(3))
+    df = df.assign(Amount_Due_To_Instructor=(
+        df.Instructor_Pay.astype(float) * df.Rate).round(3))
     return df
 
 
@@ -129,14 +131,16 @@ def update_instructor_csv(df, instructor, output_folder, provide_feedback=True, 
         include_header = True
         if provide_feedback:
             print("Writing %s to new CSV..." % instructor)
-    df.to_csv("%s%s.csv" % (output_folder, instructor), mode=mode, header=include_header, index=False)
+    df.to_csv("%s%s.csv" % (output_folder, instructor),
+              mode=mode, header=include_header, index=False)
 
 
 # prepares the class name lookup dataframe for
 # merging into main df
 def clean_up_class_name_dataframe(cn_df):
     cn_df = format_column_headers(cn_df)
-    cn_df.Day = cn_df.Day.map(dict(Mondays=0, Tuesdays=1, Wednesdays=2, Thursdays=3, Fridays=4, Saturdays=5, Sundays=6))
+    cn_df.Day = cn_df.Day.map(dict(
+        Mondays=0, Tuesdays=1, Wednesdays=2, Thursdays=3, Fridays=4, Saturdays=5, Sundays=6))
     cn_df.Name = cn_df.Name.apply(format_name)
     cn_df.Time = cn_df.Time.str.replace("PM", "pm")
     cn_df.Time = cn_df.Time.str.replace("AM", "am")
@@ -150,7 +154,8 @@ def include_pricing_options(df, po_df):
     # po_df['lower'] = po_df.index.str.lower()
     # return pd.merge(df, po_df, left_on='lower', right_on='lower', how='left')
     po_df['lower'] = po_df.index
-    new_df = pd.merge(df, po_df, left_on='Series_Used', right_on='lower', how='left')
+    new_df = pd.merge(df, po_df, left_on='Series_Used',
+                      right_on='lower', how='left')
     new_df = new_df.drop(columns=['lower'])
     return new_df
 
@@ -158,9 +163,11 @@ def include_pricing_options(df, po_df):
 # merges the class name lookup dataframe with the main dataframe,
 # adds; the class column
 def include_class_names(df, cn_df):
-    df['Day'] = pd.to_datetime(df.Class_Date).dt.dayofweek
+    df.Class_Time = df.Class_Time.str.replace('\xa0', ' ')
+    df['Day'] = pd.to_datetime(df.Class_Date).dt.weekday
     merged_df = pd.merge(df, cn_df, left_on=['Day', 'Instructors', 'Class_Time'],
-                   right_on=['Day', 'Name', 'Time'], how='left')
+                         right_on=['Day', 'Name', 'Time'], how='left')
+    print(merged_df.head())
     merged_df = merged_df.drop(columns=['Day', 'Name', 'Time'])
     merged_df = merged_df[['Instructors', 'Class', 'Class_Date', 'Class_Time',
                            'Client_Name', 'Series_Used', 'Revenue_per_class',
@@ -174,7 +181,8 @@ def include_class_names(df, cn_df):
 #           pd_df - pricing lookup dataFrame
 def handle_dc_instructor_dances(po_df):
     file = all_classes_path
-    df = pd.read_csv("%s%s" % (output_folder_path + data_cleaner_output_folder, file))
+    df = pd.read_csv("%s%s" % (output_folder_path +
+                               data_cleaner_output_folder, file))
     df = df[
         (df.Series_Used == "VMAC Instructor Dance") |
         (df.Series_Used == "VMAC INSTRUCTOR DANCE") |
@@ -192,7 +200,8 @@ def handle_dc_instructor_dances(po_df):
     unique_instructors = df.Client_Name.unique()
     for instructor in unique_instructors:
         udf = df[df.Client_Name == instructor]
-        update_instructor_csv(udf, instructor, dc_classes_folder_path, instructor_dance=True)
+        update_instructor_csv(
+            udf, instructor, dc_classes_folder_path, instructor_dance=True)
 
 
 # instructors get free classes if the class is taught by carolina and jamal
@@ -204,12 +213,15 @@ def filter_out_jamal_carolina_classes(df):
 # adds deduction rows to the files found in publicClasses folder
 def dc_append_instructor_dances():
     instructor_csv_list = [name for name in os.listdir(dc_classes_folder_path)]
-    instructor_dance_list = [name for name in os.listdir(dc_instructor_dance_folder_path)]
+    instructor_dance_list = [name for name in os.listdir(
+        dc_instructor_dance_folder_path)]
     for file in instructor_csv_list:
         if file in instructor_dance_list:
-            iddf = pd.read_csv('%s%s' % (dc_instructor_dance_folder_path, file))
+            iddf = pd.read_csv('%s%s' %
+                               (dc_instructor_dance_folder_path, file))
             print("appending %s " % file)
-            iddf.to_csv("%s%s" % (dc_classes_folder_path, file), mode="a", index=False, header=False)
+            iddf.to_csv("%s%s" % (dc_classes_folder_path, file),
+                        mode="a", index=False, header=False)
 
     print("\n\nList of Instructor dances with no matching instructor CSV\n----------")
     total_missing = 0
@@ -228,11 +240,12 @@ def dc_output_instructor_totals(cn_df):
     for file in os.listdir(dc_classes_folder_path):
         print('Creating pay stub for %s' % file.replace('.csv', ''))
         df = pd.read_csv("%s%s" % (dc_classes_folder_path, file))
+        df = include_class_names(df, cn_df)
         df = df.append(df.sum(numeric_only=True), ignore_index=True)
         # df.iloc[-1][0] = 'Total'
-        df = include_class_names(df, cn_df)
 
-        df.to_csv("%s%s" % (dc_totals_folder_path, file), mode="w", index=False)
+        df.to_csv("%s%s" % (dc_totals_folder_path, file),
+                  mode="w", index=False)
         with create_connection(database_path) as conn:
             instructor = (file, 0)
             create_instructor(conn, instructor)
@@ -294,10 +307,12 @@ def make_adjustment(instructor, description, amount):
     df.drop(df.tail(1).index, inplace=True)
     df = df.append({'Amount_Due_To_Instructor': amount,
                     'Series_Used': description, 'Instructors': 'Adjustment'}, ignore_index=True)
-    df = df.append({'Instructors': 'Total', 'Amount_Due_To_Instructor': df['Amount_Due_To_Instructor'].sum()}, ignore_index=True)
+    df = df.append({'Instructors': 'Total', 'Amount_Due_To_Instructor':
+                    df['Amount_Due_To_Instructor'].sum()}, ignore_index=True)
     if os.path.exists('%s%s.csv' % (dc_totals_folder_path, instructor)):
         os.remove('%s%s.csv' % (dc_totals_folder_path, instructor))
-    df.to_csv("%s%s.csv" % (dc_totals_folder_path, instructor), mode="w", index=False)
+    df.to_csv("%s%s.csv" % (dc_totals_folder_path,
+                            instructor), mode="w", index=False)
 
 
 def clean_up_df_for_web(df):
@@ -321,10 +336,13 @@ def create_workspace():
         create_table(conn, config.sql_create_auth_code_table)
 
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
+
+
 def export_paystubs_to_pdf():
     for file in os.listdir(dc_totals_folder_path):
-    # for file in ["I.Villanueva-Torres.csv"]: # for testing purposes only
-        output_html_file = dc_export_html_folder_path + file.replace('.csv', '') + '.html'
+        # for file in ["I.Villanueva-Torres.csv"]: # for testing purposes only
+        output_html_file = dc_export_html_folder_path + \
+            file.replace('.csv', '') + '.html'
         output_pdf_file_name = dc_export_pdf_folder_path + get_global_pay_period() + '--' \
             + file.replace('.csv', '') + '.pdf'
         input_file = dc_totals_folder_path + file
@@ -346,7 +364,8 @@ def export_paystubs_to_pdf():
             wk = '/usr/bin/wkhtmltopdf'
             print(wk)
         config = pdfkit.configuration(wkhtmltopdf=wk)
-        pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
+        pdfkit.from_file(output_html_file,
+                         output_pdf_file_name, configuration=config)
 
 
 def sort_name(val):
@@ -356,28 +375,29 @@ def sort_name(val):
 # finds any classes who's pricing options do not show up in the pricing options list
 # writes them to output/unpaid folder
 def dc_find_unpaid_classes(po_df, classes_path):
-    df = pd.read_csv(output_folder_path + data_cleaner_output_folder + classes_path)
+    df = pd.read_csv(output_folder_path +
+                     data_cleaner_output_folder + classes_path)
     # df['lower'] = df.Series_Used.str.lower()
     po_df['lower'] = po_df.index
-    df = pd.merge(df, po_df, left_on='Series_Used', right_on='lower', how="outer", indicator=True)
+    df = pd.merge(df, po_df, left_on='Series_Used',
+                  right_on='lower', how="outer", indicator=True)
     df = df[df['_merge'] == 'left_only']
     if "_merge" in df.columns:
         df = df.drop(columns=["_merge"])
     if "lower" in df.columns:
         df = df.drop(columns=["lower"])
 
-
     pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
     for pricing_option in pricing_option_dfs:
         pricing_option_dfs[pricing_option].to_csv("%s%s.csv" % (dc_unpaid_folder_path, pricing_option.replace(' ', '_')
-                                                                .replace('/','---')), mode='w', index=False)
+                                                                .replace('/', '---')), mode='w', index=False)
     return pricing_option_dfs
 
 
 def get_pay_period_from_filename(filename):
     pay_period = None
     dates = re.findall('\d{1,2}\-\d{1,2}\-\d{4}', filename)
-    if len(dates) >1:
+    if len(dates) > 1:
         pay_period = dates[0]+'_-_'+dates[1]
     return pay_period
 
