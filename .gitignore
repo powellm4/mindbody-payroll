@@ -82,3 +82,4 @@ backend/src/secrets/*
 # db
 backend/src/db/*
 
+*.zip

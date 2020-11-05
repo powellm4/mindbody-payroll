@@ -167,7 +167,6 @@ def include_class_names(df, cn_df):
     df['Day'] = pd.to_datetime(df.Class_Date).dt.weekday
     merged_df = pd.merge(df, cn_df, left_on=['Day', 'Instructors', 'Class_Time'],
                          right_on=['Day', 'Name', 'Time'], how='left')
-    print(merged_df.head())
     merged_df = merged_df.drop(columns=['Day', 'Name', 'Time'])
     merged_df = merged_df[['Instructors', 'Class', 'Class_Date', 'Class_Time',
                            'Client_Name', 'Series_Used', 'Revenue_per_class',
