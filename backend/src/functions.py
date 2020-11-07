@@ -361,7 +361,6 @@ def export_paystubs_to_pdf():
             wk = subprocess.call('where wkhtmltopdf')
         else:
             wk = '/usr/bin/wkhtmltopdf'
-            print(wk)
         config = pdfkit.configuration(wkhtmltopdf=wk)
         pdfkit.from_file(output_html_file,
                          output_pdf_file_name, configuration=config)

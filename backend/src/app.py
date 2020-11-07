@@ -22,7 +22,7 @@ app = Flask(__name__)
 app.secret_key = "secret key"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
-os.environ['QT_QPA_PLATFORM']='offscreen'
+os.environ['QT_QPA_PLATFORM'] = 'offscreen'
 ALLOWED_EXTENSIONS = set(['xls'])
 
 
@@ -73,7 +73,8 @@ def paystubs():
     for item in instructors_tuples:
         name = item[InstructorRecord.NAME]
         if os.path.exists('%s%s' % (dc_totals_folder_path, name)):
-            df = pd.read_csv(dc_totals_folder_path + item[InstructorRecord.NAME])
+            df = pd.read_csv(dc_totals_folder_path +
+                             item[InstructorRecord.NAME])
             total = '${:,.2f}'.format(df.iloc[-1][-1])
             formatted_list.append((item[InstructorRecord.ID], name, total))
     if not formatted_list:
@@ -96,7 +97,8 @@ def paystubs_detail(id):
         return redirect(url_for('paystubs_detail', id=id))
     else:
         with create_connection(database_path) as conn:
-            form.instructor.data = select_instructor_by_id(conn, id)[InstructorRecord.NAME].replace('.csv', '')
+            form.instructor.data = select_instructor_by_id(
+                conn, id)[InstructorRecord.NAME].replace('.csv', '')
 
     with create_connection(database_path) as conn:
         file_name = select_instructor_by_id(conn, id)[InstructorRecord.NAME]
@@ -170,7 +172,8 @@ def unpaid():
     for file in os.listdir(dc_unpaid_folder_path):
         df = pd.read_csv(dc_unpaid_folder_path + file)
         df = clean_up_df_for_web(df)
-        tables[file.replace('_', ' ').replace('---', '/').replace('.csv', '')] = df.to_html(classes="table table-striped table-hover table-sm")
+        tables[file.replace('_', ' ').replace('---', '/').replace('.csv', '')
+               ] = df.to_html(classes="table table-striped table-hover table-sm")
     return render_template('unpaid.html', tables=tables)
 
 
