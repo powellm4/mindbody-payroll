@@ -78,6 +78,7 @@ backend/dataProcessing/dat/00-01-Class-All.csv
 
 # secrets/credentials
 backend/src/secrets/*
+backend/src/static/js/firebase-config.js
 
 # db
 backend/src/db/*
