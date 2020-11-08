@@ -1,7 +1,9 @@
 <!doctype html>
+<script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
+<link rel="shortcut icon" href="#" />
 <script src="../static/js/jquery-3.4.1.min.js"></script>
 <link rel="stylesheet" href="../static/css/bootstrap.min.css">
-<script src="../static/js/popper.min.js"></script>
 <script src="../static/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
@@ -46,6 +48,33 @@
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
 </script>
+
+<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+ <script>
+    // TODO: Replace the following with your app's Firebase project configuration
+    // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+    var firebaseConfig = {
+    apiKey: "AIzaSyDBD0HpB1mqLhj0SksDOdgzSLS7Qb0jSX8",
+    authDomain: "vmac-1.firebaseapp.com",
+    databaseURL: "https://vmac-1.firebaseio.com",
+    projectId: "vmac-1",
+    storageBucket: "vmac-1.appspot.com",
+    messagingSenderId: "412528134114",
+    appId: "1:412528134114:web:a4d36eabde3347a6c1dbbb",
+    measurementId: "G-CG0TFPV22Z"
+  };;
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+  </script>
 
 
 {% block scripts %}{% endblock %}
