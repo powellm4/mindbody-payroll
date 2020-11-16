@@ -163,6 +163,7 @@ def include_pricing_options(df, po_df):
 # merges the class name lookup dataframe with the main dataframe,
 # adds; the class column
 def include_class_names(df, cn_df):
+    return df
     df.Class_Time = df.Class_Time.str.replace('\xa0', ' ')
     df['Day'] = pd.to_datetime(df.Class_Date).dt.weekday
     merged_df = pd.merge(df, cn_df, left_on=['Day', 'Instructors', 'Class_Time'],
