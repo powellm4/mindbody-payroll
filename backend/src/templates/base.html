@@ -28,6 +28,9 @@
     </ul>
 </nav>
 <section class="content">
+    <div class="col text-left">
+        <a id="export" href="{{ url_for('logout') }}" class="btn btn-primary btn-lg"> Logout </a>
+    </div>    
    <div class="container" style="margin-bottom:100px;">
         <header>
         {% block header %}{% endblock %}

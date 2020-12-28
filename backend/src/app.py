@@ -13,6 +13,7 @@ from constants import *
 from forms import AppendForm
 from werkzeug.utils import secure_filename
 from google_cloud_storage_service import GoogleCloudStorageService
+from passlib.hash import argon2
 
 # coding=latin-1
 
@@ -28,18 +29,81 @@ cloud_storage = GoogleCloudStorageService()
 cloud_storage.fetch_prices()
 cloud_storage.fetch_classes()
 
+class User:
+    def __init__(self, id, username, password):
+        self.id = id
+        self.username = username
+        self.password = password
+    def __repr__(self):
+        return f'<User: {self.username}>'
+
+users = []
+# users.append(User(id=1, username='carolina', password='$pbkdf2-sha256$29000$utf6P.dc6917TwlhrNUaAw$fVV5CxOigTQrPNWUWBfE6Gro3JP4ylMx3PCvSkRiuXY'))
+# users.append(User(id=2, username='antoanet', password='$pbkdf2-sha256$29000$/Z/Teg8hxPhfS.kd49x7rw$QzC7oYqep91KYei5U8t0SZRZlqfe8YHJ33jeGfhCMEs'))
+# users.append(User(id=3, username='marshall', password='$pbkdf2-sha256$29000$q1WqNaa0FgKAMAaA8B6DcA$PCNFnHwrJZYxYFeaz71urmACXlMuuboabysPeSoTHw8'))
+# users.append(User(id=4, username='nuatu', password='$pbkdf2-sha256$29000$VQpB6B3j3PtfS6m11jqHEA$/UoYnDkem6ss7ZsdP3QurLfGi6XQ3GCiIdFtBA3TmbU'))
+users.append(User(id=1, username='carolina', password='$argon2id$v=19$m=102400,t=4,p=8$F0KIkXJO6R0D4FzLeQ9BCA$twGMgjibL08kIbZDqmggfg'))
+users.append(User(id=2, username='antoanet', password='$argon2id$v=19$m=102400,t=4,p=8$4dzbuzcmBMDYG8NYK8WYsw$BgE4M4sdpOsSfDD1NJVkOQ'))
+users.append(User(id=3, username='marshall', password='$argon2id$v=19$m=102400,t=4,p=8$1xpjbG3NWasVovSe0zrnvA$3f4lzCHokqOwQnSiO2VdKg'))
+users.append(User(id=4, username='nuatu', password='$argon2id$v=19$m=102400,t=4,p=8$611L6f1/z/kfA6C01prTmg$PUC8YLJ4oZUra+Pxu9Cu9g'))
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
+@app.before_request
+def before_request():
+    g.user = None
+    if 'user_id' in session:
+        user = [x for x in users if x.id == session['user_id']][0]
+        g.user = user
+    # g is the application context where we're storing some data
+    # since g lasts only the lifetime of the request, we reset it before every new request
+    # see below doc for more info
+    # https://flask.palletsprojects.com/en/1.1.x/appcontext/#storing-data
+    print(g.user)
+    print(session)
+
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        session.pop('user_id', None)
+
+        username = request.form['username']
+        password = request.form['password']
+
+        try:
+            user = [x for x in users if x.username == username][0]
+            if user and argon2.verify(password, user.password):# user.password == password:
+                session['user_id'] = user.id
+                return redirect(url_for('upload_file'))
+        except IndexError:
+            return redirect(url_for('login'))
+
+    return render_template('login.html')
+
+
+@app.route('/logout')
+def logout():
+    # Remove user from session
+    session.pop('user_id', None)
+    return redirect(url_for('login'))
+
+
 @app.route('/')
 def upload_form():
+    if not g.user:
+        return redirect(url_for('login'))
+
     return render_template('upload.html')
 
 
 @app.route('/', methods=['POST'])
 def upload_file():
+    if not g.user:
+        return redirect(url_for('login'))
+
     if request.method == 'POST':
         # check if the post request has the file part
         if 'file' not in request.files:
@@ -68,6 +132,9 @@ def upload_file():
 
 @app.route('/paystubs/')
 def paystubs():
+    if not g.user:
+        return redirect(url_for('login'))
+
     # paystub_list = os.listdir(totals_folder_path)
     with create_connection(database_path) as conn:
         instructors_tuples = select_all_instructors(conn)
@@ -89,6 +156,9 @@ def paystubs():
 
 @app.route('/paystubs/<int:id>', methods=['POST', 'GET'])
 def paystubs_detail(id):
+    if not g.user:
+        return redirect(url_for('login'))
+
     form = AppendForm(request.form)
     paystub_list = os.listdir(dc_totals_folder_path)
 
@@ -117,6 +187,9 @@ def paystubs_detail(id):
 
 @app.route('/prices/',  methods=['POST', 'GET'])
 def prices():
+    if not g.user:
+        return redirect(url_for('login'))
+
     cloud_storage = GoogleCloudStorageService()
     pd.set_option('display.max_colwidth', -1)
     if request.method == 'POST':
@@ -136,6 +209,9 @@ def prices():
 
 @app.route('/classes/',  methods=['POST', 'GET'])
 def classes():
+    if not g.user:
+        return redirect(url_for('login'))
+
     cloud_storage = GoogleCloudStorageService()
     if request.method == 'POST':
         req_data = request.get_json()
@@ -153,6 +229,9 @@ def classes():
 
 @app.route('/export/', methods=['POST', 'GET'])
 def export():
+    if not g.user:
+        return redirect(url_for('login'))
+
     export_paystubs_to_pdf()
     base_path = pathlib.Path(dc_export_pdf_folder_path)
     data = io.BytesIO()
@@ -171,6 +250,9 @@ def export():
 
 @app.route('/unpaid/',  methods=['GET'])
 def unpaid():
+    if not g.user:
+        return redirect(url_for('login'))
+
     tables = {}
     for file in os.listdir(dc_unpaid_folder_path):
         df = pd.read_csv(dc_unpaid_folder_path + file)
@@ -182,6 +264,9 @@ def unpaid():
 
 @app.route('/instructions/',  methods=['GET'])
 def instructions():
+    if not g.user:
+        return redirect(url_for('login'))
+
     return render_template('instructions.html')
 
 
