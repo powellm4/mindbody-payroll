@@ -58,7 +58,6 @@ def upload_file():
             filename = secure_filename(file.filename)
             currentDT = datetime.datetime.now()
             filename = currentDT.strftime("%Y-%m-%d-%H-%M-%S") + '-' + filename
-            print(os.getcwd())
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
             # calling run_backend in wrapper.py

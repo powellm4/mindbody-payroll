@@ -15,19 +15,19 @@ class GoogleCloudStorageService:
     def fetch_prices(self):
         prices_blob = self.bucket.blob(prices_blob_name)
         prices_blob.download_to_filename(pricing_options_path)
-        print('fetched')
+        print('fetched prices')
 
     def save_prices(self):
         prices_blob = self.bucket.blob(prices_blob_name)
         prices_blob.upload_from_filename(pricing_options_path)
-        print('saved')
+        print('saved prices')
 
     def fetch_classes(self):
         blob = self.bucket.blob(classes_blob_name)
         blob.download_to_filename(class_name_lookup_path)
-        print('fetched')
+        print('fetched classes')
 
     def save_classes(self):
         prices_blob = self.bucket.blob(classes_blob_name)
         prices_blob.upload_from_filename(class_name_lookup_path)
-        print('saved')
+        print('saved classes')
