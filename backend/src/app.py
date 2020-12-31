@@ -38,12 +38,8 @@ class User:
         return f'<User: {self.username}>'
 
 users = []
-# users.append(User(id=1, username='carolina', password='$pbkdf2-sha256$29000$utf6P.dc6917TwlhrNUaAw$fVV5CxOigTQrPNWUWBfE6Gro3JP4ylMx3PCvSkRiuXY'))
-# users.append(User(id=2, username='antoanet', password='$pbkdf2-sha256$29000$/Z/Teg8hxPhfS.kd49x7rw$QzC7oYqep91KYei5U8t0SZRZlqfe8YHJ33jeGfhCMEs'))
-# users.append(User(id=3, username='marshall', password='$pbkdf2-sha256$29000$q1WqNaa0FgKAMAaA8B6DcA$PCNFnHwrJZYxYFeaz71urmACXlMuuboabysPeSoTHw8'))
-# users.append(User(id=4, username='nuatu', password='$pbkdf2-sha256$29000$VQpB6B3j3PtfS6m11jqHEA$/UoYnDkem6ss7ZsdP3QurLfGi6XQ3GCiIdFtBA3TmbU'))
 users.append(User(id=1, username='carolina', password='$argon2id$v=19$m=102400,t=4,p=8$F0KIkXJO6R0D4FzLeQ9BCA$twGMgjibL08kIbZDqmggfg'))
-users.append(User(id=2, username='antoanet', password='$argon2id$v=19$m=102400,t=4,p=8$4dzbuzcmBMDYG8NYK8WYsw$BgE4M4sdpOsSfDD1NJVkOQ'))
+users.append(User(id=2, username='antuanet', password='$argon2id$v=19$m=102400,t=4,p=8$4dzbuzcmBMDYG8NYK8WYsw$BgE4M4sdpOsSfDD1NJVkOQ'))
 users.append(User(id=3, username='marshall', password='$argon2id$v=19$m=102400,t=4,p=8$1xpjbG3NWasVovSe0zrnvA$3f4lzCHokqOwQnSiO2VdKg'))
 users.append(User(id=4, username='nuatu', password='$argon2id$v=19$m=102400,t=4,p=8$611L6f1/z/kfA6C01prTmg$PUC8YLJ4oZUra+Pxu9Cu9g'))
 
