@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get install -y python3 python3-dev python3-pip build-essential nginx redis-server locales wkhtmltopdf && locale-gen en_US.UTF-8
+RUN apt-get install -y python3 python3-dev python3-pip python3-bs4 build-essential nginx redis-server locales wkhtmltopdf && locale-gen en_US.UTF-8
 
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
