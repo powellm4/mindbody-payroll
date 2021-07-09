@@ -13,3 +13,4 @@ intuit-oauth
 redis
 google-cloud-storage
 passlib[argon2]
+beautifulsoup4
