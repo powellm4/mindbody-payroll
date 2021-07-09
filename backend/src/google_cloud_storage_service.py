@@ -5,8 +5,9 @@ from constants import pricing_options_path, class_name_lookup_path
 
 class GoogleCloudStorageService:
 
-    storage_client = storage.Client.from_service_account_json(
-        google_storage_cred_file)
+#     storage_client = storage.Client.from_service_account_json(
+#         google_storage_cred_file)
+    storage_client = storage.Client()
     bucket = storage_client.bucket(google_bucket_name)
 
     def _init_(self):
