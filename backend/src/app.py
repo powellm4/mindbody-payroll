@@ -187,7 +187,7 @@ def prices():
         return redirect(url_for('login'))
 
     cloud_storage = GoogleCloudStorageService()
-    pd.set_option('display.max_colwidth', -1)
+    pd.set_option('display.max_colwidth', None)
     if request.method == 'POST':
         req_data = request.get_json()
         df = pd.DataFrame.from_dict(req_data)
@@ -200,8 +200,14 @@ def prices():
     cloud_storage.fetch_prices()
     df = pd.read_csv(pricing_options_path)
 
-    return render_template('prices/index.html', prices=df.to_html(classes="table table-striped table-hover table-sm"))
+    # Add an empty column for the "Remove" buttons
+    df['Remove'] = ''
 
+    # Render the table with the "Remove" button in each row
+    table_html = df.to_html(classes="table table-striped table-hover table-sm", escape=False)
+    table_html = table_html.replace('<td></td>', '<td><button class="btn btn-danger remove">Remove</button></td>')
+
+    return render_template('prices/index.html', prices=table_html)
 
 @app.route('/classes/',  methods=['POST', 'GET'])
 def classes():
