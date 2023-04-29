@@ -1,7 +1,7 @@
 pdfkit
-pandas
+pandas==1.4.2
 numpy
-flask
+flask==2.2.4
 wtforms
 wkhtmltopdf
 xmlx
@@ -9,5 +9,5 @@ lxml
 html5lib
 uwsgi
 pathlib
-intuit-oauth
-redis
+google-cloud-storage
+passlib[argon2]

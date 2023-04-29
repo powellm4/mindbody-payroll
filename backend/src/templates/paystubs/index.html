@@ -1,34 +1,132 @@
 {% extends 'base.html' %}
 
 {% block header %}
-<div class="row mt-2 justify-content-between">
-  <div class="col">
-  <h1>{% block title %}Paystubs{% endblock %}</h1>
+<div class="row justify-content-between">
+    <div class="col">
+        <h1>{% block title %}Paystubs{% endblock %}</h1>
     </div>
-    <div class="col text-right">
-  <a id="export" href="{{ url_for('export') }}" class="btn btn-primary btn-lg"> Export </a>
-      </div>
 </div>
+<style>
+  .notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .show-notification {
+    opacity: .9;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
 {% endblock %}
 
 {% block content %}
-
-
-  <div class="list-group col-8">
-    {%for i in range(0, len)%}
-        <a class="list-group-item list-group-item-action" href="{{ url_for('paystubs_detail', id=instructors_list[i][0]) }}">
-          <div class="row">
-            <div class="col">
-
-            {{instructors_list[i][1]}}
-              </div>
-            <div class="col">
-          {{instructors_list[i][2]}}
-            </div>
-            </div>
-        </a>
-    {%endfor%}
+<div class="row justify-content-between mb-3">
+    <div class="col">
+        <button type="button" class="btn btn-secondary" onclick="toggleAllCheckboxes()">Select All</button>
+        <button type="submit" form="export-form" class="btn btn-primary">Export</button>
 
     </div>
+</div>
+<form id="export-form" action="{{ url_for('export') }}" method="POST">
+    <div class="list-group col-8">
+        {% for i in range(0, len) %}
+        <div class="list-group-item">
+            <div class="row">
+                <div class="col">
+                    {% set first_initial = instructors_list[i][1].split(' ')[1][0] %}
+                    {% set last_name = instructors_list[i][1].split(' ')[0] %}
+                    <input type="checkbox" name="instructor_filenames[]" value="{{ first_initial }}.{{ last_name }}.csv"
+                           checked
+                    >
+                    {{ instructors_list[i][1] }}
+                </div>
+                <div class="col">
+                    <span class="click-to-copy" onclick="copyToClipboard(event)">{{ instructors_list[i][2] }}</span>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-primary"
+                            onclick="window.location.href='{{ url_for('paystubs_detail', id=instructors_list[i][0]) }}'">
+                        View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</form>
+<div class="notification"></div>
 
 {% endblock %}
+
+{% block scripts %}
+<script>
+    function toggleAllCheckboxes() {
+        var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        var allChecked = true;
+        checkboxes.forEach(function(checkbox) {
+            if (!checkbox.checked) {
+                allChecked = false;
+            }
+        });
+
+        checkboxes.forEach(function(checkbox) {
+            checkbox.checked = !allChecked;
+        });
+    }
+
+   function copyToClipboard(event) {
+        event.preventDefault();
+        var tempElement = document.createElement("textarea");
+        var textContent = event.target.textContent.replace('$', '');
+        tempElement.value = textContent;
+        document.body.appendChild(tempElement);
+        tempElement.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempElement);
+        showNotification("Text copied: " + textContent);
+    }
+
+    function showNotification(message) {
+        var notification = document.querySelector('.notification');
+        notification.textContent = message;
+        notification.classList.add('show-notification');
+
+        setTimeout(function() {
+            notification.classList.remove('show-notification');
+        }, 3000);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+{% endblock %}
+
+

@@ -1,15 +1,13 @@
-from data_cleaner import run_data_cleaner
-from functions import *
-from db_helper import *
 import config
-
+from data_cleaner import run_data_cleaner
+from db_helper import *
+from functions import *
 
 
 def run_backend(filename):
     print("\n------------------------------\n\n"
-            "\t   MindBody Payroll\n"
-            "\n------------------------------\n\n")
-
+          "\t   MindBody Payroll\n"
+          "\n------------------------------\n\n")
 
     # remove any output data from previous runs
     clean_up_workspace()
@@ -40,10 +38,8 @@ def run_backend(filename):
 
     dc_append_instructor_dances()
 
-
     print("\n\nWriting pay stubs with totals\n----------")
     dc_output_instructor_totals(cn_df)
-
 
     dc_find_unpaid_classes(po_df, all_classes_path)
     print("\n\nCreated unpaid class list\n")

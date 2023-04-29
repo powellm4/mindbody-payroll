@@ -47,11 +47,14 @@
           var i = $(this).html();
           i++;
           $('table tr:last').after('<tr><th>'+i+'</th><td contenteditable="true">Price Option</td><td contenteditable="true">'
-           + '$0.00</td><td contenteditable="true">$0.00</td></tr>');
+           + '$0.00</td><td contenteditable="true">$0.00</td><td><button class="btn btn-danger remove">Remove</button></td></tr>');
         });
 
     });
 
+    $('table').on('click', '.remove', function() {
+        $(this).closest('tr').remove();
+    });
 
 </script>
 

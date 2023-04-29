@@ -1,5 +1,5 @@
 from enum import IntEnum
-
+from pathlib import Path
 
 
 # python data_cleaner related folders
@@ -29,15 +29,12 @@ pricing_options_path = "../lookupTables/pricing-options.csv"
 class_name_lookup_path = "../lookupTables/class-name-lookup.csv"
 
 
-
 uploads_folder_path = "./uploads/"
 output_folder_path = "../output/"
 
 
-
 logo_path = "static/img/logo.txt"
-database_path = "db/payroll.db"
-
+database_path = Path("db/payroll.db")
 
 
 # enums
@@ -45,6 +42,7 @@ class InstructorRecord(IntEnum):
     ID = 0
     NAME = 1
     TOTAL = 2
+
 
 class AuthCodeRecord(IntEnum):
     ID = 0

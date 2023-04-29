@@ -1,9 +1,13 @@
 version: '3'
 services:
   web:
-    build: .
+    image: mbpayroll:debug
+    build:
+      context: .
+      target: debug
     ports:
-      - "56733:80"
+      - "56733:5000"      # for the web app
+      - "5678:5678"     # For the Python debugger
     volumes:
       - ./:/app
     environment:

@@ -47,9 +47,13 @@
           var i = $(this).html();
           i++;
           $('table tr:last').after('<tr><th>'+i+'</th><td contenteditable="true">Instructor Name</td><td contenteditable="true">'
-           + 'Mondays</td><td contenteditable="true">6:30 PM</td><td contenteditable="true">Example</td></tr>');
+           + 'Mondays</td><td contenteditable="true">6:30 PM</td><td contenteditable="true">Example</td><td><button class="btn btn-danger remove">Remove</button></td></tr>');
         });
 
+    });
+
+    $('table').on('click', '.remove', function() {
+        $(this).closest('tr').remove();
     });
 
 
