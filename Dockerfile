@@ -5,6 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get install -y gcc
 RUN apt-get install -y wkhtmltopdf
 
+
 COPY . /app
 WORKDIR /app/backend/src
 RUN pip3 install -r requirements.txt
