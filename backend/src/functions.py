@@ -338,9 +338,13 @@ def create_workspace():
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
 
 
-def export_paystubs_to_pdf():
+def export_paystubs_to_pdf(selected_filenames):
     for file in os.listdir(dc_totals_folder_path):
-        # for file in ["I.Villanueva-Torres.csv"]: # for testing purposes only
+        # Get the instructor ID from the file name
+        # selected_filenames = file.split('.')[0]
+        # Skip this file if the instructor is not in the selected list
+        if file not in selected_filenames:
+            continue
         output_html_file = dc_export_html_folder_path + \
             file.replace('.csv', '') + '.html'
         output_pdf_file_name = dc_export_pdf_folder_path + get_global_pay_period() + '--' \
@@ -359,10 +363,9 @@ def export_paystubs_to_pdf():
         # config = pdfkit.configuration(wkhtmltopdf='/usr/bin/wkhtmltopdf')
         # pdfkit.from_file(output_html_file, output_pdf_file_name, configuration=config)
         if sys.platform == 'win32':
-            wk = subprocess.call('where wkhtmltopdf')
+            wk = subprocess.check_output('where wkhtmltopdf')
         else:
             wk = '/usr/bin/wkhtmltopdf'
-            print(wk)
         config = pdfkit.configuration(wkhtmltopdf=wk)
         pdfkit.from_file(output_html_file,
                          output_pdf_file_name, configuration=config)
@@ -370,6 +373,16 @@ def export_paystubs_to_pdf():
 
 def sort_name(val):
     return val[InstructorRecord.NAME]
+
+
+def delete_all_files_in_folder(folder_path):
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        try:
+            if os.path.isfile(file_path):
+                os.unlink(file_path)
+        except Exception as e:
+            print(f"Error deleting file: {file_path}. Reason: {e}")
 
 
 # finds any classes who's pricing options do not show up in the pricing options list

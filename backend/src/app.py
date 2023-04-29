@@ -6,7 +6,7 @@ import datetime
 import zipfile
 import io
 import pathlib
-import redis
+# import redis
 #import authorization_service
 import pandas as pd
 from constants import *
@@ -142,10 +142,24 @@ def paystubs():
             df = pd.read_csv(dc_totals_folder_path +
                              item[InstructorRecord.NAME])
             total = '${:,.2f}'.format(df.iloc[-1][-1])
-            formatted_list.append((item[InstructorRecord.ID], name, total))
+
+            # Format name as "Last, F"
+            split_name = name.split(".")
+            first_initial = split_name[0]
+            last_name = split_name[-2]
+            formatted_name = f"{last_name}, {first_initial}"
+
+            formatted_list.append((item[InstructorRecord.ID], formatted_name, total))
     if not formatted_list:
         return redirect('/')
-    formatted_list.sort(key=sort_name)
+
+    def sort_by_last_name(item):
+        full_name = item[1]
+        last_name = full_name.split(",")[0]  # Extract the last name
+        return last_name
+
+    formatted_list.sort(key=sort_by_last_name)
+
     return render_template('paystubs/index.html', instructors_list=formatted_list,
                            len=len(formatted_list))
 
@@ -226,15 +240,27 @@ def classes():
 
     cloud_storage.fetch_classes()
     df = pd.read_csv(class_name_lookup_path)
-    return render_template('classes/index.html', classes=df.to_html(classes="table table-striped table-hover table-sm"))
+
+    # Add an empty column for the "Remove" buttons
+    df['Remove'] = ''
+
+    # Render the table with the "Remove" button in each row
+    table_html = df.to_html(classes="table table-striped table-hover table-sm", escape=False)
+    table_html = table_html.replace('<td></td>', '<td><button class="btn btn-danger remove">Remove</button></td>')
+
+    return render_template('classes/index.html', classes=table_html)
 
 
-@app.route('/export/', methods=['POST', 'GET'])
+@app.route('/export/', methods=['POST'])
 def export():
     if not g.user:
         return redirect(url_for('login'))
+    # clear out pdfs from previous exports
+    delete_all_files_in_folder(dc_export_pdf_folder_path)
+    selected_filenames = request.form.getlist('instructor_filenames[]')
+    selected_filenames = [filename.replace(',', '') for filename in selected_filenames]
 
-    export_paystubs_to_pdf()
+    export_paystubs_to_pdf(selected_filenames)
     base_path = pathlib.Path(dc_export_pdf_folder_path)
     data = io.BytesIO()
     with zipfile.ZipFile(data, mode='w') as z:
@@ -243,10 +269,10 @@ def export():
     data.seek(0)
     return send_file(
         data,
-        cache_timeout=-1,
+        max_age=-1,
         mimetype='application/zip',
         as_attachment=True,
-        attachment_filename=get_global_pay_period() + '.zip'
+        download_name=get_global_pay_period() + '.zip'
     )
 
 
