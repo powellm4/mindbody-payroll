@@ -34,7 +34,7 @@ output_folder_path = "../output/"
 
 
 logo_path = "static/img/logo.txt"
-database_path = Path("db/payroll.db")
+database_path = Path("payroll.db")
 
 
 # enums
