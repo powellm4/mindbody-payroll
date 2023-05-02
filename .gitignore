@@ -50,7 +50,6 @@ docs/_build/
 
 #VS
 .vs
-.vscode
 settings.json
 
 #python stuff
@@ -78,8 +77,10 @@ backend/dataProcessing/dat/00-01-Class-All.csv
 
 # secrets/credentials
 backend/src/secrets/*
+credentials.json
 
-# db
+#db
 backend/src/db/*
+backend/src/payroll.db
 
 *.zip

@@ -1,15 +1,20 @@
 FROM python:3.8-slim-buster as base
-
-RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get install -y gcc
-RUN apt-get install -y wkhtmltopdf
+RUN apt-get update && \
+    apt-get install -y gcc wkhtmltopdf git
+RUN apt-get install -y nginx
+COPY deployment/nginx.conf /etc/nginx
 
+# option 1. local development (doesnt pull from github)
+#COPY . /app
 
-COPY . /app
+# option 2. pull from github
+RUN git clone https://github.com/powellm4/mindbody-payroll.git /app
+
+RUN chmod -R 777 /app
+
 WORKDIR /app/backend/src
 RUN pip3 install -r requirements.txt
-RUN chmod -R 777 ../
 
 ##### Start new image: Debug
 FROM base as debug
@@ -19,8 +24,5 @@ CMD python -m debugpy --listen 0.0.0.0:5678 --wait-for-client -m flask --debug r
 
 #### Start new image: production
 FROM base as prod
-RUN apt-get install -y nginx
-COPY deployment/nginx.conf /etc/nginx
 EXPOSE 80
 CMD service nginx start && uwsgi --ini uwsgi.ini
-
