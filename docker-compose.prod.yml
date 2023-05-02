@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    image: mbpayroll:prod
+    build:
+      context: .
+      target: prod
+    ports:
+      - "56733:80" 
+    volumes:
+      - ./credentials.json:/app/credentials.json
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: /app/credentials.json
+volumes:
+  db-data:
