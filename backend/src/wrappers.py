@@ -1,6 +1,4 @@
-import config
 from data_cleaner import run_data_cleaner
-from db_helper import *
 from functions import *
 
 
@@ -23,6 +21,7 @@ def run_backend(filename):
 
     # dataFrame for pricing options lookup
     po_df = get_pricing_option_lookup_df()
+    ipo_df = get_instructor_pricing_option_lookup_df()
 
     # dataFrame for class name lookup
     cn_df = get_class_name_lookup_df()
@@ -34,12 +33,12 @@ def run_backend(filename):
     handle_dc_classes(list_of_dc_classes, po_df)
 
     print("\n\nHandling Instructor Dances\n----------")
-    handle_dc_instructor_dances(po_df)
+    handle_dc_instructor_dances(ipo_df)
 
     dc_append_instructor_dances()
 
     print("\n\nWriting pay stubs with totals\n----------")
     dc_output_instructor_totals(cn_df)
 
-    dc_find_unpaid_classes(po_df, all_classes_path)
+    dc_find_unpaid_classes(po_df, ipo_df, all_classes_path)
     print("\n\nCreated unpaid class list\n")

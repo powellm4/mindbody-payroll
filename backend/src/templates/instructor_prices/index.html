@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<div class="row">
+    <div class="col">
+        <h1>{% block title %}Instructor Prices{% endblock %}</h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+
+{{prices|safe}}
+<div class="text-right">
+    <button class="btn btn-success" id="add">Add Price Option</button>
+    <button class="btn btn-primary save">Save</button>
+</div>
+
+{% endblock content %}
+
+{% block scripts %}
+<script src="../../static/js/jquery.tabletojson.min.js"></script>
+<script style="text/javascript">
+    $(document).ready(function(){
+        $('td').prop('contenteditable',true);
+    });
+
+
+    $('.save').click( function() {
+        var table = $('.table').tableToJSON();
+        $.ajax({
+          type: "POST",
+          url: "{{ url_for('instructor_prices') }}",
+          data: JSON.stringify(table),
+          success: function(data){
+            if(data.redirect){
+                window.location.href = data.redirect;
+            }},
+          dataType: "json",
+          contentType : "application/json"
+        });
+    });
+
+    $('#add').click( function() {
+        $('table th:last').each(function() {
+          var i = $(this).html();
+          i++;
+          $('table tr:last').after('<tr><th>'+i+'</th><td contenteditable="true">Price Option</td><td contenteditable="true">'
+           + '$0.00</td><td contenteditable="true">$0.00</td><td><button class="btn btn-danger remove">Remove</button></td></tr>');
+        });
+
+    });
+
+    $('table').on('click', '.remove', function() {
+        $(this).closest('tr').remove();
+    });
+
+
+
+
+</script>
+
+{% endblock scripts %}

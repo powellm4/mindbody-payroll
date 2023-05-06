@@ -1,7 +1,6 @@
 from enum import IntEnum
 from pathlib import Path
 
-
 # python data_cleaner related folders
 data_cleaner_output_folder = "data_cleaner_output/"
 dc_classes_folder_path = "../output/dc_classes/"
@@ -11,7 +10,6 @@ dc_export_folder_path = "../output/dc_export/"
 dc_export_html_folder_path = "../output/dc_export/html/"
 dc_export_pdf_folder_path = "../output/dc_export/pdf/"
 dc_totals_folder_path = "../output/dc_totals/"
-
 
 # payroll outputs when using data cleaner scripts
 all_classes_path = "00-01-Class-All.csv"
@@ -27,11 +25,10 @@ export_pdf_folder_path = "../output/export/pdf/"
 # lookup tables
 pricing_options_path = "../lookupTables/pricing-options.csv"
 class_name_lookup_path = "../lookupTables/class-name-lookup.csv"
-
+instructor_prices_options_path = "../lookupTables/instructor-dance-options.csv"
 
 uploads_folder_path = "./uploads/"
 output_folder_path = "../output/"
-
 
 logo_path = "static/img/logo.txt"
 database_path = Path("payroll.db")

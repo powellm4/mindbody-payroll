@@ -1,19 +1,19 @@
 import os
+import re
 import shutil
-import sys
 import subprocess
+import sys
+
 import pandas as pd
 import pdfkit
-from constants import *
-import config
-from pdf_helper import create_html_paystub_file, add_table_to_html_paystub_file
-import re
-from db_helper import *
 
+import config
+from constants import *
+from db_helper import *
+from pdf_helper import create_html_paystub_file, add_table_to_html_paystub_file
 
 # display floats as currency
 pd.options.display.float_format = '{:,.2f}'.format
-
 
 # display all columns for debugging
 pd.set_option('display.max_columns', 10)
@@ -48,7 +48,7 @@ def get_instructors_list(df):
             temp = instructors[i].split()
             last = temp[1]
             first = temp[0][0]
-            full = first+"."+last
+            full = first + "." + last
             instructors[i] = full
     else:
         instructors = [instructors_cell]
@@ -57,7 +57,7 @@ def get_instructors_list(df):
             first = temp[1]
             first = first[0]
             last = temp[0].replace(",", "").replace(' ', '-').strip()
-            full = first+"."+last
+            full = first + "." + last
             instructors[i] = full
     return instructors
 
@@ -92,7 +92,7 @@ def format_name(name):
                 last = last + arr[i]
             else:
                 last = last + '-' + arr[i]
-        return first+'.'+last
+        return first + '.' + last
     else:
         return name
 
@@ -110,7 +110,7 @@ def create_folder(folder):
 def assign_amount_due(df):
     df.Instructor_Pay = df.Instructor_Pay.str.replace("$", "")
     df = df.assign(Amount_Due_To_Instructor=(
-        df.Instructor_Pay.astype(float) * df.Rate).round(3))
+            df.Instructor_Pay.astype(float) * df.Rate).round(3))
     return df
 
 
@@ -149,7 +149,6 @@ def clean_up_class_name_dataframe(cn_df):
 
 # merges the dataFrame with the pricing options dataFrame to allow lookup of pricing options
 def include_pricing_options(df, po_df):
-
     # df['lower'] = df.Series_Used.str.lower()
     # po_df['lower'] = po_df.index.str.lower()
     # return pd.merge(df, po_df, left_on='lower', right_on='lower', how='left')
@@ -179,19 +178,15 @@ def include_class_names(df, cn_df):
 #   all instructor dances to their own file
 # inputs: dat_folder - contains full data csv
 #           pd_df - pricing lookup dataFrame
-def handle_dc_instructor_dances(po_df):
+def handle_dc_instructor_dances(ipo_df):
     file = all_classes_path
     df = pd.read_csv("%s%s" % (output_folder_path +
                                data_cleaner_output_folder, file))
-    df = df[
-        (df.Series_Used == "VMAC Instructor Dance") |
-        (df.Series_Used == "VMAC INSTRUCTOR DANCE") |
-        (df.Series_Used == "VMAC INSTRUCTOR FITNESS") |
-        (df.Series_Used == "VMAC Instructor Fitness") |
-        (df.Series_Used == "VMAC Instructor Drop In Dance")
-    ]
-    if po_df is not None:
-        df = include_pricing_options(df, po_df)
+
+    filter_values = ipo_df.index.values
+    df = df[df['Series_Used'].isin(filter_values)]
+
+    df = include_pricing_options(df, ipo_df)
     df = assign_instructor_rate(df)
     df = df.drop_duplicates()
     df = assign_amount_due(df)
@@ -266,6 +261,15 @@ def get_pricing_option_lookup_df():
     return po_df
 
 
+# reads in instructor dance option lookup table &
+# prepares it for processing and merging
+def get_instructor_pricing_option_lookup_df():
+    po_df = pd.read_csv(instructor_prices_options_path)
+    po_df = format_column_headers(po_df)
+    po_df = po_df.set_index('Pricing_Option')
+    return po_df
+
+
 # reads in class name lookup table &
 # prepares it for processing and merging
 def get_class_name_lookup_df():
@@ -297,7 +301,8 @@ def create_all_folders():
 
 # gets list of file names from the dc output folder
 def get_dc_list_of_classes():
-    return [name for name in os.listdir(output_folder_path + data_cleaner_output_folder) if not name.startswith('00-01')]
+    return [name for name in os.listdir(output_folder_path + data_cleaner_output_folder) if
+            not name.startswith('00-01')]
 
 
 # opens file in totals folder, adds adjustment, recalculates total and rewrites file
@@ -308,7 +313,7 @@ def make_adjustment(instructor, description, amount):
     df = df.append({'Amount_Due_To_Instructor': amount,
                     'Series_Used': description, 'Instructors': 'Adjustment'}, ignore_index=True)
     df = df.append({'Instructors': 'Total', 'Amount_Due_To_Instructor':
-                    df['Amount_Due_To_Instructor'].sum()}, ignore_index=True)
+        df['Amount_Due_To_Instructor'].sum()}, ignore_index=True)
     if os.path.exists('%s%s.csv' % (dc_totals_folder_path, instructor)):
         os.remove('%s%s.csv' % (dc_totals_folder_path, instructor))
     df.to_csv("%s%s.csv" % (dc_totals_folder_path,
@@ -335,6 +340,7 @@ def create_workspace():
         create_table(conn, config.sql_create_instructors_table)
         create_table(conn, config.sql_create_auth_code_table)
 
+
 # writes html files to export_html_folder_path and pdf files to export_pdf_folder_path
 
 
@@ -346,15 +352,15 @@ def export_paystubs_to_pdf(selected_filenames):
         if file not in selected_filenames:
             continue
         output_html_file = dc_export_html_folder_path + \
-            file.replace('.csv', '') + '.html'
+                           file.replace('.csv', '') + '.html'
         output_pdf_file_name = dc_export_pdf_folder_path + get_global_pay_period() + '--' \
-            + file.replace('.csv', '') + '.pdf'
+                               + file.replace('.csv', '') + '.pdf'
         input_file = dc_totals_folder_path + file
         df = pd.read_csv(input_file)
         df = clean_up_df_for_web(df)
         df.index += 1
         total = '${:,.2f}'.format(df.iloc[-1][-1])
-        student_count = df['Instructors'].count()-1
+        student_count = df['Instructors'].count() - 1
         create_html_paystub_file(file, str(total), str(student_count), get_global_pay_period()
                                  .replace('-', '/').replace('_/_', ' - '))
         add_table_to_html_paystub_file(df.to_html(classes="table table-striped table-hover table-sm table-responsive"),
@@ -387,11 +393,12 @@ def delete_all_files_in_folder(folder_path):
 
 # finds any classes who's pricing options do not show up in the pricing options list
 # writes them to output/unpaid folder
-def dc_find_unpaid_classes(po_df, classes_path):
+def dc_find_unpaid_classes(po_df, ipo_df, classes_path):
     df = pd.read_csv(output_folder_path +
                      data_cleaner_output_folder + classes_path)
     # df['lower'] = df.Series_Used.str.lower()
     po_df['lower'] = po_df.index
+    ipo_df['lower'] = ipo_df.index
     df = pd.merge(df, po_df, left_on='Series_Used',
                   right_on='lower', how="outer", indicator=True)
     df = df[df['_merge'] == 'left_only']
@@ -399,6 +406,8 @@ def dc_find_unpaid_classes(po_df, classes_path):
         df = df.drop(columns=["_merge"])
     if "lower" in df.columns:
         df = df.drop(columns=["lower"])
+    # Filter the df DataFrame based on Instructor Prices
+    df = df[~df['Series_Used'].isin(ipo_df.index)]
 
     pricing_option_dfs = dict(tuple(df.groupby('Series_Used')))
     for pricing_option in pricing_option_dfs:
@@ -411,12 +420,12 @@ def get_pay_period_from_filename(filename):
     pay_period = None
     dates = re.findall('\d{1,2}\-\d{1,2}\-\d{4}', filename)
     if len(dates) > 1:
-        pay_period = dates[0]+'_-_'+dates[1]
+        pay_period = dates[0] + '_-_' + dates[1]
     return pay_period
 
 
 def set_global_pay_period(pay_period):
-    f = open(output_folder_path+'payperiod.txt', "w+")
+    f = open(output_folder_path + 'payperiod.txt', "w+")
     f.write(pay_period)
     f.close()
 
