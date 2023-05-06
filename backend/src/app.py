@@ -1,19 +1,18 @@
-from os.path import basename
-from wrappers import *
-from flask import *
-import os
 import datetime
-import zipfile
 import io
 import pathlib
+import zipfile
+from os.path import basename
+
 # import redis
-#import authorization_service
-import pandas as pd
-from constants import *
-from forms import AppendForm
-from werkzeug.utils import secure_filename
-from google_cloud_storage_service import GoogleCloudStorageService
+# import authorization_service
+from flask import *
 from passlib.hash import argon2
+from werkzeug.utils import secure_filename
+
+from forms import AppendForm
+from google_cloud_storage_service import GoogleCloudStorageService
+from wrappers import *
 
 # coding=latin-1
 
@@ -28,20 +27,29 @@ ALLOWED_EXTENSIONS = set(['xls'])
 cloud_storage = GoogleCloudStorageService()
 cloud_storage.fetch_prices()
 cloud_storage.fetch_classes()
+cloud_storage.fetch_instructor_prices()
+
 
 class User:
     def __init__(self, id, username, password):
         self.id = id
         self.username = username
         self.password = password
+
     def __repr__(self):
         return f'<User: {self.username}>'
 
+
 users = []
-users.append(User(id=1, username='carolina', password='$argon2id$v=19$m=102400,t=4,p=8$F0KIkXJO6R0D4FzLeQ9BCA$twGMgjibL08kIbZDqmggfg'))
-users.append(User(id=2, username='antuanet', password='$argon2id$v=19$m=102400,t=4,p=8$4dzbuzcmBMDYG8NYK8WYsw$BgE4M4sdpOsSfDD1NJVkOQ'))
-users.append(User(id=3, username='marshall', password='$argon2id$v=19$m=102400,t=4,p=8$1xpjbG3NWasVovSe0zrnvA$3f4lzCHokqOwQnSiO2VdKg'))
-users.append(User(id=4, username='nuatu', password='$argon2id$v=19$m=102400,t=4,p=8$611L6f1/z/kfA6C01prTmg$PUC8YLJ4oZUra+Pxu9Cu9g'))
+users.append(User(id=1, username='carolina',
+                  password='$argon2id$v=19$m=102400,t=4,p=8$F0KIkXJO6R0D4FzLeQ9BCA$twGMgjibL08kIbZDqmggfg'))
+users.append(User(id=2, username='antuanet',
+                  password='$argon2id$v=19$m=102400,t=4,p=8$4dzbuzcmBMDYG8NYK8WYsw$BgE4M4sdpOsSfDD1NJVkOQ'))
+users.append(User(id=3, username='marshall',
+                  password='$argon2id$v=19$m=102400,t=4,p=8$1xpjbG3NWasVovSe0zrnvA$3f4lzCHokqOwQnSiO2VdKg'))
+users.append(User(id=4, username='nuatu',
+                  password='$argon2id$v=19$m=102400,t=4,p=8$611L6f1/z/kfA6C01prTmg$PUC8YLJ4oZUra+Pxu9Cu9g'))
+
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -71,7 +79,7 @@ def login():
 
         try:
             user = [x for x in users if x.username == username][0]
-            if user and argon2.verify(password, user.password):# user.password == password:
+            if user and argon2.verify(password, user.password):  # user.password == password:
                 session['user_id'] = user.id
                 return redirect(url_for('upload_file'))
         except IndexError:
@@ -113,12 +121,10 @@ def upload_file():
             flash('Must be an xls file')
             return redirect(request.url)
         if file and allowed_file(file.filename):
-
             # prepend filename with upload time
             filename = secure_filename(file.filename)
             currentDT = datetime.datetime.now()
             filename = currentDT.strftime("%Y-%m-%d-%H-%M-%S") + '-' + filename
-            print(os.getcwd())
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
             # calling run_backend in wrapper.py
@@ -185,7 +191,7 @@ def paystubs_detail(id):
 
     with create_connection(database_path) as conn:
         file_name = select_instructor_by_id(conn, id)[InstructorRecord.NAME]
-    df = pd.read_csv(dc_totals_folder_path+file_name)
+    df = pd.read_csv(dc_totals_folder_path + file_name)
     df = clean_up_df_for_web(df)
     form.amount.data = ''
     form.description.data = ''
@@ -195,12 +201,11 @@ def paystubs_detail(id):
                                                                               "table-sm table-responsive"), form=form)
 
 
-@app.route('/prices/',  methods=['POST', 'GET'])
+@app.route('/prices/', methods=['POST', 'GET'])
 def prices():
     if not g.user:
         return redirect(url_for('login'))
 
-    cloud_storage = GoogleCloudStorageService()
     pd.set_option('display.max_colwidth', None)
     if request.method == 'POST':
         req_data = request.get_json()
@@ -217,13 +222,49 @@ def prices():
     # Add an empty column for the "Remove" buttons
     df['Remove'] = ''
 
+    # Sort the DataFrame by the "Pricing Option" column in alphabetical order
+    df = df.sort_values(by='Pricing Option', ignore_index=True)
+
     # Render the table with the "Remove" button in each row
     table_html = df.to_html(classes="table table-striped table-hover table-sm", escape=False)
     table_html = table_html.replace('<td></td>', '<td><button class="btn btn-danger remove">Remove</button></td>')
 
     return render_template('prices/index.html', prices=table_html)
 
-@app.route('/classes/',  methods=['POST', 'GET'])
+
+@app.route('/instructorprices/', methods=['POST', 'GET'])
+def instructor_prices():
+    if not g.user:
+        return redirect(url_for('login'))
+
+    cloud_storage = GoogleCloudStorageService()
+    pd.set_option('display.max_colwidth', None)
+    if request.method == 'POST':
+        req_data = request.get_json()
+        df = pd.DataFrame.from_dict(req_data)
+        df = df[['Pricing Option', 'Revenue per class', 'Instructor Pay']]
+        df.to_csv("%s" % instructor_prices_options_path, index=False)
+        cloud_storage.save_instructor_prices()
+        dict = {"redirect": '/instructorprices/'}
+        return jsonify(dict)
+
+    cloud_storage.fetch_instructor_prices()
+    df = pd.read_csv(instructor_prices_options_path)
+
+    # Add an empty column for the "Remove" buttons
+    df['Remove'] = ''
+
+    # Sort the DataFrame by the "Pricing Option" column in alphabetical order
+    df = df.sort_values(by='Pricing Option', ignore_index=True)
+
+    # Render the table with the "Remove" button in each row
+    table_html = df.to_html(classes="table table-striped table-hover table-sm", escape=False)
+    table_html = table_html.replace('<td></td>', '<td><button class="btn btn-danger remove">Remove</button></td>')
+
+    return render_template('instructor_prices/index.html', prices=table_html)
+
+
+@app.route('/classes/', methods=['POST', 'GET'])
 def classes():
     if not g.user:
         return redirect(url_for('login'))
@@ -276,7 +317,7 @@ def export():
     )
 
 
-@app.route('/unpaid/',  methods=['GET'])
+@app.route('/unpaid/', methods=['GET'])
 def unpaid():
     if not g.user:
         return redirect(url_for('login'))
@@ -286,11 +327,11 @@ def unpaid():
         df = pd.read_csv(dc_unpaid_folder_path + file)
         df = clean_up_df_for_web(df)
         tables[file.replace('_', ' ').replace('---', '/').replace('.csv', '')
-               ] = df.to_html(classes="table table-striped table-hover table-sm")
+        ] = df.to_html(classes="table table-striped table-hover table-sm")
     return render_template('unpaid.html', tables=tables)
 
 
-@app.route('/instructions/',  methods=['GET'])
+@app.route('/instructions/', methods=['GET'])
 def instructions():
     if not g.user:
         return redirect(url_for('login'))
@@ -301,7 +342,6 @@ def instructions():
 """ @app.route('/quickbooks/auth',  methods=['GET'])
 def authorize_quickbooks():
     return redirect(authorization_service.authorize_quickbooks()) """
-
 
 """ @app.route('/oauth-redirect',  methods=['GET'])
 def oauth_redirect():
@@ -321,7 +361,6 @@ def oauth_redirect():
 
     # store with redis
     return redirect('/paystubs/') """
-
 
 if __name__ == '__main__':
     create_workspace()
