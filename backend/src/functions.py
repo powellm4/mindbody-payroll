@@ -23,7 +23,9 @@ pd.set_option('display.width', 1500)
 
 # the main function for processing a list of classes
 # makes calls to helper functions and outputs a csv for each instructor
-def handle_dc_classes(list_of_classes, po_df):
+def handle_dc_classes(list_of_classes, po_df, ipo_df):
+    # add in instructor pricing
+    po_df = pd.concat([po_df, ipo_df])
     # for each (public/private) class file in dataProcessing/dat/ folder
     for file in list_of_classes:
         df = pd.read_csv("%s%s" % (output_folder_path +

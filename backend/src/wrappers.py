@@ -30,7 +30,7 @@ def run_backend(filename):
     set_global_pay_period(pay_period)
 
     print("\nHandling DataCleaner Output\n----------")
-    handle_dc_classes(list_of_dc_classes, po_df)
+    handle_dc_classes(list_of_dc_classes, po_df, ipo_df)
 
     print("\n\nHandling Instructor Dances\n----------")
     handle_dc_instructor_dances(ipo_df)
